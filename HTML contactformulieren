@@ -1,0 +1,34 @@
+Balloonsss
+
+<label>Bedrijfsnaam:</label> [text your-company placeholder "Bedrijfsnaam"] 
+
+<label>Naam*:</label> [text* your-name placeholder "Naam"] 
+
+<label>Adres*:</label> [text* your-address placeholder "Adresgegevens"]
+
+<label>E-mailadres*:</label> [email* your-email placeholder "E-mail"] 
+
+<label>Telefoonnummer*:</label> [tel* tel-463 placeholder "Telefoonnummer"] 
+
+<label>Voor welke gelegenheid ben je op zoek naar ballondecoraties?</label>
+[checkbox* your-party use_label_element "Bruiloftsfeest" "Babyfeest" "Jubileum/verjaardag" "Themafeest" "Openingsfeest" "Beurs" "Bezorging tros ballonnen" "Anders"]
+
+[submit "Verzenden"]
+
+
+FM@share
+
+
+[text* your-name placeholder "Voornaam"] 
+
+[text* your-lastname placeholder "Achternaam"] 
+
+[email* your-email placeholder "E-mail"] 
+
+[text your-subject placeholder "Onderwerp"]
+
+[textarea textarea-606 placeholder "Bericht"]
+
+[checkbox opt-in "Ja, ik schrijf me graag in voor de maandelijkse nieuwsbrief van FM2Share"]
+
+[submit "Verzenden"]

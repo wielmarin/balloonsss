@@ -1,0 +1,590 @@
+/*
+Theme Name: Balloonsss
+Author: Marin Wiellersen
+Author URI: https://www.linkedin.com/in/marinwiellersen/
+Version: 1.0
+*/
+
+/* General Layout */
+
+html {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	background-color: #FFF;
+	color: #5e5e5e;
+}
+
+a:link,
+a:visited {
+	color: #5e5e5e;
+	text-decoration: none;	
+}
+
+a:hover {
+	color: #C36276;
+	text-decoration: none;	
+}
+
+* {
+	margin: 0;
+}
+
+p {
+	line-height: 1.6em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 0 0;
+	font-weight: normal;
+	padding: 0;
+	line-height: 1.2em;
+}
+
+button {
+	display: inline-block;
+	border: none;
+	padding: none;
+	margin: none;
+	background: none;
+}
+
+div.container {
+	width: 100%;
+	margin: auto;
+}
+
+/* End General Layout */
+
+/* Header */
+
+.site-header {
+	position:absolute;
+	width: 100%;
+	top: 0;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	z-index:10;
+}
+
+.logo {
+	width: 20%;
+	text-align: center;
+}
+
+/* Nav Menu */
+
+.frontnav ul {
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+
+.frontnav ul:before .frontnav ul:after { content: ""; display: table; }
+.frontnav ul:after { clear: both; }
+.frontnav ul { *zoom: 1; } 
+
+.frontnav ul li {
+	list-style: none;
+	font-size: 16.5px;
+	margin: 0px 30px 0px 30px;
+}
+
+.frontnav-left {
+	width: 40%;
+	margin: auto;
+}
+
+.frontnav-right {
+	width: 40%;
+	margin: auto;
+}
+
+.frontnav li a {
+	display:inline;
+	color: #626262;
+}
+
+.frontnav ul li a:link,
+.frontnav ul li a:visited {
+	display: block;
+	text-decoration: none;
+}
+
+li { 
+	color: #FFF;
+	display:inline-block; 
+	margin:0;
+}
+
+li a:hover {
+	color: #C36276;
+	transition: font-size .4s ease,color .4s ease;
+}
+
+li:after {
+  display:block;
+  content: '';
+  border-bottom: solid 2px #C36276;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+li:hover:after { 
+transform: scaleX(1); 
+}
+
+li.fromRight:after{ 
+transform-origin:80% 50%; 
+}
+li.fromLeft:after{  
+transform-origin:  0% 50%; 
+}
+
+li.current-menu-item:after,
+li.current-menu-item a:after {
+	transition: none;
+}
+
+li.current-menu-item a:link,
+li.current-menu-item a:visited {
+	border-bottom: solid 2px #C36276; 
+}
+
+li.current-menu-item a:hover {
+	border-bottom:none; 
+}
+
+/* Homepage */
+
+/* Banner Frontpage */
+
+div.flex-banner {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100%;
+	height: 100vh;
+}
+
+div.flex-banner-quote {
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	height:100%;
+}
+
+div.flex-banner-quote h1, h2 {
+	margin: auto;
+	text-align: center;
+}
+
+div.flex-banner-quote h1 {
+	font-size: 300%;
+	padding: 40px 0px;
+	color: #626262;
+}
+
+div.flex-banner-quote h2 {
+	color: #7c7b7b;
+}
+
+.title-quote {
+	margin: 35vh auto auto auto;
+	display: block;
+	width: 100%;
+}
+
+#scrolldown {
+	color: #7c7b7b;
+	z-index: 100;
+	font-size: 35px;
+	width: 100%;
+	text-align: center;
+}
+
+.flex-banner-image {
+	content: "";
+	display:block;
+	width: 50%;
+	background-position: top;
+}
+
+/* Over Balloonsss Frontpage */
+
+.container-about {
+	width: 100%;
+	background-color: #f6f5f5;
+}
+
+.container-about-content {
+	width: 70%;
+	margin: auto;
+	text-align: center;
+	padding: 100px 0px 110px 0px;
+	background-color: #f6f5f5;
+}
+
+.container-about-content p {
+	margin-top: 30px;
+}
+
+.container-about h1 {
+	font-family: 'Lato';
+	display: inline;
+}
+
+.container-about img {
+	position: relative;
+	left: 20px;
+}
+
+/* Contact button on scroll */
+
+.contact-onscroll {
+	background-color: #EB4D66;
+	color: #fff;
+	font-family: 'Lato';
+	position: fixed;
+	-webkit-transform: rotate(-270deg);
+	-moz-transform: rotate(-270deg);
+	-ms-transform: rotate(-270deg);
+	-o-transform: rotate(-270deg);
+	right: -35px;
+	top: 400px;
+	padding: 7px 20px 7px 20px;
+	font-size: 120%;
+	border-radius: 0px 0px 10px 10px;
+}
+
+/* Button */
+
+.button {
+	display: block;
+    padding: 10px 33px 10px 33px;
+	background-color: #EB4D66;
+	color: #fff!important;
+	width: 140px;
+	text-align: center;
+	text-decoration: none!important;
+	transition: all 0.3s ease 0s;
+	margin: auto;
+	border-radius: 10px;
+	margin-top: 40px;
+}
+
+
+.button:hover,
+.button:focus {
+    text-decoration: none;
+	opacity: 0.8;
+}
+.button:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(#aba7a5), to(#aba7a5));
+    background: -moz-linear-gradient(top, #aba7a5, #aba7a5);
+    background: linear-(to bottom, #aba7a5, #aba7a5);
+}
+
+.button a:link, 
+.button a:visited {
+	color: #FFF;
+}
+
+
+/* Flexbox diensten Frontpage */
+
+.flexbox-home {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin: auto;
+}
+
+.flexbox-item1 {
+	width: 50%;
+	background-color: #8aaea8;
+	display: flex;
+	flex-wrap: wrap;
+	height: 370px;
+}
+
+.flexbox-item2 {
+	width: 50%;
+	background-color: #8aaea8;
+	display: flex;
+	flex-wrap: wrap;
+	height: 370px;
+}
+
+.flexbox-item3 {
+	width: 50%;
+	background-color: #C36276;
+	display: flex;
+	flex-wrap: wrap;
+	height: 360px;
+}
+
+.flexbox-item4 {
+	width: 50%;
+	background-color: #E68F9F;
+	display: flex;
+	flex-wrap: wrap;
+	height: 360px;
+}
+
+.item-image {
+	width: 50%;
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: url("http://localhost/balloonsss/wp-content/uploads/2018/05/banenr-5.jpg");
+}
+
+.item-image3 {
+	width: 50%;
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: top;
+	background-image: url("http://localhost/balloonsss/wp-content/uploads/2018/05/banenr-5.jpg");
+}
+
+.tekst {
+	width: 50%;
+	text-align: center;
+	color: #f6f5f5;
+	padding: 50px 0px 0px 0px;
+}
+
+.tekst a {
+		color: #f6f5f5!important;
+}
+
+.tekst a:hover, .tekst a:hover {
+		color: #C36276!important;
+}
+
+.tekst h2 {
+	margin-bottom: 5px;
+	font-family: 'Lato', sans-serif;
+	font-size: 170%;
+}
+
+.tekst h3 {
+	font-family: 'Lato', sans-serif;
+	font-size: 150%;
+}
+
+.tekst-p {
+	padding: 20px 20px 20px 20px;
+}
+
+.categorieen {
+	padding: 20px 0px 15px 0px;
+	text-align: left;
+	margin-left: 60px;
+}
+
+i {
+	padding: 10px;
+}
+
+/* Flexbox KPI's Balloonsss Frontpage */
+
+.flexbox-home-overmij {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin: auto;
+	background-color: #f6f5f5;
+}
+
+.voordelen {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	padding: 100px 0px 100px 0px;	
+}
+
+.sp {
+	width: 1/3;
+	margin: auto;
+	text-align: center;
+	
+}
+
+.sp p {
+	padding: 20px;
+	min-width: 300px;
+}
+
+/* Over mij frontpage */
+
+.over-mij {
+	width: 50%;
+}
+
+.over-mij-tekst h2 {
+	padding-bottom: 30px;
+	text-align: left;
+	font-family: 'Lato', sans-serif;
+}
+
+.over-mij-tekst {
+	padding: 100px 130px 20px 130px;
+}
+
+.actie-overmij {
+	padding: 20px 130px 100px 130px;
+}
+
+.box-over-mij-image {
+	width: 50%;
+	background-color: #8aaea8;
+	display: flex;
+}
+
+.over-mij-image {
+	margin: auto;
+}
+
+.over-mij-tekst i {
+	color: #EB4D66;
+}
+
+/* Footer */
+
+.footer-flex {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	border-top: solid 2px #C36276;
+}
+
+.footer {
+	width: 1/3;
+	margin: 0px auto;
+	min-width: 230px;
+}
+
+
+.footer h3 {
+	margin: 20px 0px 20px 0px;
+	color: #626262;
+}
+
+.footer-nav ul {
+	padding: 0px;
+	width: 25%;
+} 
+
+.footer-nav ul li {
+	list-style: none;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+
+.footer-nav li a {
+	color: #626262;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.footer-nav ul li a:link,
+.footer-nav ul li a:visited {
+	display: block;
+	text-decoration: none;
+}
+
+.footer-nav li a:hover {
+	color: #C36276;
+	transition: font-size .4s ease,color .4s ease;
+}
+
+.footer i:hover {
+	color: #C36276;
+}
+
+div.copyright {
+	color: #626262;
+	text-align: center;
+	font-size: 80%;
+	border-top: solid 1px #f6f5f5;
+	Width: 60%;
+	margin: auto;
+}
+
+.copyright a:link,
+.copyright a:visited {
+	color: #FFF;
+}
+
+/* scroll down animation */
+
+.chevron {
+  width: 28px;
+  height: 8px;
+  opacity: 0;
+  transform: scale3d(0.5, 0.5, 0.5);
+  animation: move 3s ease-out infinite;
+  margin: auto;
+}
+
+.chevron:first-child {
+  animation: move 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+  animation: move 3s ease-out 2s infinite;
+}
+
+.chevron:before,
+.chevron:after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 51%;
+  background: #C36276;
+}
+
+.chevron:before {
+  left: 0;
+  transform: skew(0deg, 30deg);
+}
+
+.chevron:after {
+  right: 0;
+  width: 50%;
+  transform: skew(0deg, -30deg);
+}
+
+@keyframes move {
+  25% {
+    opacity: 1;
+
+  }
+  33% {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+  67% {
+    opacity: 1;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+  }
+}
+
+@keyframes pulse {
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,8 @@
+<div class="categories">
+	<div id='all' class="button-gallery"><a class="buttongallery" href="http://www.quiropracticopromover.es/en/contact/">All</a></div>
+	<div id='abstract' class="button-gallery"><a class="buttongallery" href="http://www.quiropracticopromover.es/en/contact/">Abstract</a></div>
+	<div id='portrait' class="button-gallery"><a class="buttongallery" href="http://www.quiropracticopromover.es/en/contact/">Portrait</a></div>
+	<div id='other' class="button-gallery"><a id='other' class="buttongallery" href="http://www.quiropracticopromover.es/en/contact/">Other</a></div>
+</div>
+
+	<div class="titlesubpage"><h1> Gallery </h1></div>
