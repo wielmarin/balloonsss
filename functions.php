@@ -3,14 +3,22 @@
 
 
 function balloonsss_resources() {
-
+	
+	wp_enqueue_style('bookblock', get_template_directory_uri() . '/css/bookblock.css');
 	wp_enqueue_style('style', get_stylesheet_uri());
-	wp_enqueue_script('jquery');
+	
+	wp_dequeue_script('jquery');
+	wp_enqueue_script('onlinejquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js');
+	wp_enqueue_script('modernizr', get_template_directory_uri() . '/js/modernizr.custom.js');
 	wp_enqueue_script('script', get_template_directory_uri() . '/js/script.js');
 	wp_enqueue_script('scrollReveal', 'https://unpkg.com/scrollreveal/dist/scrollreveal.min.js');
+	wp_enqueue_script('bb1', get_template_directory_uri() . '/js/jquerypp.custom.js');
+	wp_enqueue_script('bb2', get_template_directory_uri() . '/js/jquery.bookblock.js');
+	wp_enqueue_script('bb3', get_template_directory_uri() . '/js/bookblock.js');
 	wp_enqueue_script('backstretch', 'https://cdnjs.cloudflare.com/ajax/libs/danielgindi-jquery-backstretch/2.1.15/jquery.backstretch.min.js');
 	
 }
+ 
 
 add_action('wp_enqueue_scripts', 'balloonsss_resources');
 

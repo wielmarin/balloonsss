@@ -73,6 +73,64 @@ Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot ee
 
 <div class="flexbox-home">
 	<div class="flexbox-item-producten">
+		<div class="item-image" style="background-image: url(http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/Babyshower.jpg)"></div>
+		
+		<div class="tekst">
+			<h2>Babyshower</h2>
+			<div class="tekst-p">
+				<p>als je zwanger bent is er toch niks leukers dan samen met je beste vriendinnen, zussen, nichten en (schoon)moeder te kletsen over jouw toekomstige kleintje.</p>	
+			</div>
+			<div class="actie-sub">
+				<a href="">Lees meer<i class="fas fa-angle-right"></i></a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="flexbox-item-producten">
+		<div class="item-image" style="background-image: url(http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/gender%20reveal.jpg)"></div>
+		<div class="tekst">
+			<h2>Gender reveal party</h2>
+			<div class="tekst-p">
+				<p>Er is een baby opkomst en jullie zijn helemaal in de wolken. Reden genoeg om dit te vieren! De ballonnen van Balloonsss mogen natuurlijk niet ontbreken.</p>	
+			</div>
+			<div class="actie-sub">
+				<a href="">Lees meer<i class="fas fa-angle-right"></i></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="flexbox-home">
+	<div class="flexbox-item-producten">
+		<div class="item-image" style="background-image: url(http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/geboorte.jpg)"></div>
+		
+		<div class="tekst">
+			<h2>Kraamfeest</h2>
+			<div class="tekst-p">
+				<p>Hoe leuk is het om je kraamtijd af te sluiten met een gezellig feestje! Vier je je kraamfeest thuis of op locatie. De roze of blauwe ballonnen mogen hier niet ontbreken!</p>	
+			</div>
+			<div class="actie-sub">
+				<a href="">Lees meer<i class="fas fa-angle-right"></i></a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="flexbox-item-producten">
+		<div class="item-image" style="background-image: url(http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/Verjaardag1.jpg)"></div>
+		<div class="tekst">
+			<h2>Verjaardag</h2>
+			<div class="tekst-p">
+				<p>Is het sweet 16, 25, 40 of 50…. Verjaardag of trouwdag…. Geslaagd, of met pensioen..... Reden genoeg voor een feestje. Wij decoreren graag jouw feestlocatie. </p>	
+			</div>
+			<div class="actie-sub">
+				<a href="">Lees meer<i class="fas fa-angle-right"></i></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="flexbox-home">
+	<div class="flexbox-item-producten">
 		<div class="item-image" style="background-image: url(http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/Thema.jpg)"></div>
 		
 		<div class="tekst">
@@ -87,11 +145,11 @@ Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot ee
 	</div>
 	
 	<div class="flexbox-item-producten">
-		<div class="item-image" style="background-image: url(http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/Verjaardag1.jpg)"></div>
+		<div class="item-image" style="background-image: url(http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/jubileum.jpg)"></div>
 		<div class="tekst">
-			<h2>Verjaardag of<br>Jubileum</h2>
+			<h2>Jubileum</h2>
 			<div class="tekst-p">
-				<p>Verjaardag of trouwdag? Geslaagd of met pensioen? Reden genoeg voor een feestje. Wij decoreren graag jouw feestlocatie. </p>	
+				<p>20, 30 of 40 jaar getrouwd... Geslaagd of met pensioen..... Reden genoeg voor een feestje. Wij decoreren graag jouw feestlocatie. </p>	
 			</div>
 			<div class="actie-sub">
 				<a href="">Lees meer<i class="fas fa-angle-right"></i></a>
@@ -99,6 +157,8 @@ Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot ee
 		</div>
 	</div>
 </div>
+
+
 
 <div class="voordelen">		
 			<div class="sp"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/Beelden/Beelden/waaromballoonsss.jpg" height="70" width="70"><p>Professioneel</p></div>

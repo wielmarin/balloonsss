@@ -4,7 +4,8 @@
 	<?php
 
 	get_header();?>
-
+		
+	
 <!-- Contactbutton -->
 	
 <div class="flex-banner-subpage">
@@ -41,115 +42,85 @@
 	</div>
 </div>
 
-<div class="portfolio">
+<ul id="bb-custom-grid" class="bb-custom-grid">
+<li>
+<h3>Some Tekst</h3>
+	<div id="bb-bookblock" class="bb-bookblock">
+		<div class="bb-item"> <a href="#"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/beurs.jpg" alt="image01" width=100% height=100% /></a> </div>
+		<div class="bb-item"> <a href="#"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/babyopkomst.jpg" alt="image02" width=100% height=100% /></a> </div>
+		<div class="bb-item"> <a href="#"><img src="/balloonsss/wp-content/uploads/2018/06/event-e1528720496913.jpg" alt="image03" width=100% height=100% /></a> </div>
+		<div class="bb-item"> <a href="#"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/beurs.jpg" alt="image04" width=100% height=100% /></a> </div>
+	</div>
+		<nav>
+			<span class="bb-current"></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</nav>
+</li>
+<li>
+<h3>Some Tekst</h3>
+	<div id="bb-bookblock" class="bb-bookblock">
+		<div class="bb-item"> <a href="#"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/beurs.jpg" alt="image01" width=100% height=100% /></a> </div>
+		<div class="bb-item"> <a href="#"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/babyopkomst.jpg" alt="image02" width=100% height=100% /></a> </div>
+		<div class="bb-item"> <a href="#"><img src="/balloonsss/wp-content/uploads/2018/06/event-e1528720496913.jpg" alt="image03" width=100% height=100% /></a> </div>
+		<div class="bb-item"> <a href="#"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/beurs.jpg" alt="image04" width=100% height=100% /></a> </div>
+	</div>
+		<nav>
+			<span class="bb-current"></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</nav>
+</li>
+<li>
+<h3>Some Tekst</h3>
+	<div id="bb-bookblock" class="bb-bookblock">
+		<div class="bb-item"> <a href="#"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/beurs.jpg" alt="image01" width=100% height=100% /></a> </div>
+		<div class="bb-item"> <a href="#"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/babyopkomst.jpg" alt="image02" width=100% height=100% /></a> </div>
+		<div class="bb-item"> <a href="#"><img src="/balloonsss/wp-content/uploads/2018/06/event-e1528720496913.jpg" alt="image03" width=100% height=100% /></a> </div>
+		<div class="bb-item"> <a href="#"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/beurs.jpg" alt="image04" width=100% height=100% /></a> </div>
+	</div>
+		<nav>
+			<span class="bb-current"></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</nav>
+</li>
+<li>
+<h3>Some Tekst</h3>
+	<div id="bb-bookblock" class="bb-bookblock">
+		<div class="bb-item"> <a href="#"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/beurs.jpg" alt="image01" width=100% height=100% /></a> </div>
+		<div class="bb-item"> <a href="#"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/babyopkomst.jpg" alt="image02" width=100% height=100% /></a> </div>
+		<div class="bb-item"> <a href="#"><img src="/balloonsss/wp-content/uploads/2018/06/event-e1528720496913.jpg" alt="image03" width=100% height=100% /></a> </div>
+		<div class="bb-item"> <a href="#"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/beurs.jpg" alt="image04" width=100% height=100% /></a> </div>
+	</div>
+		<nav>
+			<span class="bb-current"></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</nav>
+</li>
+</ul>
 
-
-		<div class="portfolio-image"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/beurs.jpg" height="340px" width="true">
-			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
-		</div>
-	
-		<div class="portfolio-image"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/babyopkomst.jpg" height="340px" width="true">
-			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
-		</div>
-
-		<div class="portfolio-image"><img src="/balloonsss/wp-content/uploads/2018/06/event-e1528720496913.jpg" height="340px" width="true">
-			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
-		</div>
-
+<!-- 
+<div id="bb-bookblock" class="bb-bookblock">
+	<div class="bb-item">
+		<img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/beurs.jpg" height="250px" width="true">
+	</div>
+	<div class="bb-item">
+		<img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/babyopkomst.jpg" height="250px" width="true">
+	</div>
+	<div class="bb-item">
+		<img src="/balloonsss/wp-content/uploads/2018/06/event-e1528720496913.jpg" height="250px" width="true">
+	</div>
+	<div class="bb-item">
+		<img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/babyopkomst.jpg" height="250px" width="true">
+	</div>
 </div>
-
-<div class="portfolio">
-
-
-		<div class="portfolio-image"><img src="/balloonsss/wp-content/uploads/2018/06/215c59a59abd8c45973d4e12e7cd139b.jpg" height="330px" width="true">
-			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
-		</div>
-	
-		<div class="portfolio-image"><img src="/balloonsss/wp-content/uploads/2018/06/f4cd0de06b1a6708a5025e7b0c4fe77c-1.jpg" height="330px" width="true">
-			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
-		</div>
-
-</div>
-
-
-<div class="portfolio">
-
-	<div class="box-portfolio">
-		<div class="portfolio-image"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/beurs.jpg" height="250px" width="true">
-			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
-		</div>
-	</div>
-
-	<div class="box-portfolio">
-		<div class="portfolio-image"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/babyopkomst.jpg" height="250px" width="true">
-			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
-		</div>
-	</div>
-	
-	<div class="box-portfolio">
-		<div class="portfolio-image"><img src="/balloonsss/wp-content/uploads/2018/06/event-e1528720496913.jpg" height="250px" width="true">
-			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
-		</div>
-	</div>
-	
-	<div class="box-portfolio">
-		<div class="portfolio-image"><img src="/balloonsss/wp-content/uploads/2018/06/gender-reveal-e1528722220429.jpg" height="250px" width="true">
-			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
-		</div>
-	</div>
-
-</div>
-
-
-<div class="portfolio">
-
-	<div class="box-portfolio">
-		<div class="portfolio-image"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/beurs.jpg" height="250px" width="true">
-			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
-		</div>
-	</div>
-
-	<div class="box-portfolio">
-		<div class="portfolio-image"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/babyopkomst.jpg" height="250px" width="true">
-			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
-		</div>
-	</div>
-	
-	<div class="box-portfolio">
-		<div class="portfolio-image"><img src="/balloonsss/wp-content/uploads/2018/06/event-e1528720496913.jpg" height="250px" width="true">
-			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
-		</div>
-	</div>
-	
-	<div class="box-portfolio">
-		<div class="portfolio-image"><img src="/balloonsss/wp-content/uploads/2018/06/gender-reveal-e1528722220429.jpg" height="250px" width="true">
-			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
-		</div>
-	</div>
-
-</div>
-
-<div class="portfolio">
-
-	<div class="box-portfolio">
-		<div class="portfolio-image"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/beurs.jpg" height="250px" width="true">
-			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
-		</div>
-	</div>
-
-	<div class="box-portfolio">
-		<div class="portfolio-image"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/babyopkomst.jpg" height="250px" width="true">
-			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
-		</div>
-	</div>
-	
-	<div class="box-portfolio">
-		<div class="portfolio-image"><img src="/balloonsss/wp-content/uploads/2018/06/event-e1528720496913.jpg" height="250px" width="true">
-			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
-		</div>
-	</div>
-
-</div>
+-->
 
 <div class="portfolio">
 
@@ -194,6 +165,8 @@
 	<h3>Wil je meer weten over Balloonsss of een offerte aanvragen?</h3>
 <a class="buttoncta" href="">Neem contact met mij op<i class="fas fa-angle-right"></i></a>
 </div>
+
+
 
 
  

@@ -1,0 +1,29 @@
+{
+  "name": "balloonsss",
+  "version": "1.0.0",
+  "main": "cycle2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp-plumber": "^1.2.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-watch": "^5.0.0"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wielmarin/balloonsss.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wielmarin/balloonsss/issues"
+  },
+  "homepage": "https://github.com/wielmarin/balloonsss#readme",
+  "description": ""
+}

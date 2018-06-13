@@ -1,0 +1,912 @@
+/*
+Theme Name: Balloonsss
+Author: Marin Wiellersen
+Author URI: https://www.linkedin.com/in/marinwiellersen/
+Version: 1.0
+*/
+
+
+/* General Layout */
+
+html {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #5e5e5e;
+}
+
+a:link,
+a:visited {
+	color: #5e5e5e;
+	text-decoration: none;	
+}
+
+a:hover {
+	color: #C36276;
+	text-decoration: none;	
+}
+
+* {
+	margin: 0;
+}
+
+p {
+	line-height: 1.6em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 0 0;
+	font-weight: normal;
+	padding: 0;
+	line-height: 1.2em;
+}
+
+button {
+	display: inline-block;
+	border: none;
+	padding: none;
+	margin: none;
+	background: none;
+}
+
+div.container {
+	width: 85%;
+	margin: auto;
+	margin-top: 20px;	
+	margin-bottom: 20px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+
+/* End General Layout */
+
+/* Search */
+
+.search {
+	min-width: 330px;
+	display: flex;
+	flex-wrap: wrap;
+	float: right;
+	margin-bottom: -45px;
+}
+
+.hd-search #searchsubmit {
+	Display: none;
+}
+
+.hd-search #s {
+	vertical-align: top; 
+	padding: 10px 25px;
+	margin: 20px 0px 0px 0px;
+	width: 100%;
+	border: none;
+	background: url(/balloonsss/wp-content/uploads/2018/06/314478-24.png) no-repeat;
+	background-position: 95% 50%; 
+	border: solid 1px #f6f5f5;
+}
+
+
+#searchresults {
+	width: 100%;
+	text-align: center;
+	display: block;
+}
+
+/* Header */
+
+.site-header {
+	width: 100%;
+	top: 0;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.logo {
+	width: 20%;
+	text-align: center;
+	
+}
+
+/* Nav Menu */
+
+.frontnav ul {
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+
+.frontnav ul:before .frontnav ul:after { content: ""; display: table; }
+.frontnav ul:after { clear: both; }
+.frontnav ul { *zoom: 1; } 
+
+.frontnav ul li {
+	list-style: none;
+	font-size: 16.5px;
+	margin: 0px 30px 0px 30px;
+}
+
+.frontnav-left {
+	width: 40%;
+	margin: auto;
+}
+
+.frontnav-right {
+	width: 40%;
+	margin: auto;
+}
+
+.frontnav li a {
+	display:inline;
+	color: #626262;
+}
+
+.frontnav ul li a:link,
+.frontnav ul li a:visited {
+	display: block;
+	text-decoration: none;
+}
+
+li { 
+	color: #FFF;
+	display:inline-block; 
+	margin:0;
+}
+
+li a:hover {
+	color: #C36276;
+	transition: font-size .4s ease,color .4s ease;
+}
+
+.frontnav li:after {
+  display:block;
+  content: '';
+  border-bottom: solid 2px #C36276;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+.frontnav li:hover:after { 
+transform: scaleX(1); 
+}
+
+.frontnavli .fromRight:after{ 
+transform-origin:80% 50%; 
+}
+.frontnav li.fromLeft:after{  
+transform-origin:  0% 50%; 
+}
+
+li.current-menu-item:after,
+li.current-menu-item a:after {
+	transition: none;
+}
+
+li.current-menu-item a:link,
+li.current-menu-item a:visited {
+	border-bottom: solid 1px #C36276; 
+	color: #C36276;
+}
+
+li.current-menu-item a:hover {
+	border-bottom:none; 
+}
+
+/* Homepage */
+
+/* Banner Frontpage */
+
+div.flex-banner {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100%;
+	height: 55vh;
+	margin: auto;
+}
+
+#scrolldown {
+	color: #7c7b7b;
+	z-index: 100;
+	font-size: 35px;
+	width: 100%;
+	text-align: center;
+}
+
+.flex-banner-image {
+	content: "";
+	display:block;
+	width: 100%;
+	background-position: top;
+	opacity: 0.8;
+}
+
+/* Over Balloonsss Frontpage */
+
+.container-about {
+	width: 100%;
+}
+
+.container-about-content {
+	width: 70%;
+	margin: auto;
+	text-align: center;
+	padding: 80px 0px 90px 0px;
+}
+
+.container-about-content p {
+	margin-top: 30px;
+}
+
+.container-about h1 {
+	font-family: 'Lato';
+	display: inline;
+	color: #EB4D66;
+	font-size: 35px;
+}
+
+.container-about img {
+	position: relative;
+	left: 20px;
+}
+
+/* Contact button on scroll */
+
+/* NOT IN USE
+.contact-onscroll-close {
+	display:none;
+	background-color: #EB4D66;
+	color: #fff;
+	font-family: 'Lato';
+	position: fixed;
+	-webkit-transform: rotate(-270deg);
+	-moz-transform: rotate(-270deg);
+	-ms-transform: rotate(-270deg);
+	-o-transform: rotate(-270deg);
+	right: -35px;
+	top: 400px;
+	padding: 7px 15px 7px 15px;
+	font-size: 120%;
+	border-radius: 0px 0px 5px 5px;
+}
+*/
+
+.contact-onscroll-open {
+	background-color: #EB4D66;
+	color: #fff;
+	position: fixed;
+	right: -315px;
+	top: 400px;
+	width: 350px;
+	padding: 15px 0px 18px 0px;
+	border-radius: 5px;
+	z-index: 99;
+}
+
+.contact-onscroll-open a {
+	color: #fff;
+	display: inline;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+.contact-onscroll-open p {
+	display: inline;
+}
+
+#closecontact {
+	position: relative;
+	left: 110px;
+	bottom: 10px;
+	cursor: pointer;
+	font-size: 130%;
+}
+
+.contact-onscroll-open-tekst1 {
+	font-family: 'Lato';
+	font-size: 120%;
+	-webkit-transform: rotate(-270deg);
+	-moz-transform: rotate(-270deg);
+	-ms-transform: rotate(-270deg);
+	-o-transform: rotate(-270deg);
+	float: left;
+	margin-top: 38px;	
+	margin-left: -10px;
+}
+
+.contact-onscroll-open-tekst2 {
+	width: 180px;
+	float: right;
+	margin-right: 115px;
+	margin-top: 3px;
+	font-size: 90%;
+}
+
+.contact-onscroll-open-tekst2 i {
+	margin-left: -5px;
+}
+
+/* Button */
+
+.button {
+	display: block;
+    padding: 10px 25px 10px 25px;
+	background-color: #EB4D66;
+	color: #fff!important;
+	width: 140px;
+	text-align: center;
+	text-decoration: none!important;
+	transition: all 0.3s ease 0s;
+	margin: auto;
+	border-radius: 5px;
+	margin-top: 40px;
+}
+
+
+.button:hover,
+.button:focus {
+    text-decoration: none;
+	opacity: 0.8;
+}
+.button:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(#aba7a5), to(#aba7a5));
+    background: -moz-linear-gradient(top, #aba7a5, #aba7a5);
+    background: linear-(to bottom, #aba7a5, #aba7a5);
+}
+
+.button a:link, 
+.button a:visited {
+	color: #FFF;
+}
+
+
+/* Flexbox diensten Frontpage */
+
+.flexbox-home {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin: auto;
+}
+
+.flexbox-item1 {
+	width: 45%;
+	background-color: #8aaea8;
+	display: flex;
+	flex-wrap: wrap;
+	height: 440px;
+	margin: auto;
+	border-radius: 5px;
+}
+
+.flexbox-item2 {
+	width: 45%;
+	background-color: #8aaea8;
+	display: flex;
+	flex-wrap: wrap;
+	height: 440px;
+	margin: auto;
+	border-radius: 5px;
+}
+
+.item-image {
+	width: 50%;
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: url("http://localhost/balloonsss/wp-content/uploads/2018/05/banenr-5.jpg");
+	border-radius: 5px 0px 0px 5px;
+	opacity: 0.8;
+}
+
+.tekst {
+	width: 50%;
+	text-align: center;
+	color: #fff;
+	padding: 60px 0px 0px 0px;
+}
+
+.tekst h2 {
+	margin-bottom: 5px;
+	font-family: 'Lato';
+	font-size: 170%;
+	color: #fff;
+	width: 60%;
+	margin: auto;
+}
+
+.tekst h2:hover {
+	color: #EB4D66!important;
+}
+
+
+.categorieen {
+	padding: 30px 0px 15px 0px;
+	text-align: left;
+	margin-left: 40px;
+	color: #fff
+}
+
+i {
+	padding: 10px;
+}
+
+.tekst-titel h2 a:hover {
+	color:#C36276!important;
+}
+
+/* Button flexbox */
+
+.buttonflex {
+	display: block;
+    padding: 2px 15px 2px 15px;
+	background-color: #8aaea8;
+	border: 1px solid #fff; 
+	color: #fff!important;
+	width: 110px;
+	text-align: center;
+	text-decoration: none!important;
+	transition: all 0.3s ease 0s;
+	margin: auto;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+
+.buttonflex:hover,
+.buttonflex:focus {
+	border: 1px solid #EB4D66; 
+	color: #EB4D66!important;
+}
+.buttonflex:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(#aba7a5), to(#aba7a5));
+    background: -moz-linear-gradient(top, #aba7a5, #aba7a5);
+    background: linear-(to bottom, #aba7a5, #aba7a5);
+}
+
+.buttonflex a:link, 
+.buttonflex a:visited {
+	color: #fff;
+}
+
+
+/* Flexbox KPI's Balloonsss Frontpage */
+
+.voordelen {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	padding: 80px 0px 70px 0px;	
+}
+
+.sp {
+	width: 1/3;
+	margin: auto;
+	text-align: center;
+	
+}
+
+.sp p {
+	padding: 20px;
+	min-width: 300px;
+}
+
+/* Over mij frontpage */
+
+.flexbox-home-overmij {
+	display: flex;
+	flex-wrap: wrap;
+	width: 95%;
+	margin: auto;
+	background-color: #f6f5f5;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+
+.over-mij {
+	width: 50%;
+}
+
+.over-mij-tekst h2 {
+	padding-bottom: 30px;
+	text-align: left;
+	font-family: 'Lato';
+	font-size: 30px;
+}
+
+.over-mij-tekst {
+	padding: 80px 122px 0px 122px;
+}
+
+.actie-overmij {
+	padding: 20px 122px 80px 122px;
+}
+
+.box-over-mij-image {
+	width: 50%;
+	background-color: #8aaea8;
+	display: flex;
+	opacity: 0.8;
+	border-radius: 0px 5px 5px 0px;
+}
+
+.over-mij-image {
+	margin: auto;
+}
+
+.over-mij-tekst i {
+	color: #EB4D66;
+}
+
+/* Footer */
+
+.footer-flex {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	border-top: solid 1px #f6f5f5;
+}
+
+.footer {
+	width: 1/3;
+	margin: 0px auto;
+	min-width: 230px;
+}
+
+
+.footer h3 {
+	margin: 20px 0px 20px 0px;
+	color: #EB4D66;
+	font-family: 'Lato', sans-serif;
+	font-size: 23px;
+}
+
+.footer-nav ul {
+	padding: 0px;
+	width: 25%;
+} 
+
+.footer-nav ul li {
+	list-style: none;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+
+.footer-nav li a {
+	color: #626262;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.footer-nav ul li a:link,
+.footer-nav ul li a:visited {
+	display: block;
+	text-decoration: none;
+}
+
+.footer-nav li a:hover {
+	color: #C36276;
+	transition: font-size .4s ease,color .4s ease;
+}
+
+.footer i:hover {
+	color: #C36276;
+}
+
+div.copyright {
+	color: #626262;
+	text-align: center;
+	font-size: 80%;
+	border-top: solid 1px #f6f5f5;
+	Width: 60%;
+	margin: auto;
+}
+
+.copyright a:link,
+.copyright a:visited {
+	color: #FFF;
+}
+
+@keyframes bobbing{0%{bottom:0px}100%{bottom:15px}}.logo{position:relative;animation-name:bobbing;animation-duration:3s;animation-timing-function:ease-in-out;animation-iteration-count:infinite;animation-direction:alternate}
+
+/* subpages */
+
+.container-subpage {
+	width: 100%;
+	border-top: 1px solid #f6f5f5;
+}
+
+.container-subpage a {
+	color: #C36276;
+}
+
+.container-subpage a:hover {
+	text-decoration: underline;
+}
+
+.container-content {
+	width: 70%;
+	margin: auto;
+	text-align: center;
+	padding: 80px 0px 80px 0px;
+}
+
+.container-subpage h1 {
+	color: #EB4D66;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 30px;
+}
+
+.flexbox-item-producten {
+	width: 45%;
+	background-color: #8aaea8;
+	display: flex;
+	flex-wrap: wrap;
+	height: 350px;
+	margin: auto;
+	border-radius: 5px;
+	margin-bottom: 40px;
+}
+
+.tekst-p {
+	margin: auto;
+	padding: 20px;
+	color: #fff;
+	text-align: left;
+}
+
+.actie-sub {
+	text-align: left;
+	margin-left: 20px;
+}
+
+.actie-sub a {
+	color: #fff;
+}
+
+.actie-sub a:hover {
+	text-decoration: underline;
+}
+
+/* Portfolio */
+
+.portfolio {
+	width: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	justify-content: space-around;
+	margin-bottom: 50px;
+}
+
+.box-portfolio {
+	width: 1/4;
+	background-color:#8aaea8;
+	padding: 5px 5px 0px 5px;
+	border-radius: 5px;
+}
+
+.portfolio-tekst {
+	text-align: center;
+	color: #fff;
+	font-family: 'Lato';
+	margin-top: 10px;
+}
+
+.portfolio-image {
+	border-radius: 5px;
+	background-color:#8aaea8;
+	padding: 15px 15px 5px 15px;
+}
+
+.page-id-7 voordelen {
+	margin-top: 0px;
+}
+
+/* banner subpage */
+
+div.flex-banner-subpage {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100%;
+	height: 40vh;
+	margin: auto;
+}
+
+.flex-banner-subpage-image {
+	background-image: url(http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/Wediingredb.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	display:block;
+	width: 100%;
+	background-position: center;
+	opacity: 0.8;
+}
+
+
+/* CTA subpages */
+
+.cta {
+	width: 90%;
+	margin: auto;
+	background-color:#f6f5f5;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	padding: 50px 0px;
+}
+
+.cta h3 {
+	color: #5e5e5e;
+	font-size: 150%;
+	text-align: center;
+}
+
+.buttoncta {
+	display: block;
+    padding: 10px 0px 10px 0px;
+	background-color: #EB4D66;
+	color: #fff!important;
+	width: 250px;
+	text-align: center;
+	text-decoration: none!important;
+	transition: all 0.3s ease 0s;
+	margin: auto;
+	border-radius: 5px;
+	margin-top: 40px;
+}
+
+
+.buttoncta:hover,
+.buttoncta:focus {
+    text-decoration: none;
+	opacity: 0.8;
+}
+.buttoncta:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(#aba7a5), to(#aba7a5));
+    background: -moz-linear-gradient(top, #aba7a5, #aba7a5);
+    background: linear-(to bottom, #aba7a5, #aba7a5);
+}
+
+.buttoncta a:link, 
+.buttoncta a:visited {
+	color: #FFF;
+}
+
+/* Over mij */
+
+.over-mij-tekst-subpage {
+	padding: 80px 100px 80px 100px;
+}
+
+.over-mij-tekst-subpage i {
+	color: #EB4D66;
+}
+
+.over-mij-tekst-subpage h2 {
+	padding-bottom: 30px;
+	text-align: left;
+	font-family: 'Lato';
+	font-size: 30px;
+}
+
+
+/* contactformulier */
+
+.flexbox-contact {
+	width: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	justify-content: space-around;
+	margin-bottom: 50px;
+}
+
+.contactform {
+	width: 60%;
+}
+
+.flexbox-contact h2 {
+	color: #EB4D66;
+	font-family: 'Lato', sans-serif;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.wpcf7 input {
+    width: 35%;
+	border: none;
+	padding: 15px 0px 15px 15px;
+	margin: 5px 0px 5px -7px;
+	font-family: 'Lato';
+	border: 1px solid #dddcdc;
+}
+
+.wpcf7 textarea {
+    width: 35%;
+	border: none;
+	padding: 15px 0px 15px 15px;
+	font-family: 'Lato';
+	border: 1px solid #dddcdc;
+	margin-left: 268px;
+	margin-top: -17px;
+}
+
+.wpcf7 label {
+	width: 270px;
+	display: inline-block;
+}
+
+input.wpcf7-submit {
+	display: block;
+    padding: 8px 0px 8px 0px;
+	background-color: #EB4D66!important;
+	color: #fff!important;
+	width: 200px;
+	text-align: center;
+	transition: all 0.3s ease 0s;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: -15px;
+}
+
+input.wpcf7-submit:hover,
+input.wpcf7-submit:focus {
+	text-decoration: none;
+	opacity: 0.8;
+}
+ 
+
+input.wpcf7-submit:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(#aba7a5), to(#aba7a5));
+    background: -moz-linear-gradient(top, #aba7a5, #aba7a5);
+    background: linear-(to bottom, #aba7a5, #aba7a5);
+}
+
+
+input.wpcf7-submit a:link, 
+input.wpcf7-submit a:visited {
+	color: #FFF;
+}
+
+span.wpcf7-list-item { 
+	display: block; }
+
+.your-party {
+	left: 220px;
+	top: -40px;
+}
+
+.contact-gegevens {
+	width: 25%;
+	float: right;
+}
+
+.contact-gegevens-detail {
+	padding: 0px 0px 20px 0px;
+	width: 80%;
+}
+
+.contact-gegevens-detail img {
+	margin-bottom: 5px;
+}
+
+.contact-image {
+	border-radius: 5px;
+	background-color:#8aaea8;
+	padding: 15px 15px 5px 15px;
+}
+
+.contact-tekst {
+	text-align: center;
+	color: #fff;
+	font-family: 'Lato';
+	margin: 10px;
+}
