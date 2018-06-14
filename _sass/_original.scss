@@ -910,3 +910,58 @@ span.wpcf7-list-item {
 	font-family: 'Lato';
 	margin: 10px;
 }
+
+/* Thema template */
+
+.container-thema {
+	width: 95%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	justify-content: space-around;
+	padding: 50px;
+}
+
+.flex-thema-content {
+	width: 60%;
+	float: left;
+}
+
+.flex-thema-content h1, h2, h3 {
+	color: $roze;
+	margin-bottom: 20px;
+}
+
+.flex-thema-content h2, h3 {
+	margin-top: 20px;
+	}
+
+.flex-thema-sidebar {
+	width: 32%;
+	float: right;
+}
+
+.sidebar {
+	margin: 0px 20px 20px 20px;
+	background-color: $blauw;
+	border-radius: 5px;
+	padding: 20px;
+	color: #fff;
+}
+
+.sidebar img {
+	margin: 10px 0px 5px 0px;
+}
+
+
+.sidebar a {
+	color: #fff;
+}
+
+.sidebar a:hover {
+	text-decoration: underline;
+}
+
+.sidebar h4 {
+	font-size: 120%;
+}

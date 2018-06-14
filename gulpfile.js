@@ -14,6 +14,7 @@ var gulp = require('gulp'),
 watch = require('gulp-watch'),
 sass = require('gulp-sass'),
 plumber = require('gulp-plumber'),
+autoprefixer = require('gulp-autoprefixer'),
 browserSync = require('browser-sync').create();
 
 
@@ -43,6 +44,10 @@ gulp.task('sass', function () {
 	.pipe(sass({
 		'outputStyle': 'compressed'
 	}))
+	.pipe(autoprefixer({
+        browsers: ['last 2 versions'],
+        cascade: false
+    }))
 	.pipe(gulp.dest('./'))
 	.pipe(browserSync.stream({match: '**/*.css'}));
 })

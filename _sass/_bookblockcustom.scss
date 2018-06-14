@@ -4,6 +4,7 @@
 }
 
 ul.bb-custom-grid {
+	max-width: 1150px;
 	list-style: none;
 	margin: 0 auto 30px auto;
 	padding: 0;
@@ -27,16 +28,16 @@ ul.bb-custom-grid:after {
 
 ul.bb-custom-grid li {
 	float: left;
-	width: 400px;
-	height: 538px;
+	width: 240px;
+	height: 320px;
 	overflow: hidden;
-	padding: 10px 20px 50px 20px;
+	padding: 20px 20px 50px 20px;
 	background: #fff;
 	position: relative;
 	box-sizing: content-box;
 	margin: auto auto 20px auto;
-	box-shadow: 0 0px 15px rgba(0,0,0,0.2);
 	background: $blauw;
+	border-radius: 5px;
 }
 
 
@@ -69,19 +70,17 @@ ul.bb-custom-grid li a {
 }
 
 ul.bb-custom-grid li h3 {
-	color: $roze;
+	color: #fff;
 	margin: 0;
-	padding: 0;
-	text-transform: uppercase;
-	font-weight: 700;
-	font-size: 14px;
-	line-height: 35px;
-	letter-spacing: 1px;
+	padding: 0px;
+	font-size: 130%;
+	font-family: 'Lato';
+	text-align: center;
 }
 
 ul.bb-custom-grid nav {
 	text-align: center;
-	margin-top: 12px;
+	margin-top: 28px;
 	padding-bottom: 5px;
 }
 
