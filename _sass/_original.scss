@@ -17,8 +17,12 @@ body {
 	padding: 0;
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 15px;
+	font-size: 14.5px;
 	color: #5e5e5e;
+	background: url(/balloonsss/wp-content/uploads/2018/06/achtergrond-Balloonsss2.jpg);
+	background-repeat: repeat;
+    background-size: 500px 284px;
+	background-position: center;
 }
 
 a:link,
@@ -70,7 +74,7 @@ div.container {
 
 /* Search */
 
-.search {
+.search-box {
 	min-width: 330px;
 	display: flex;
 	flex-wrap: wrap;
@@ -96,8 +100,12 @@ div.container {
 
 #searchresults {
 	width: 100%;
-	text-align: center;
 	display: block;
+}
+
+.container-search {
+	border-top: 1px solid #f6f5f5;
+	padding: 60px 100px 60px 100px;
 }
 
 /* Header */
@@ -208,7 +216,7 @@ div.flex-banner {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	width: 100%;
-	height: 55vh;
+	height: 53vh;
 	margin: auto;
 }
 
@@ -423,7 +431,7 @@ div.flex-banner {
 }
 
 .tekst h2:hover {
-	color: #EB4D66!important;
+	color: #dbe2e6!important;
 }
 
 
@@ -462,13 +470,8 @@ i {
 
 .buttonflex:hover,
 .buttonflex:focus {
-	border: 1px solid #EB4D66; 
-	color: #EB4D66!important;
-}
-.buttonflex:active {
-    background: -webkit-gradient(linear, left top, left bottom, from(#aba7a5), to(#aba7a5));
-    background: -moz-linear-gradient(top, #aba7a5, #aba7a5);
-    background: linear-(to bottom, #aba7a5, #aba7a5);
+	border: 1px solid #dbe2e6; 
+	color: #dbe2e6!important;
 }
 
 .buttonflex a:link, 
@@ -717,7 +720,7 @@ div.flex-banner-subpage {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	width: 100%;
-	height: 40vh;
+	height: 43vh;
 	margin: auto;
 }
 
@@ -735,7 +738,7 @@ div.flex-banner-subpage {
 /* CTA subpages */
 
 .cta {
-	width: 90%;
+	width: 95%;
 	margin: auto;
 	background-color:#f6f5f5;
 	border-radius: 5px;
@@ -914,12 +917,13 @@ span.wpcf7-list-item {
 /* Thema template */
 
 .container-thema {
-	width: 95%;
+	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	margin: auto;
 	justify-content: space-around;
-	padding: 50px;
+	border-top: 1px solid #f6f5f5;
+	padding-top: 20px;
 }
 
 .flex-thema-content {
@@ -930,6 +934,7 @@ span.wpcf7-list-item {
 .flex-thema-content h1, h2, h3 {
 	color: $roze;
 	margin-bottom: 20px;
+	font-family: 'Lato';
 }
 
 .flex-thema-content h2, h3 {
@@ -937,12 +942,12 @@ span.wpcf7-list-item {
 	}
 
 .flex-thema-sidebar {
-	width: 32%;
+	width: 28%;
 	float: right;
 }
 
 .sidebar {
-	margin: 0px 20px 20px 20px;
+	margin: 0px 0px 20px 20px;
 	background-color: $blauw;
 	border-radius: 5px;
 	padding: 20px;
@@ -950,9 +955,12 @@ span.wpcf7-list-item {
 }
 
 .sidebar img {
-	margin: 10px 0px 5px 0px;
+	margin: 0px 0px 5px 0px;
 }
 
+.sidebar i {
+	color: $roze;
+}
 
 .sidebar a {
 	color: #fff;
@@ -964,4 +972,71 @@ span.wpcf7-list-item {
 
 .sidebar h4 {
 	font-size: 120%;
+	margin-bottom: 10px;
+}
+
+.voorbeeld-producten {
+	width: 95%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	justify-content: space-around;
+}
+
+.voorbeeld-producten {
+	width: 1/3;
+}
+
+
+/* Button thema */
+
+.buttonthema {
+	display: block;
+    padding: 10px 20px 10px 20px;
+	background-color: #EB4D66;
+	color: #fff!important;
+	width: 130px;
+	text-decoration: none!important;
+	transition: all 0.3s ease 0s;
+	border-radius: 5px;
+	margin: 30px 0px 30px 0px;
+}
+
+
+.buttonthema:hover,
+.buttonthema:focus {
+    text-decoration: none;
+	opacity: 0.8;
+}
+.buttonthema:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(#aba7a5), to(#aba7a5));
+    background: -moz-linear-gradient(top, #aba7a5, #aba7a5);
+    background: linear-(to bottom, #aba7a5, #aba7a5);
+}
+
+.buttonthema a:link, 
+.buttonthema a:visited {
+	color: #FFF;
+}
+
+/* Producten en tarieven */
+
+.tarieven {
+	padding: 50px 0px 50px 0px;
+	width: 50%;
+}
+
+.tarieven h2 {
+	color: $roze;
+}
+
+.tarieven-content {
+	width: 90%;
+	margin: auto;
+}
+
+
+tr:hover {
+	cursor: pointer;
+	color: #C36276;
 }

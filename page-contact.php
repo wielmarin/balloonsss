@@ -50,13 +50,9 @@
 	<div class="contact-gegevens">
 		<div class="contact-gegevens-detail">
 			<h2>Contactgegevens</h2>
-			<div class="contact-image">
-				<div class="contact-foto"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/Beelden/Beelden/martina.jpg" height="true" width="100%">
-				</div>
-				<div class="contact-tekst">Martina Hidding
-				</div>
-			</div>
-			<br><a href="callto:0683916328" target="_blank"><i class="fas fa-phone"></i>06 83 91 63 28</a><br>
+			<p>Martina Hidding</p>
+			<a href="callto:0683916328" target="_blank"><i class="fas fa-phone"></i>06 83 91 63 28</a><br>
+			<i class="fab fa-whatsapp fa-lg"></i>06 83 91 63 28<br>
 			<a href="martina.hidding.mh@gmail.com"><i class="far fa-envelope"></i>info@mailadres.nl</a><br>
 			<i class="fas fa-question"></i>FAQ
 		</div>

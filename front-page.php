@@ -34,10 +34,9 @@
 	<?php
 	endwhile; else: ?>
 	<p>Ben jij op zoek naar feestelijke, stijlvolle, decoratie voor jouw event? Voor elke gelegenheid hebben wij de juiste ballonnen! Aan de hand van jullie wensen, adviseren we je graag over de mogelijkheden en laatste trends!
-Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot een prachtige stijlvolle feestlocatie. We komen niet alleen de ballonnen bezorgen, maar decoreren jouw locatie!</p>
 	<?php endif; ?> <!-- END LOOP -->
 	
-		<a class="button" href="">Bekijk portfolio
+		<a class="button" href="http://localhost/balloonsss/portfolio/">Bekijk portfolio
 		</a>
 	</div>
 </div>
@@ -94,7 +93,7 @@ Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot ee
 		<?php the_field('over_mij_tekst'); ?>
 		</div>
 		<div class="actie-overmij">
-			<p>Lees meer <i class="fas fa-angle-right"></i>
+			<a href="http://localhost/balloonsss/over-mij/"><p>Lees meer <i class="fas fa-angle-right"></i></a>
 		</div>
 	</div>
 	<div class="box-over-mij-image">

@@ -6,12 +6,16 @@
 ul.bb-custom-grid {
 	max-width: 1150px;
 	list-style: none;
-	margin: 0 auto 30px auto;
+	margin: 0 auto 0px auto;
 	padding: 0;
-	width: calc(100% - 80px);
+	width: calc(100% - 150px);
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+}
+
+ul.bb-custom-grid img {
+	height: 260px;
 }
 
 /* Micro clearfix hack by Nicolas Gallagher */
@@ -28,14 +32,14 @@ ul.bb-custom-grid:after {
 
 ul.bb-custom-grid li {
 	float: left;
-	width: 240px;
-	height: 320px;
+	width: 210px;
+	height: 300px;
 	overflow: hidden;
-	padding: 20px 20px 50px 20px;
+	padding: 20px 20px 40px 20px;
 	background: #fff;
 	position: relative;
 	box-sizing: content-box;
-	margin: auto auto 20px auto;
+	margin: auto auto 50px auto;
 	background: $blauw;
 	border-radius: 5px;
 }
@@ -80,7 +84,7 @@ ul.bb-custom-grid li h3 {
 
 ul.bb-custom-grid nav {
 	text-align: center;
-	margin-top: 28px;
+	margin-top: 15px;
 	padding-bottom: 5px;
 }
 
@@ -96,4 +100,20 @@ ul.bb-custom-grid nav span {
 
 ul.bb-custom-grid nav span.bb-current {
 	background: $roze;
+}
+
+
+.page-id-154 ul.bb-custom-grid li h3 {
+	font-size: 90%;
+}
+
+.page-id-154 ul.bb-custom-grid li p {
+	font-size: 85%;
+	text-align: center;
+}
+
+.page-id-154 ul.bb-custom-grid nav {
+	text-align: center;
+	margin-top: 10px;
+	padding-bottom: 5px;
 }

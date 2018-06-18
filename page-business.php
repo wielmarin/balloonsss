@@ -49,7 +49,7 @@ Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot ee
 		<div class="tekst">
 			<h2>Opening</h2>
 			<div class="tekst-p">
-				<p>Balloonsss helpt je graag met de mooiste bruiloftballonnen en decoratie! Of je het nu groots of toch liever wat kleiner wilt aanpakken, alles is mogelijk.</p>	
+				<p>Balloonsss helpt je met de mooiste bruiloftballonnen en decoratie! Of je het nu groots of toch liever wat kleiner wilt aanpakken, alles is mogelijk.</p>	
 			</div>
 			<div class="actie-sub">
 				<a href="">Lees meer<i class="fas fa-angle-right"></i></a>
@@ -62,7 +62,7 @@ Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot ee
 		<div class="tekst">
 			<h2>Beurs</h2>
 			<div class="tekst-p">
-				<p>Ballonnen geven jouw event extra attentiewaarden. Denk hierbij aan ballonnenboog, ballonnenslinger of ballonnenpilaren bijv. in de kleuren van je bedrijfslogo.</p>	
+				<p>Ballonnen geven jouw event extra attentiewaarden. Denk hierbij aan ballonnenboog, ballonnenslinger of ballonnenpilaren.</p>	
 			</div>
 			<div class="actie-sub">
 				<a href="">Lees meer<i class="fas fa-angle-right"></i></a>
@@ -109,7 +109,7 @@ Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot ee
 
 <div class="cta">
 	<h3>Wil je meer weten over Balloonsss of een offerte aanvragen?</h3>
-<a class="buttoncta" href="">Neem contact met mij op<i class="fas fa-angle-right"></i></a>
+<a class="buttoncta" href="http://localhost/balloonsss/contact/">Neem contact met mij op<i class="fas fa-angle-right"></i></a>
 </div>
 
 

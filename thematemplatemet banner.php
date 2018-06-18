@@ -15,6 +15,12 @@
         $post_thumbnail_url = wp_get_attachment_url( $post_thumbnail_id ); ?>
 			
 			
+<div class="flex-banner-subpage">
+	
+	<div class="flex-banner-subpage-image" style="background-image:<?php echo $post_thumbnail_url; ?>">     
+	</div>
+
+	
 	<div class="contact-onscroll-open"> 
 		<div class="contact-onscroll-open-tekst1">
 			<p>Contact</p>
@@ -25,7 +31,7 @@
 		</div>
 	</div>
 	
-<!-- Content -->
+</div>	
 
 <div class="container-thema">
 
@@ -38,37 +44,24 @@
 	endwhile; else: ?>
 	<p></p>
 	<?php endif; ?> <!-- END LOOP -->
-		<a class="buttonthema" href="http://localhost/balloonsss/contact/">Neem contact op
-		</a>
-	<h3>Voorbeelden producten verjaardag:</h3>
-	<div class="voorbeeld-producten">
-		<img src="/balloonsss/wp-content/uploads/2018/06/Tros-ballonnen-verjaardag-1.jpg" height="125px" width="true">
-		<img src="/balloonsss/wp-content/uploads/2018/06/Verjaardag2-e1529067261889.jpg" height="125px" width="true">
-		<img src="/balloonsss/wp-content/uploads/2018/06/Ballon-cijfer-2.jpg" height="125px" width="true">
-	</div>
-	<br>
-	<a href="http://localhost/balloonsss/producten/">Bekijk alle producten <i class="fas fa-angle-right"></i></a>
-	</div>
+		</div>
 	
-<!-- Sidebar -->
-
 	<div class="flex-thema-sidebar">
 		<div class="sidebar">
 		<h4>Portfolio</h4>
-		<img src="/balloonsss/wp-content/uploads/2018/06/215c59a59abd8c45973d4e12e7cd139b-e1529002100948.jpg" alt="Testimonial" width=100% height=170px />
-		<p>luptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.<br><a href="">Bekijk portfolio ></a></p>
+		<img src="/balloonsss/wp-content/uploads/2018/06/215c59a59abd8c45973d4e12e7cd139b-e1529002100948.jpg" alt="Testimonial" width=100%; height=170px />
+		<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo. <a href="">Bekijk portfolio ></a></p>
 		</div>
 		<div class="sidebar">
-			<h4>Reviews</h4>
-			<p>Hier kunnen we reviews plaatsen als we deze hebben. De reviews van Facebook worden automatisch ingeladen via Wordpress. Zolang we deze niet hebben, kunnen we ook facebookfeed hier neerzetten.</p>
-		</div>
-		<div class="sidebar">
-		<h4>Waarom Balloonsss?</h4>
 			<i class="fas fa-check"></i> Kwalitatief en duurzaam<br>
 			<i class="fas fa-check"></i> Professioneel<br>
 			<i class="fas fa-check"></i> Passend bij elk themafeest
 		</div>
-
+		<div class="sidebar">
+			<h4>Producten</h4>
+			<img src="/balloonsss/wp-content/uploads/2018/06/215c59a59abd8c45973d4e12e7cd139b-e1529002100948.jpg" alt="Testimonial" width=100%; height=170px />
+			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo. <a href="">Bekijk de producten ></a></p>
+		</div>
 
 	</div>
 </div>

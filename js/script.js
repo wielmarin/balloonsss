@@ -1,6 +1,6 @@
 jQuery( document ).ready(function() {
 	
-	jQuery.backstretch("/balloonsss/wp-content/uploads/2018/06/achtergrond-Balloonsss-e1528818100120.jpg");
+	//jQuery.backstretch({"url":"/balloonsss/wp-content/uploads/2018/06/achtergrond-Balloonsss2.jpg", "width": 400, "scale":"fill"});
 	jQuery(".flex-banner-image").backstretch(['http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/Wediingredb.jpg', 'http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/Balloonssky.jpg', 'http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/weddingballoons.jpg', 'http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/weddingcake.jpg', 'http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/weddingday.jpg'],{duration:3000, transition:'cover_left', transitionDuration:2000, transitionEasing:'swing', animateFirst:false});
 	
 
@@ -22,6 +22,48 @@ jQuery( document ).ready(function() {
 		jQuery('.contact-onscroll-open').animate({right: '-315px'}, 800);
 	});
 	
+	
+	// Product Views
+	
+	jQuery('.ballonnenboog').click( function() {
+		jQuery('#productimage').attr('src', '/balloonsss/wp-content/uploads/2018/06/Ballonnenboog-hart.jpg')
+	});
+	
+	jQuery('.ballonnenpilaar').click( function() {
+		jQuery('#productimage').attr('src', '/balloonsss/wp-content/uploads/2018/06/Ballonnenpilaar-roze-meisje-1.jpg')
+	});
+	
+	jQuery('.losse').click( function() {
+		jQuery('#productimage').attr('src', '/balloonsss/wp-content/uploads/2018/06/Losse-ballonnen-e1529072330891.jpg')
+	});
+	
+	jQuery('.ballonen3').click( function() {
+		jQuery('#productimage').attr('src', '/balloonsss/wp-content/uploads/2018/06/Banner-idee-e1529071504279.jpg')
+	});
+	
+	jQuery('.ballonnen5').click( function() {
+		jQuery('#productimage').attr('src', '/balloonsss/wp-content/uploads/2018/06/Tros-metallic-ballonnen-verjaardag-e1529072618773.jpg')
+	});
+	
+	jQuery('.ballonnen7').click( function() {
+		jQuery('#productimage').attr('src', '/balloonsss/wp-content/uploads/2018/06/Tros-ballonnen-verjaardag-1.jpg')
+	});
+	
+	jQuery('.ballonnen3f2l').click( function() {
+		jQuery('#productimage').attr('src', '/balloonsss/wp-content/uploads/2018/06/Folie-ballon-goude-ster.jpg')
+	});
+	
+	jQuery('.topballon').click( function() {
+		jQuery('#productimage').attr('src', '/balloonsss/wp-content/uploads/2018/06/Ballon-kerst.jpg')
+	});
+	
+	jQuery('.folieballon').click( function() {
+		jQuery('#productimage').attr('src', '/balloonsss/wp-content/uploads/2018/06/Ballon-cijfer-2.jpg')
+	});
+	
+	jQuery('.ballonnenhart').click( function() {
+		jQuery('#productimage').attr('src', '/balloonsss/wp-content/uploads/2018/06/Ballonnenhart-rood.jpg')
+	});
 	
 	
 	

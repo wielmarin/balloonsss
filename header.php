@@ -16,7 +16,7 @@
 	</head>
 
 <body <?php body_class(); ?>> 
-				
+			
 			
 <div class="container">
 
@@ -26,7 +26,7 @@
  
 	<!-- search -->
  
-<div class="search">
+<div class="search-box">
 		<div class="hd-search">
 			<?php get_search_form(); ?>
 		</div>
@@ -51,7 +51,7 @@
 			</nav>
 			<a href="<?php echo get_home_url(); ?>">
 			<div class="logo">
-				<img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/logosolid.png" width="150px" height="150px" alt="Balloonsss">
+				<img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/logosolid.png" width="140px" height="true" alt="Balloonsss">
 			</div>
 			</a>
 			
