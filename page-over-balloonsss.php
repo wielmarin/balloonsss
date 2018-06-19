@@ -1,32 +1,19 @@
 <!-- Header -->
 
-
 	<?php
 
 	get_header();?>
 	
-<div class="flex-banner-subpage">
+<!-- Banner -->
 	
-	<div class="flex-banner-subpage-image">     
-	</div>
-
+<?php get_template_part("banner");?>
 	
-	<div class="contact-onscroll-open"> 
-		<div class="contact-onscroll-open-tekst1">
-			<p>Contact</p>
-		</div>
-		<div class="contact-onscroll-open-tekst2">
-			<p>Meer weten?</p><p id="closecontact">X</p><br><p><i class="fas fa-phone"></i><i class="fab fa-whatsapp fa-lg"></i><a href="callto:0683916328" target="_blank">06 83 91 63 28</a><br>
-			<p><i class="far fa-envelope"></i><a href="martina@balloonsss.nl" target="_blank">martina@balloonsss.nl</a></p>
-		</div>
-	</div>
-	
-</div>	
+<!-- Introductie supbage -->
 	
 <div class="container-subpage">
 	<div class="container-content">
 		
-		<h1>Over mij</h1>
+		<h1><?php the_title(); ?></h1>
 		
 	<!-- THE LOOP --><?php if ( have_posts() ) : while ( have_posts() ) : the_post();
 	?>
@@ -48,7 +35,7 @@ Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot ee
 		<br>Ik nodig je graag uit voor een eerste vrijblijvende kennismaking."</div>
 	</div>
 	<div class="box-over-mij-image">
-		<div class="over-mij-image"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/Beelden/Beelden/martina.jpg" height="250px" width="true">
+		<div class="over-mij-image"><img src="/balloonsss/wp-content/uploads/2018/06/Martina-Hidding-e1529321947949.jpg" height="250px" width="true">
 		<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
 		</div>
 	</div>

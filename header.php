@@ -23,8 +23,13 @@
 
  <!-- /.primary -->
  
- 
-	<!-- search -->
+<div class="homesearch">	
+
+<div class="homebutton">	
+	<a href="http://localhost/balloonsss/"><i class="fas fa-home fa-2x"></i></a>
+</div>
+
+<!-- search -->
  
 <div class="search-box">
 		<div class="hd-search">
@@ -33,6 +38,10 @@
 		<div class="search-icon">
 		</div>
 </div>
+
+</div>
+
+<?php get_template_part("contactbutton");?>
 	
 	<!-- site-header -->
 	<header class="site-header">
@@ -49,10 +58,8 @@
 				?>
 				<?php wp_nav_menu( $args ); ?>	
 			</nav>
-			<a href="<?php echo get_home_url(); ?>">
-			<div class="logo">
-				<img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/logosolid.png" width="140px" height="true" alt="Balloonsss">
-			</div>
+			<a class="logo" href="<?php echo get_home_url(); ?>">
+				<img src="/balloonsss/wp-content/uploads/2018/05/Balloonsss_logo_solid_rgb-e1529401970764.png" width="140px" height="true" alt="Balloonsss">
 			</a>
 			
 			<nav class="frontnav-right frontnav">
@@ -68,3 +75,21 @@
 
 	</header>
 	<!-- /site-header -->
+	
+<div class="homesearchmobile">	
+
+<div class="homebutton">	
+	<a href="http://localhost/balloonsss/"><i class="fas fa-home fa-2x"></i></a>
+</div>
+
+<!-- search -->
+ 
+<div class="search-box">
+		<div class="hd-search">
+			<?php get_search_form(); ?>
+		</div>
+		<div class="search-icon">
+		</div>
+</div>
+
+</div>

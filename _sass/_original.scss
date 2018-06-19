@@ -67,6 +67,12 @@ div.container {
 	background-color: #fff;
 	border-radius: 5px;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+	@media screen and (max-width: $mobilesize) {
+		width: 100%;
+		margin-top: 0px;
+		border-radius: 0px;
+		box-shadow: none;
+	}
 }
 
 
@@ -75,11 +81,14 @@ div.container {
 /* Search */
 
 .search-box {
-	min-width: 330px;
+	min-width: 250px;
 	display: flex;
 	flex-wrap: wrap;
 	float: right;
-	margin-bottom: -45px;
+	margin-bottom: -25px;
+	@media screen and (max-width: $mobilesize) {
+		margin: auto;
+	}
 }
 
 .hd-search #searchsubmit {
@@ -95,6 +104,9 @@ div.container {
 	background: url(/balloonsss/wp-content/uploads/2018/06/314478-24.png) no-repeat;
 	background-position: 95% 50%; 
 	border: solid 1px #f6f5f5;
+	@media screen and (max-width: $mobilesize) {
+		margin: auto;
+	}
 }
 
 
@@ -106,6 +118,36 @@ div.container {
 .container-search {
 	border-top: 1px solid #f6f5f5;
 	padding: 60px 100px 60px 100px;
+}
+
+/* Homebutton */
+
+.homebutton {
+	float: right;
+	margin-bottom: -30px;
+	margin-top: 13px;
+	@media screen and (max-width: $mobilesize) {
+		display: none;
+		margin: auto;
+		order: 2;
+	}
+}
+
+.homesearch {
+	margin-right: 50px;
+	@media screen and (max-width: $mobilesize) {
+		display:none;
+	}
+}
+
+.homesearchmobile {
+	display: none;
+	@media screen and (max-width: $mobilesize) {
+		display:flex;
+		width: 100%;
+		margin:5px auto auto auto;
+		height:50px;
+	}
 }
 
 /* Header */
@@ -122,6 +164,10 @@ div.container {
 	width: 20%;
 	text-align: center;
 	
+	@media screen and (max-width: $mobilesize) {
+		width: 100%;
+		order: -1;
+	}
 }
 
 /* Nav Menu */
@@ -140,16 +186,27 @@ div.container {
 	list-style: none;
 	font-size: 16.5px;
 	margin: 0px 30px 0px 30px;
+	@media screen and (max-width: $mobilesize) {
+		display:block;
+	}
 }
 
 .frontnav-left {
 	width: 40%;
 	margin: auto;
+	@media screen and (max-width: $mobilesize) {
+		width: 100%;
+		order: 0;
+	}
 }
 
 .frontnav-right {
 	width: 40%;
 	margin: auto;
+	@media screen and (max-width: $mobilesize) {
+		width: 100%;
+		order: 1;
+	}
 }
 
 .frontnav li a {
@@ -199,7 +256,7 @@ li.current-menu-item a:after {
 
 li.current-menu-item a:link,
 li.current-menu-item a:visited {
-	border-bottom: solid 1px #C36276; 
+	/* border-bottom: solid 1px #C36276; */
 	color: #C36276;
 }
 
@@ -229,10 +286,11 @@ div.flex-banner {
 }
 
 .flex-banner-image {
-	content: "";
-	display:block;
+	background-repeat:no-repeat;
+	background-size: cover;
+	display: block;
 	width: 100%;
-	background-position: top;
+	background-position: center;
 	opacity: 0.8;
 }
 
@@ -247,6 +305,9 @@ div.flex-banner {
 	margin: auto;
 	text-align: center;
 	padding: 80px 0px 90px 0px;
+	@media screen and (max-width: $mobilesize) {
+		padding: 20px 0px;
+	}
 }
 
 .container-about-content p {
@@ -295,7 +356,7 @@ div.flex-banner {
 	width: 350px;
 	padding: 15px 0px 18px 0px;
 	border-radius: 5px;
-	z-index: 99;
+	z-index: 9999;
 }
 
 .contact-onscroll-open a {
@@ -325,7 +386,7 @@ div.flex-banner {
 	-ms-transform: rotate(-270deg);
 	-o-transform: rotate(-270deg);
 	float: left;
-	margin-top: 38px;	
+	margin-top: 50px;	
 	margin-left: -10px;
 }
 
@@ -333,8 +394,7 @@ div.flex-banner {
 	width: 180px;
 	float: right;
 	margin-right: 115px;
-	margin-top: 3px;
-	font-size: 90%;
+	font-size:90%;
 }
 
 .contact-onscroll-open-tekst2 i {
@@ -389,9 +449,14 @@ div.flex-banner {
 	background-color: #8aaea8;
 	display: flex;
 	flex-wrap: wrap;
-	height: 440px;
+	height: 430px;
 	margin: auto;
 	border-radius: 5px;
+	@media screen and (max-width: $mobilesize) {
+		width:calc(100% - 20px);
+		height:auto;
+		margin-bottom: 10px;
+	}
 }
 
 .flexbox-item2 {
@@ -399,9 +464,13 @@ div.flex-banner {
 	background-color: #8aaea8;
 	display: flex;
 	flex-wrap: wrap;
-	height: 440px;
+	height: 430px; 
 	margin: auto;
 	border-radius: 5px;
+	@media screen and (max-width: $mobilesize) {
+		width:calc(100% - 20px);
+		height:auto;
+	}
 }
 
 .item-image {
@@ -412,6 +481,10 @@ div.flex-banner {
 	background-image: url("http://localhost/balloonsss/wp-content/uploads/2018/05/banenr-5.jpg");
 	border-radius: 5px 0px 0px 5px;
 	opacity: 0.8;
+	@media screen and (max-width: $mobilesize) {
+		width:100%;
+		height:200px;
+	}
 }
 
 .tekst {
@@ -419,6 +492,10 @@ div.flex-banner {
 	text-align: center;
 	color: #fff;
 	padding: 60px 0px 0px 0px;
+	@media screen and (max-width: $mobilesize) {
+		width:100%;
+		padding: 30px;
+	}
 }
 
 .tekst h2 {
@@ -426,7 +503,8 @@ div.flex-banner {
 	font-family: 'Lato';
 	font-size: 170%;
 	color: #fff;
-	width: 60%;
+	width: 100%;
+	text-align:center;
 	margin: auto;
 }
 
@@ -493,7 +571,6 @@ i {
 	width: 1/3;
 	margin: auto;
 	text-align: center;
-	
 }
 
 .sp p {
@@ -549,6 +626,73 @@ i {
 	color: #EB4D66;
 }
 
+/*frontpage drieblokken */
+
+.drieblokken {
+	display: flex;
+	flex-wrap: wrap;
+	width: 95%;
+	margin: auto;
+	padding: 0px 0px 30px 0px;
+}
+
+.blok {
+	width: 30%;
+	justify-content: space-around;
+	margin: auto;
+	height: 520px;
+	background-color: #f6f5f5;
+	border-radius: 5px;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+
+.blok-image1 {
+	height: 300px;
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: url("/balloonsss/wp-content/uploads/2018/06/f4cd0de06b1a6708a5025e7b0c4fe77c-1.jpg");
+	height: 45%;
+	width: 100%;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.blok-image2 {
+	height: 300px;
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: url("/balloonsss/wp-content/uploads/2018/06/500_F_4358153_GxISQfkOwRg92hv1Y4UHZrDqz5J1wDh3-1.jpg");
+	height: 45%;
+	width: 100%;
+}
+
+.blok-image3 {
+	height: 300px;
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: url("/balloonsss/wp-content/uploads/2018/06/Zomeractie.jpg");
+	height: 45%;
+	width: 100%;
+}
+
+.blok-tekst {
+	padding: 50px 30px 50px 30px;
+}
+
+.blok-tekst h2 {
+	font-family: 'Lato', sans-serif;
+	font-size: 170%;
+	color: $roze;
+	margin-bottom: 20px;
+}
+
+.blok-actie {
+	margin-top: 20px;
+}
+
+
 /* Footer */
 
 .footer-flex {
@@ -574,13 +718,14 @@ i {
 
 .footer-nav ul {
 	padding: 0px;
-	width: 25%;
+	width: 100%;
 } 
 
 .footer-nav ul li {
 	list-style: none;
 	font-size: 15px;
 	margin-bottom: 5px;
+	display: block;
 }
 
 .footer-nav li a {
@@ -678,9 +823,9 @@ div.copyright {
 	text-decoration: underline;
 }
 
-/* Portfolio */
+/* Producten */
 
-.portfolio {
+.container-producten {
 	width: 90%;
 	display: flex;
 	flex-wrap: wrap;
@@ -689,18 +834,22 @@ div.copyright {
 	margin-bottom: 50px;
 }
 
-.box-portfolio {
+.product {
 	width: 1/4;
 	background-color:#8aaea8;
-	padding: 5px 5px 0px 5px;
+	padding: 5px 5px 15px 5px;
 	border-radius: 5px;
 }
 
-.portfolio-tekst {
+.product-tekst h2 {
 	text-align: center;
-	color: #fff;
-	font-family: 'Lato';
-	margin-top: 10px;
+	color: #fff!important;
+	margin-top: 5px;
+}
+
+.product-tekst p {
+	text-align: center;
+	color: #fff!important;
 }
 
 .portfolio-image {
@@ -720,8 +869,9 @@ div.flex-banner-subpage {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	width: 100%;
-	height: 43vh;
+	height: 50vh;
 	margin: auto;
+	opacity: 0.9;
 }
 
 .flex-banner-subpage-image {
@@ -818,28 +968,28 @@ div.flex-banner-subpage {
 
 .flexbox-contact h2 {
 	color: #EB4D66;
-	font-family: 'Lato', sans-serif;
 	text-align: left;
-	margin-bottom: 20px;
+	margin-bottom: 20px
 }
 
 .wpcf7 input {
-    width: 35%;
+    width: 70%;
 	border: none;
 	padding: 15px 0px 15px 15px;
-	margin: 5px 0px 5px -7px;
+	margin-bottom: 10px;
 	font-family: 'Lato';
 	border: 1px solid #dddcdc;
+	font-size: 15px;
 }
 
 .wpcf7 textarea {
-    width: 35%;
+    width: 70%;
 	border: none;
-	padding: 15px 0px 15px 15px;
+	padding: 12px 0px 12px 15px;
 	font-family: 'Lato';
-	border: 1px solid #dddcdc;
-	margin-left: 268px;
-	margin-top: -17px;
+	border: 1px solid #dddcdc;	
+	height: 100px;
+	font-size: 15px;
 }
 
 .wpcf7 label {
@@ -857,7 +1007,7 @@ input.wpcf7-submit {
 	transition: all 0.3s ease 0s;
 	border-radius: 5px;
 	cursor: pointer;
-	margin-top: -15px;
+	margin-top: 20px;
 }
 
 input.wpcf7-submit:hover,
@@ -894,7 +1044,6 @@ span.wpcf7-list-item {
 
 .contact-gegevens-detail {
 	padding: 0px 0px 20px 0px;
-	width: 80%;
 }
 
 .contact-gegevens-detail img {
@@ -929,15 +1078,16 @@ span.wpcf7-list-item {
 .flex-thema-content {
 	width: 60%;
 	float: left;
+	margin-bottom: 20px;
 }
 
-.flex-thema-content h1, h2, h3 {
+.flex-thema-content h1, .flex-thema-content h2, .flex-thema-content h3 {
 	color: $roze;
 	margin-bottom: 20px;
 	font-family: 'Lato';
 }
 
-.flex-thema-content h2, h3 {
+.flex-thema-content h2, .flex-thema-content h3 {
 	margin-top: 20px;
 	}
 
@@ -947,11 +1097,12 @@ span.wpcf7-list-item {
 }
 
 .sidebar {
-	margin: 0px 0px 20px 20px;
-	background-color: $blauw;
+	margin: 5px 0px 20px 20px;
+	background-color: #f6f5f5;
 	border-radius: 5px;
 	padding: 20px;
-	color: #fff;
+	color: #5e5e5e;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.3)
 }
 
 .sidebar img {
@@ -962,17 +1113,14 @@ span.wpcf7-list-item {
 	color: $roze;
 }
 
-.sidebar a {
-	color: #fff;
-}
-
 .sidebar a:hover {
 	text-decoration: underline;
 }
 
 .sidebar h4 {
-	font-size: 120%;
+	font-size: 130%;
 	margin-bottom: 10px;
+	color: $roze;
 }
 
 .voorbeeld-producten {
@@ -1039,4 +1187,19 @@ span.wpcf7-list-item {
 tr:hover {
 	cursor: pointer;
 	color: #C36276;
+}
+
+/* overige pages content */
+
+.container-algemeen {
+	padding: 60px 100px 60px 100px;
+	}
+	
+.container-algemeen h2 {
+	padding-top: 20px;
+}
+
+.container-algemeen img {
+float: right;
+margin: 10px;
 }

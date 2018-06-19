@@ -6,19 +6,10 @@
 	get_header();?>
 
 <div class="flex-banner">
-	
-	<div class="flex-banner-image">     
-	</div>
-
-	
-	<div class="contact-onscroll-open"> 
-		<div class="contact-onscroll-open-tekst1">
-			<p>Contact</p>
-		</div>
-		<div class="contact-onscroll-open-tekst2">
-			<p>Meer weten?</p><p id="closecontact">X</p><br><p><i class="fas fa-phone"></i><i class="fab fa-whatsapp fa-lg"></i><a href="callto:0683916328" target="_blank">06 83 91 63 28</a><br>
-			<p><i class="far fa-envelope"></i><a href="martina@balloonsss.nl" target="_blank">martina@balloonsss.nl</a></p>
-		</div>
+	<?php  $post_thumbnail_id = get_post_thumbnail_id();
+					$post_thumbnail_url = wp_get_attachment_url( $post_thumbnail_id ); ?>
+					
+	<div class="flex-banner-image" style="background-image:url(<?php echo $post_thumbnail_url; ?>)">						
 	</div>
 	
 </div>	
@@ -43,42 +34,43 @@
 
 <div class="flexbox-home">
 	
-	<div class="flexbox-item1">
+	<a class="flexbox-item1" href="http://localhost/balloonsss/party/">
 	
 		<div class="item-image" style="background-image: url(http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/Weddinghome.jpg)"></div>
 
 		<div class="tekst">
-			<a href="http://localhost/balloonsss/party/"><h2>Party ballonnen</h2>
-			</a>
+			<h2>Party ballonnen</h2>
+			
 			<div class="categorieen">
 					<p><i class="fas fa-long-arrow-alt-right"></i>Bruiloft</p>
 					<p><i class="fas fa-long-arrow-alt-right"></i>Babyfeest</p>
 					<p><i class="fas fa-long-arrow-alt-right"></i>Jubileum/verjaardagen</p>
 					<p><i class="fas fa-long-arrow-alt-right"></i>Themafeesten</p>
+					<p><i class="fas fa-long-arrow-alt-right"></i>Pilaren en bogen</p>
 			</div>
 			<div class="Actie">
-				<a class="buttonflex" href="http://localhost/balloonsss/party/">Bekijk meer<i class="fas fa-angle-right"></i></a>
+				<span class="buttonflex">Bekijk meer<i class="fas fa-angle-right"></i></span>
 			</div>
 		</div>
-	</div>
+	</a>
 
 	
-	<div class="flexbox-item2">
+	<a class="flexbox-item2"  href="http://localhost/balloonsss/business/">
 		<div class="item-image" style="background-image: url(http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/event.jpg)"></div>
 		<div class="tekst">
-			<a href="http://localhost/balloonsss/business/"><h2>Business ballonnnen</h2>
-			</a>
+			<h2>Business ballonnnen</h2>
 			<div class="categorieen">
 					<p><i class="fas fa-long-arrow-alt-right"></i>Openingsfeest</p>
 					<p><i class="fas fa-long-arrow-alt-right"></i>Beurzen</p>
 					<p><i class="fas fa-long-arrow-alt-right"></i>Thema’s</p>
 					<p><i class="fas fa-long-arrow-alt-right"></i>Verjaardagen</p>
+					<p><i class="fas fa-long-arrow-alt-right"></i>Pilaren en bogen</p>
 			</div>
 			<div class="Actie">
-				<a class="buttonflex" href="http://localhost/balloonsss/business/">Bekijk meer<i class="fas fa-angle-right"></i></a>
+				<span class="buttonflex">Bekijk meer<i class="fas fa-angle-right"></i></span>
 			</div>
 		</div>
-	</div>
+	</a>
 </div>
 
 <div class="voordelen">		
@@ -87,22 +79,37 @@
 			<div class="sp"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/Beelden/Beelden/waaromballoonsss.jpg" height="70" width="70"><p>Kwalitatief en duurzaam</p></div>
 </div>
 
-<div class="flexbox-home-overmij">
-	<div class="over-mij">
-		<div class="over-mij-tekst"><h2><i class="fas fa-quote-left"></i><?php the_field('over_mij_titel'); ?></h2>
-		<?php the_field('over_mij_tekst'); ?>
+
+
+<div class="drieblokken">
+	<div class="blok">
+		<div class="blok-image1">
 		</div>
-		<div class="actie-overmij">
-			<a href="http://localhost/balloonsss/over-mij/"><p>Lees meer <i class="fas fa-angle-right"></i></a>
+		<div class="blok-tekst">
+		<h2>Over Balloonsss</h2>
+		Welkom op de website van Balloonsss. Met ballonnen tover ik iedere locatie op sfeervolle wijze om tot een prachtig decor.
+		<div class="blok-actie"><a href="http://localhost/balloonsss/over-mij/">Lees meer<i class="fas fa-angle-right"></i></a></div>
 		</div>
 	</div>
-	<div class="box-over-mij-image">
-		<div class="over-mij-image"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/Beelden/Beelden/martina.jpg" height="250px" width="true">
-		<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
+	<div class="blok">
+		<div class="blok-image2">
+		</div>
+		<div class="blok-tekst">
+		<h2>Bogen en pilaren</h2>
+		Ik verzorg losse ballonnen, ballonbogen en pilaren voor diverse gelegenheden. Deze zijn verkrijgbaar vanaf xx euro (exclusief btw). 
+		<div class="blok-actie"><a href="http://localhost/balloonsss/over-mij/">Bekijk de producten<i class="fas fa-angle-right"></i></a></div>
+		</div>
+	</div>
+	<div class="blok">
+		<div class="blok-image3">
+		</div>
+		<div class="blok-tekst">
+		<h2>Zomeractie</h2>
+		Omdat Balloonsss net begonnen is, geef ik 10 gratis ballonnen weg. Je hoeft alleen een berichtje te sturen met jouw beste ballon idee.
+		<div class="blok-actie"><a href="http://localhost/balloonsss/over-mij/">Neem contact op <i class="fas fa-angle-right"></i></a></div>
 		</div>
 	</div>
 </div>
-
 
  
 

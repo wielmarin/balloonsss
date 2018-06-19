@@ -5,25 +5,11 @@
 
 	get_header();?>
 	
-<!-- Contactbutton -->
+<!-- Banner -->
 	
-<div class="flex-banner-subpage">
+<?php get_template_part("banner");?>
 	
-	<div class="flex-banner-subpage-image">     
-	</div>
-
-	
-	<div class="contact-onscroll-open"> 
-		<div class="contact-onscroll-open-tekst1">
-			<p>Contact</p>
-		</div>
-		<div class="contact-onscroll-open-tekst2">
-			<p>Meer weten?</p><p id="closecontact">X</p><br><p><i class="fas fa-phone"></i><i class="fab fa-whatsapp fa-lg"></i><a href="callto:0683916328" target="_blank">06 83 91 63 28</a><br>
-			<p><i class="far fa-envelope"></i><a href="martina@balloonsss.nl" target="_blank">martina@balloonsss.nl</a></p>
-		</div>
-	</div>
-	
-</div>	
+<!-- Introductie supbage -->
 
 <div class="container-subpage">
 	<div class="container-content">
@@ -49,7 +35,7 @@ Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot ee
 		<div class="tekst">
 			<h2>Bruiloft</h2>
 			<div class="tekst-p">
-				<p>Balloonsss helpt je met de mooiste bruiloftballonnen en decoratie! Of je het nu groots of toch liever wat kleiner wilt aanpakken, alles is mogelijk.</p>	
+				<p>Balloonsss helpt je met de mooiste bruiloftballonnen en decoratie. Of je het nu groots of toch liever wat kleiner wilt aanpakken, alles is mogelijk en de mogelijkheden zijn groot.</p>	
 			</div>
 			<div class="actie-sub">
 				<a href="">Lees meer<i class="fas fa-angle-right"></i></a>
@@ -78,7 +64,7 @@ Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot ee
 		<div class="tekst">
 			<h2>Seizoensfeesten</h2>
 			<div class="tekst-p">
-				<p>Van ballonnenbogen, tot losse ballonnen, Wij helpen je graag om jouw evenement met onze ballonnen extra feestelijk te maken.</p>	
+				<p>Van ballonnenbogen, ballonenpilaren tot losse ballonnen, Wij helpen je graag om jouw evenement met onze ballonnen extra feestelijk te maken.</p>	
 			</div>
 			<div class="actie-sub">
 				<a href="">Lees meer<i class="fas fa-angle-right"></i></a>
@@ -91,7 +77,7 @@ Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot ee
 		<div class="tekst">
 			<h2>Verjaardag</h2>
 			<div class="tekst-p">
-				<p>Verjaardag, jubileum of trouwdag? Geslaagd of met pensioen? Reden genoeg voor een feestje. Wij decoreren graag jouw feestlocatie. </p>	
+				<p>Verjaardag, jubileum of trouwdag? Geslaagd of met pensioen? Reden genoeg voor een feestje. Wij decoreren graag jouw feestlocatie voor iedere gelegenheid. </p>	
 			</div>
 			<div class="actie-sub">
 				<a href="http://localhost/balloonsss/ballonnen-verjaardag/">Lees meer<i class="fas fa-angle-right"></i></a>

@@ -1,8 +1,6 @@
 jQuery( document ).ready(function() {
 	
 	//jQuery.backstretch({"url":"/balloonsss/wp-content/uploads/2018/06/achtergrond-Balloonsss2.jpg", "width": 400, "scale":"fill"});
-	jQuery(".flex-banner-image").backstretch(['http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/Wediingredb.jpg', 'http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/Balloonssky.jpg', 'http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/weddingballoons.jpg', 'http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/weddingcake.jpg', 'http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/weddingday.jpg'],{duration:3000, transition:'cover_left', transitionDuration:2000, transitionEasing:'swing', animateFirst:false});
-	
 
 	// Scroll down homepage arrow	
 	jQuery('#scrolldown').click(function() {
@@ -102,6 +100,17 @@ var Page = (function() {
 									return false;
 								} );
 							} );
+							
+						// Next image on click !!Veranderd puntjes niet!!
+						
+						$bookBlock.children().on( {
+								'click' : function( event ) {
+									$bookBlock.bookblock( 'next' );
+									return false;
+								},
+		
+							} );
+							
 							
 							// add swipe events
 							$bookBlock.children().on( {

@@ -13,17 +13,7 @@
 <!-- Contactbutton -->
 	<?php  $post_thumbnail_id = get_post_thumbnail_id();
         $post_thumbnail_url = wp_get_attachment_url( $post_thumbnail_id ); ?>
-			
-			
-	<div class="contact-onscroll-open"> 
-		<div class="contact-onscroll-open-tekst1">
-			<p>Contact</p>
-		</div>
-		<div class="contact-onscroll-open-tekst2">
-			<p>Meer weten?</p><p id="closecontact">X</p><br><p><i class="fas fa-phone"></i><i class="fab fa-whatsapp fa-lg"></i><a href="callto:0683916328" target="_blank">06 83 91 63 28</a><br>
-			<p><i class="far fa-envelope"></i><a href="martina@balloonsss.nl" target="_blank">martina@balloonsss.nl</a></p>
-		</div>
-	</div>
+
 	
 <!-- Content -->
 
@@ -40,23 +30,27 @@
 	<?php endif; ?> <!-- END LOOP -->
 		<a class="buttonthema" href="http://localhost/balloonsss/contact/">Neem contact op
 		</a>
-	<h3>Voorbeelden producten verjaardag:</h3>
-	<div class="voorbeeld-producten">
-		<img src="/balloonsss/wp-content/uploads/2018/06/Tros-ballonnen-verjaardag-1.jpg" height="125px" width="true">
-		<img src="/balloonsss/wp-content/uploads/2018/06/Verjaardag2-e1529067261889.jpg" height="125px" width="true">
-		<img src="/balloonsss/wp-content/uploads/2018/06/Ballon-cijfer-2.jpg" height="125px" width="true">
+	<div class="voorbeelden">
+		<h3>Voorbeelden producten verjaardag:</h3>
+		<div class="voorbeeld-producten">
+			<img src="/balloonsss/wp-content/uploads/2018/06/Tros-ballonnen-verjaardag-1.jpg" height="125px" width="true">
+			<img src="/balloonsss/wp-content/uploads/2018/06/Verjaardag2-e1529067261889.jpg" height="125px" width="true">
+			<img src="/balloonsss/wp-content/uploads/2018/06/Ballon-cijfer-2.jpg" height="125px" width="true">
+		</div>
+		<br>
+		<a href="http://localhost/balloonsss/producten/">Bekijk alle producten <i class="fas fa-angle-right"></i></a>
 	</div>
-	<br>
-	<a href="http://localhost/balloonsss/producten/">Bekijk alle producten <i class="fas fa-angle-right"></i></a>
 	</div>
+	
+
 	
 <!-- Sidebar -->
 
 	<div class="flex-thema-sidebar">
 		<div class="sidebar">
 		<h4>Portfolio</h4>
-		<img src="/balloonsss/wp-content/uploads/2018/06/215c59a59abd8c45973d4e12e7cd139b-e1529002100948.jpg" alt="Testimonial" width=100% height=170px />
-		<p>luptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.<br><a href="">Bekijk portfolio ></a></p>
+		<img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/beeldverjaardag.jpg" alt="Testimonial" width=100% height=170px />
+		<p>luptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.<br><br><a href="">Bekijk portfolio <i class="fas fa-angle-right"></i></a></p>
 		</div>
 		<div class="sidebar">
 			<h4>Reviews</h4>
