@@ -27,16 +27,16 @@
 	<p>Ben jij op zoek naar feestelijke, stijlvolle, decoratie voor jouw event? Voor elke gelegenheid hebben wij de juiste ballonnen! Aan de hand van jullie wensen, adviseren we je graag over de mogelijkheden en laatste trends!
 	<?php endif; ?> <!-- END LOOP -->
 	
-		<a class="button" href="http://localhost/balloonsss/portfolio/">Bekijk portfolio
+		<a class="button" href="/balloonsss/portfolio/">Bekijk portfolio
 		</a>
 	</div>
 </div>
 
 <div class="flexbox-home">
 	
-	<a class="flexbox-item1" href="http://localhost/balloonsss/party/">
+	<a class="flexbox-item1" href="/balloonsss/party/">
 	
-		<div class="item-image" style="background-image: url(http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/Weddinghome.jpg)"></div>
+		<div class="item-image" style="background-image: url(/balloonsss/wp-content/uploads/2018/06/Ballonnen-party.jpg)"></div>
 
 		<div class="tekst">
 			<h2>Party ballonnen</h2>
@@ -55,8 +55,8 @@
 	</a>
 
 	
-	<a class="flexbox-item2"  href="http://localhost/balloonsss/business/">
-		<div class="item-image" style="background-image: url(http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/event.jpg)"></div>
+	<a class="flexbox-item2"  href="/balloonsss/business/">
+		<div class="item-image" style="background-image: url(/balloonsss/wp-content/uploads/2018/06/Business-ballonnen.jpg)"></div>
 		<div class="tekst">
 			<h2>Business ballonnnen</h2>
 			<div class="categorieen">
@@ -88,7 +88,7 @@
 		<div class="blok-tekst">
 		<h2>Over Balloonsss</h2>
 		Welkom op de website van Balloonsss. Met ballonnen tover ik iedere locatie op sfeervolle wijze om tot een prachtig decor.
-		<div class="blok-actie"><a href="http://localhost/balloonsss/over-mij/">Lees meer<i class="fas fa-angle-right"></i></a></div>
+		<div class="blok-actie"><a href="/balloonsss/over-mij/">Lees meer<i class="fas fa-angle-right"></i></a></div>
 		</div>
 	</div>
 	<div class="blok">
@@ -97,7 +97,7 @@
 		<div class="blok-tekst">
 		<h2>Bogen en pilaren</h2>
 		Ik verzorg losse ballonnen, ballonbogen en pilaren voor diverse gelegenheden. Deze zijn verkrijgbaar vanaf xx euro (exclusief btw). 
-		<div class="blok-actie"><a href="http://localhost/balloonsss/over-mij/">Bekijk de producten<i class="fas fa-angle-right"></i></a></div>
+		<div class="blok-actie"><a href="/balloonsss/over-mij/">Bekijk de producten<i class="fas fa-angle-right"></i></a></div>
 		</div>
 	</div>
 	<div class="blok">
@@ -106,7 +106,7 @@
 		<div class="blok-tekst">
 		<h2>Zomeractie</h2>
 		Omdat Balloonsss net begonnen is, geef ik 10 gratis ballonnen weg. Je hoeft alleen een berichtje te sturen met jouw beste ballon idee.
-		<div class="blok-actie"><a href="http://localhost/balloonsss/over-mij/">Neem contact op <i class="fas fa-angle-right"></i></a></div>
+		<div class="blok-actie"><a href="/balloonsss/over-mij/">Neem contact op <i class="fas fa-angle-right"></i></a></div>
 		</div>
 	</div>
 </div>

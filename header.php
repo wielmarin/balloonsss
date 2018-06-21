@@ -26,7 +26,7 @@
 <div class="homesearch">	
 
 <div class="homebutton">	
-	<a href="http://localhost/balloonsss/"><i class="fas fa-home fa-2x"></i></a>
+	<a href="/balloonsss/"><i class="fas fa-home fa-2x"></i></a>
 </div>
 
 <!-- search -->
@@ -51,6 +51,7 @@
 	
 	<!-- navigation -->
 			<nav class="frontnav-left frontnav">
+			<a id="mobilehomelink" href="<?php echo get_home_url(); ?>">Home</a>
 				<?php
 					$args = array(
 					'theme_location' => 'links'
@@ -69,27 +70,21 @@
 					);
 				?>
 				<?php wp_nav_menu( $args ); ?>	
+			
+				<div class="search-boxmobile">
+						<div class="hd-search">
+							<?php get_search_form(); ?>
+						</div>
+						<div class="search-icon">
+						</div>
+				</div>
 			</nav>
+	<div id="mobilemenuopen">
+		<p>Menu</p><i class="fas fa-bars"></i>
+	</div>
 		
 	<!-- /navigation -->
 
 	</header>
 	<!-- /site-header -->
 	
-<div class="homesearchmobile">	
-
-<div class="homebutton">	
-	<a href="http://localhost/balloonsss/"><i class="fas fa-home fa-2x"></i></a>
-</div>
-
-<!-- search -->
- 
-<div class="search-box">
-		<div class="hd-search">
-			<?php get_search_form(); ?>
-		</div>
-		<div class="search-icon">
-		</div>
-</div>
-
-</div>

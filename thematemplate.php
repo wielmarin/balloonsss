@@ -28,7 +28,7 @@
 	endwhile; else: ?>
 	<p></p>
 	<?php endif; ?> <!-- END LOOP -->
-		<a class="buttonthema" href="http://localhost/balloonsss/contact/">Neem contact op
+		<a class="buttonthema" href="/balloonsss/contact/">Neem contact op
 		</a>
 	<div class="voorbeelden">
 		<h3>Voorbeelden producten verjaardag:</h3>
@@ -38,7 +38,7 @@
 			<img src="/balloonsss/wp-content/uploads/2018/06/Ballon-cijfer-2.jpg" height="125px" width="true">
 		</div>
 		<br>
-		<a href="http://localhost/balloonsss/producten/">Bekijk alle producten <i class="fas fa-angle-right"></i></a>
+		<a href="/balloonsss/producten/">Bekijk alle producten <i class="fas fa-angle-right"></i></a>
 	</div>
 	</div>
 	

@@ -30,7 +30,7 @@ Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot ee
 
 <div class="flexbox-home">
 	<div class="flexbox-item-producten">
-		<div class="item-image" style="background-image: url(http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/Weddingparty.jpg)"></div>
+		<div class="item-image" style="background-image: url(/balloonsss/wp-content/uploads/2018/06/Bruiloft-ballonnen.jpg)"></div>
 		
 		<div class="tekst">
 			<h2>Bruiloft</h2>
@@ -44,7 +44,7 @@ Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot ee
 	</div>
 	
 	<div class="flexbox-item-producten">
-		<div class="item-image" style="background-image: url(http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/babyopkomst.jpg)"></div>
+		<div class="item-image" style="background-image: url(/balloonsss/wp-content/uploads/2018/06/babyopkomst.jpg)"></div>
 		<div class="tekst">
 			<h2>Baby</h2>
 			<div class="tekst-p">
@@ -59,7 +59,7 @@ Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot ee
 
 <div class="flexbox-home">
 	<div class="flexbox-item-producten">
-		<div class="item-image" style="background-image: url(http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/Thema.jpg)"></div>
+		<div class="item-image" style="background-image: url(/balloonsss/wp-content/uploads/2018/06/Ballonnen-halloween.jpg)"></div>
 		
 		<div class="tekst">
 			<h2>Seizoensfeesten</h2>

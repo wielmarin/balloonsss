@@ -49,7 +49,7 @@ Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot ee
 
 <div class="cta">
 	<h3>Wil je meer weten over Balloonsss of een offerte aanvragen?</h3>
-<a class="buttoncta" href="http://localhost/balloonsss/contact/">Neem contact met mij op<i class="fas fa-angle-right"></i></a>
+<a class="buttoncta" href="/balloonsss/contact/">Neem contact met mij op<i class="fas fa-angle-right"></i></a>
 </div>
 
 

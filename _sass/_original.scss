@@ -69,7 +69,7 @@ div.container {
 	box-shadow: 0 10px 20px rgba(0,0,0,0.5);
 	@media screen and (max-width: $mobilesize) {
 		width: 100%;
-		margin-top: 0px;
+		margin: 0px;
 		border-radius: 0px;
 		box-shadow: none;
 	}
@@ -87,16 +87,24 @@ div.container {
 	float: right;
 	margin-bottom: -25px;
 	@media screen and (max-width: $mobilesize) {
-		margin: auto;
+		display:none;
 	}
 }
+
+.search-boxmobile {
+	display:none;
+	width: 60%;
+	margin:auto auto 5px auto;
+	float:none;
+}
+
 
 .hd-search #searchsubmit {
 	Display: none;
 }
 
 .hd-search #s {
-	vertical-align: top; 
+	vertical-align: top;
 	padding: 10px 25px;
 	margin: 20px 0px 0px 0px;
 	width: 100%;
@@ -106,6 +114,7 @@ div.container {
 	border: solid 1px #f6f5f5;
 	@media screen and (max-width: $mobilesize) {
 		margin: auto;
+		width: calc(100% - 50px);
 	}
 }
 
@@ -171,11 +180,21 @@ div.container {
 }
 
 /* Nav Menu */
+#mobilehomelink {
+	display: none;
+	width: 100%;
+	text-align: center;
+	font-size: 16.5px;
+	font-family: Lato;
+}
 
 .frontnav ul {
 	padding: 0;
 	font-family: 'Lato', sans-serif;
 	text-align: center;
+	@media screen and (max-width: $mobilesize) {
+		display: none;
+	}
 }
 
 .frontnav ul:before .frontnav ul:after { content: ""; display: table; }
@@ -188,6 +207,7 @@ div.container {
 	margin: 0px 30px 0px 30px;
 	@media screen and (max-width: $mobilesize) {
 		display:block;
+		margin: 3px 0px;
 	}
 }
 
@@ -197,6 +217,8 @@ div.container {
 	@media screen and (max-width: $mobilesize) {
 		width: 100%;
 		order: 0;
+		border-top: 2px solid $roze;
+		text-align:center;
 	}
 }
 
@@ -206,6 +228,7 @@ div.container {
 	@media screen and (max-width: $mobilesize) {
 		width: 100%;
 		order: 1;
+		border-bottom: 2px solid $roze;
 	}
 }
 
@@ -237,6 +260,9 @@ li a:hover {
   border-bottom: solid 2px #C36276;  
   transform: scaleX(0);  
   transition: transform 250ms ease-in-out;
+	@media screen and (max-width: $mobilesize) {
+		display:none;
+	}
 }
 .frontnav li:hover:after { 
 transform: scaleX(1); 
@@ -262,6 +288,26 @@ li.current-menu-item a:visited {
 
 li.current-menu-item a:hover {
 	border-bottom:none; 
+}
+
+#mobilemenuopen {
+	display: none;
+	p {
+		font-size: 22px;
+		display:inline;
+		color: white;
+	}
+	i {
+		color: white;
+		font-size: 18px;
+
+	}
+	@media screen and (max-width: $mobilesize) {
+		display:flex;
+		width: 100%;
+		background: $roze;
+		justify-content: center;
+	}
 }
 
 /* Homepage */
@@ -357,6 +403,9 @@ div.flex-banner {
 	padding: 15px 0px 18px 0px;
 	border-radius: 5px;
 	z-index: 9999;
+	@media screen and (max-width: $mobilesize) {
+		display:none;
+	}
 }
 
 .contact-onscroll-open a {
@@ -478,7 +527,7 @@ div.flex-banner {
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-position: center;
-	background-image: url("http://localhost/balloonsss/wp-content/uploads/2018/05/banenr-5.jpg");
+	background-image: url("/balloonsss/wp-content/uploads/2018/05/banenr-5.jpg");
 	border-radius: 5px 0px 0px 5px;
 	opacity: 0.8;
 	@media screen and (max-width: $mobilesize) {
@@ -517,7 +566,11 @@ div.flex-banner {
 	padding: 30px 0px 15px 0px;
 	text-align: left;
 	margin-left: 40px;
-	color: #fff
+	color: #fff;
+	@media screen and (max-width: $mobilesize) {
+		margin: auto;
+		padding: 10px 0px;
+	}
 }
 
 i {
@@ -565,17 +618,28 @@ i {
 	flex-wrap: wrap;
 	width: 100%;
 	padding: 80px 0px 70px 0px;	
+	@media screen and (max-width: $mobilesize) {
+		padding: 0px;
+	}
 }
 
 .sp {
 	width: 1/3;
 	margin: auto;
 	text-align: center;
+	@media screen and (max-width: $mobilesize) {
+		width:100%;
+		padding: 20px 0px;
+	}
 }
 
 .sp p {
 	padding: 20px;
 	min-width: 300px;
+	@media screen and (max-width: $mobilesize) {
+		width:100%;
+		padding:0px;
+	}
 }
 
 /* Over mij frontpage */
@@ -634,16 +698,26 @@ i {
 	width: 95%;
 	margin: auto;
 	padding: 0px 0px 30px 0px;
+	@media screen and (max-width: $mobilesize) {
+		width:100%;
+		padding: 0px;
+	}
 }
 
 .blok {
 	width: 30%;
+	min-width: 280px;
 	justify-content: space-around;
 	margin: auto;
 	height: 520px;
 	background-color: #f6f5f5;
 	border-radius: 5px;
 	box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+	@media screen and (max-width: $mobilesize) {
+		width:calc(100% - 20px);
+		height: initial;
+		margin: 10px auto;
+	}
 }
 
 .blok-image1 {
@@ -655,6 +729,11 @@ i {
 	height: 45%;
 	width: 100%;
 	border-radius: 5px 5px 0px 0px;
+	@media screen and (max-width: $mobilesize) {
+		width:100%;
+		padding: 20px 0px;
+		height: 40vh;
+	}
 }
 
 .blok-image2 {
@@ -665,6 +744,11 @@ i {
 	background-image: url("/balloonsss/wp-content/uploads/2018/06/500_F_4358153_GxISQfkOwRg92hv1Y4UHZrDqz5J1wDh3-1.jpg");
 	height: 45%;
 	width: 100%;
+	@media screen and (max-width: $mobilesize) {
+		width:100%;
+		padding: 20px 0px;
+		height: 40vh;
+	}
 }
 
 .blok-image3 {
@@ -675,10 +759,18 @@ i {
 	background-image: url("/balloonsss/wp-content/uploads/2018/06/Zomeractie.jpg");
 	height: 45%;
 	width: 100%;
+	@media screen and (max-width: $mobilesize) {
+		width:100%;
+		padding: 20px 0px;
+		height: 40vh;
+	}
 }
 
 .blok-tekst {
 	padding: 50px 30px 50px 30px;
+	@media screen and (max-width: $mobilesize) {
+		padding:10px;
+	}
 }
 
 .blok-tekst h2 {
@@ -700,12 +792,18 @@ i {
 	flex-wrap: wrap;
 	width: 100%;
 	border-top: solid 1px #f6f5f5;
+	@media screen and (max-width: $mobilesize) {
+		width:calc(100% - 20px);
+	}
 }
 
 .footer {
 	width: 1/3;
 	margin: 0px auto;
 	min-width: 230px;
+	@media screen and (max-width: $mobilesize) {
+		width: 60%;
+	}
 }
 
 
@@ -841,10 +939,11 @@ div.copyright {
 	border-radius: 5px;
 }
 
-.product-tekst h2 {
+.product-tekst h3 {
 	text-align: center;
 	color: #fff!important;
 	margin-top: 5px;
+	font-size: 130%;
 }
 
 .product-tekst p {

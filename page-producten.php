@@ -34,8 +34,8 @@
 			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
 		</div>
 		<div class="product-tekst">
-			<h2>Ballonnenpilaar</h2>
-			<p>€32,50</p>
+			<h3>Ballonpilaar</h3>
+			<p>Vanaf €32,50 excl. btw</p>
 		</div>
 	</div>
 
@@ -44,8 +44,8 @@
 			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
 		</div>
 		<div class="product-tekst">
-			<h2>Ballonnenboog</h2>
-			<p>Vanaf €79,50</p>
+			<h3>Ballonboog</h3>
+			<p>Vanaf €79,50 excl. btw</p>
 		</div>
 	</div>
 	
@@ -54,8 +54,8 @@
 			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
 		</div>
 		<div class="product-tekst">
-			<h2>Ballonnentrossen</h2>
-			<p>Vanaf €7,00</p>
+			<h3>Heliumballonnen</h3>
+			<p>Vanaf €1,00 excl. btw</p>
 		</div>
 	</div>
 	
@@ -64,8 +64,8 @@
 			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
 		</div>
 		<div class="product-tekst">
-			<h2>Losse ballonnen</h2>
-			<p>Vanaf €1,20</p>
+			<h3>Folieballonnen</h3>
+			<p>Vanaf €6,50 excl. btw</p>
 		</div>
 	</div>
 
@@ -81,7 +81,7 @@
 
 <div class="cta">
 	<h3>Wil je meer weten over Balloonsss of een offerte aanvragen?</h3>
-<a class="buttoncta" href="http://localhost/balloonsss/contact/">Neem contact met mij op<i class="fas fa-angle-right"></i></a>
+<a class="buttoncta" href="/balloonsss/contact/">Neem contact met mij op<i class="fas fa-angle-right"></i></a>
 </div>
 
 

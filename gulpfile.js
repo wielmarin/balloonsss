@@ -3,7 +3,8 @@
 - Install node on computer (waarschijnlijk al gedaan)
 - Gitbash enter 'npm init --y' & accept alles
 - Enter 'npm install gulp --g'
-- Enter 'npm install gulp-watch gulp-sass browser-sync gulp-plumber --save-dev (duurt wel even)
+- Enter 'npm install gulp --save-d'
+- Enter 'npm install gulp-watch gulp-sass browser-sync gulp-plumber gulp-autoprefixer --save-dev (duurt wel even)
 - Fill in details below (waarschijnlijk nodig _sass folder maken voor scss files in root)
 - Enter 'gulp'
 (Als het niet lukt, probeer 'style.css' verwijderen en probeer gulp nog eens)

@@ -9,6 +9,14 @@ jQuery( document ).ready(function() {
     }, 2000);
 	});
 	
+	// Mobile menu
+	
+	jQuery('#mobilemenuopen').click(function() {
+		jQuery('#mobilemenuopen').hide(),
+		jQuery('#mobilehomelink').fadeIn(1500),
+		jQuery('.search-boxmobile').fadeIn(1500),
+		jQuery('.frontnav ul').fadeIn(1500);
+	});
 	
 	// Contact button
 	
@@ -84,24 +92,13 @@ var Page = (function() {
 						$grid.find( 'div.bb-bookblock' ).each( function( i ) {
 							
 							var $bookBlock = $( this ),
-								$nav = $bookBlock.next().children( 'span' ),
 								bb = $bookBlock.bookblock( {
 									speed : 600,
-									shadows : false
+									shadows : false,
+									circular : true
 								} );
 								
-							// add navigation events
-							$nav.each( function( i ) {
-								$( this ).on( 'click touchstart', function( event ) {
-									var $dot = $( this );
-									$nav.removeClass( 'bb-current' );
-									$dot.addClass( 'bb-current' );
-									$bookBlock.bookblock( 'jump', i + 1 );
-									return false;
-								} );
-							} );
-							
-						// Next image on click !!Veranderd puntjes niet!!
+						// Next image on click
 						
 						$bookBlock.children().on( {
 								'click' : function( event ) {
@@ -111,7 +108,104 @@ var Page = (function() {
 		
 							} );
 							
+		// Turn page met peiltjes
+					// Block1		
+					$('.next1').on( {
+							'click' : function( event ) {
+								$('#bb-bookblock1').bookblock( 'next' );
+								return false;
+							},
+						} );
+								
+						$('.prev1').on( {
+									'click' : function( event ) {
+										$('#bb-bookblock1').bookblock( 'prev' );
+										return false;
+									},
+			
+								} );
 							
+						// Block2		
+						$('.next2').on( {
+								'click' : function( event ) {
+									$('#bb-bookblock2').bookblock( 'next' );
+									return false;
+								},
+							} );
+									
+							$('.prev2').on( {
+										'click' : function( event ) {
+											$('#bb-bookblock2').bookblock( 'prev' );
+											return false;
+										},
+				
+									} );	
+							
+				// Block3		
+				$('.next3').on( {
+						'click' : function( event ) {
+							$('#bb-bookblock3').bookblock( 'next' );
+							return false;
+						},
+					} );
+							
+					$('.prev3').on( {
+								'click' : function( event ) {
+									$('#bb-bookblock3').bookblock( 'prev' );
+									return false;
+								},
+		
+							} );
+
+				// Block4		
+				$('.next4').on( {
+						'click' : function( event ) {
+							$('#bb-bookblock4').bookblock( 'next' );
+							return false;
+						},
+					} );
+							
+					$('.prev4').on( {
+								'click' : function( event ) {
+									$('#bb-bookblock4').bookblock( 'prev' );
+									return false;
+								},
+		
+							} );
+
+						// Block5		
+						$('.next5').on( {
+								'click' : function( event ) {
+									$('#bb-bookblock5').bookblock( 'next' );
+									return false;
+								},
+							} );
+									
+							$('.prev5').on( {
+										'click' : function( event ) {
+											$('#bb-bookblock5').bookblock( 'prev' );
+											return false;
+										},
+				
+									} );
+
+				// Block6		
+				$('.next6').on( {
+						'click' : function( event ) {
+							$('#bb-bookblock6').bookblock( 'next' );
+							return false;
+						},
+					} );
+							
+					$('.prev6').on( {
+								'click' : function( event ) {
+									$('#bb-bookblock6').bookblock( 'prev' );
+									return false;
+								},
+		
+							} );							
+						
+						
 							// add swipe events
 							$bookBlock.children().on( {
 								'swipeleft' : function( event ) {

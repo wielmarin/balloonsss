@@ -12,6 +12,9 @@ ul.bb-custom-grid {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	@media screen and (max-width: $mobilesize) {
+		width:100%;
+	}
 }
 
 ul.bb-custom-grid img {
@@ -84,8 +87,7 @@ ul.bb-custom-grid li h3 {
 
 ul.bb-custom-grid nav {
 	text-align: center;
-	margin-top: 15px;
-	padding-bottom: 5px;
+	margin-top: 8px;
 }
 
 ul.bb-custom-grid nav span {
@@ -98,29 +100,10 @@ ul.bb-custom-grid nav span {
 	cursor: pointer;
 }
 
-.bb-current {
-	background: #C36276;
-}
-
-ul.bb-custom-grid nav span.bb-current {
-	background: #C36276;
+ul.bb-custom-grid i {
+	margin: 0px 1px 0px 1px;
+	color: #C36276;
 }
 
 
-.page-id-154 ul.bb-custom-grid li h3 {
-	font-size: 90%;
-}
-
-.page-id-154 ul.bb-custom-grid li p {
-	font-size: 85%;
-	text-align: center;
-}
-
-.page-id-154 ul.bb-custom-grid nav {
-	text-align: center;
-	margin-top: 10px;
-	padding-bottom: 5px;
-}
-
-/* Producten */
 
