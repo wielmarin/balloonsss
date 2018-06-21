@@ -176,6 +176,7 @@ div.container {
 	@media screen and (max-width: $mobilesize) {
 		width: 100%;
 		order: -1;
+		margin-top: 20px;
 	}
 }
 
@@ -207,7 +208,7 @@ div.container {
 	margin: 0px 30px 0px 30px;
 	@media screen and (max-width: $mobilesize) {
 		display:block;
-		margin: 3px 0px;
+		margin: 5px 0px;
 	}
 }
 
@@ -217,8 +218,8 @@ div.container {
 	@media screen and (max-width: $mobilesize) {
 		width: 100%;
 		order: 0;
-		border-top: 2px solid $roze;
 		text-align:center;
+		padding-top: 10px;
 	}
 }
 
@@ -657,6 +658,10 @@ i {
 
 .over-mij {
 	width: 50%;
+	@media screen and (max-width: $mobilesize) {
+		width:100%;
+		margin: auto;
+	}
 }
 
 .over-mij-tekst h2 {
@@ -668,6 +673,11 @@ i {
 
 .over-mij-tekst {
 	padding: 80px 122px 0px 122px;
+	@media screen and (max-width: $mobilesize) {
+		width:100%;
+		margin: auto;
+		padding: 10px;
+	}
 }
 
 .actie-overmij {
@@ -680,10 +690,18 @@ i {
 	display: flex;
 	opacity: 0.8;
 	border-radius: 0px 5px 5px 0px;
+	@media screen and (max-width: $mobilesize) {
+		width:100%;
+		margin: auto;
+		border-radius: 0px 0px 5px 5px;
+	}
 }
 
 .over-mij-image {
 	margin: auto;
+	@media screen and (max-width: $mobilesize) {
+		padding: 30px 0px;
+	}
 }
 
 .over-mij-tekst i {
@@ -882,6 +900,9 @@ div.copyright {
 	margin: auto;
 	text-align: center;
 	padding: 80px 0px 80px 0px;
+	@media screen and (max-width: $mobilesize) {
+		padding: 20px 0px;
+	}
 }
 
 .container-subpage h1 {
@@ -899,6 +920,10 @@ div.copyright {
 	margin: auto;
 	border-radius: 5px;
 	margin-bottom: 40px;
+	@media screen and (max-width: $mobilesize) {
+		width: calc(100% - 20px);
+		height: auto;
+	}
 }
 
 .tekst-p {
@@ -930,6 +955,9 @@ div.copyright {
 	margin: auto;
 	justify-content: space-around;
 	margin-bottom: 50px;
+	@media screen and (max-width: $mobilesize) {
+		margin-bottom: 10px;
+	}
 }
 
 .product {
@@ -937,6 +965,9 @@ div.copyright {
 	background-color:#8aaea8;
 	padding: 5px 5px 15px 5px;
 	border-radius: 5px;
+	@media screen and (max-width: $mobilesize) {
+		margin: 10px auto;
+	}
 }
 
 .product-tekst h3 {
@@ -1036,6 +1067,9 @@ div.flex-banner-subpage {
 
 .over-mij-tekst-subpage {
 	padding: 80px 100px 80px 100px;
+	@media screen and (max-width: $mobilesize) {
+		padding: 20px;
+	}
 }
 
 .over-mij-tekst-subpage i {
@@ -1063,6 +1097,10 @@ div.flex-banner-subpage {
 
 .contactform {
 	width: 60%;
+	@media screen and (max-width: $mobilesize) {
+		width:100%;
+		margin: auto;
+	}
 }
 
 .flexbox-contact h2 {
@@ -1139,6 +1177,10 @@ span.wpcf7-list-item {
 .contact-gegevens {
 	width: 25%;
 	float: right;
+	@media screen and (max-width: $mobilesize) {
+		width:100%;
+		margin: auto;
+	}
 }
 
 .contact-gegevens-detail {

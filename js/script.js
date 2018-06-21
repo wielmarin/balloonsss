@@ -15,7 +15,8 @@ jQuery( document ).ready(function() {
 		jQuery('#mobilemenuopen').hide(),
 		jQuery('#mobilehomelink').fadeIn(1500),
 		jQuery('.search-boxmobile').fadeIn(1500),
-		jQuery('.frontnav ul').fadeIn(1500);
+		jQuery('.frontnav-left').css('border-top','2px solid #EB4D66'),
+		jQuery('.frontnav ul').slideDown(900);
 	});
 	
 	// Contact button
