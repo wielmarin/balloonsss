@@ -83,6 +83,10 @@ jQuery( document ).ready(function() {
 		sr.reveal('.flexbox-home-overmij', { duration: 1800 });
 		sr.reveal('.cta', { duration: 1800 });
 		sr.reveal('.flexbox-item-producten', { duration: 1800 });
+		sr.reveal('.drieblokken', { duration: 1800 });
+		sr.reveal('.bb-custom-grid', { duration: 1800 });
+		sr.reveal('.flexbox-contact', { duration: 1800 });
+		
 	
 	// Portfolio
 		

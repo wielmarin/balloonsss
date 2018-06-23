@@ -94,8 +94,8 @@
 	<div id="bb-bookblock6" class="bb-bookblock">
 		<div class="bb-item"><img src="/balloonsss/wp-content/uploads/2018/06/Ballonboog-e1529491904623.jpg" alt="image01" width=100% height=100% /></div>
 		<div class="bb-item"><img src="/balloonsss/wp-content/uploads/2018/06/Ballonboog-kleur-e1529492086754.jpg" alt="image02" width=100% height=100% /></div>
-		<div class="bb-item"><img src="/balloonsss/wp-content/uploads/2018/06/ballonpilaar-2.jpg" alt="image03" width=100% height=100% /></div>
-		<div class="bb-item"><img src="/balloonsss/wp-content/uploads/2018/06/Ballonpilaar.jpg" alt="image04" width=100% height=100% /></div>
+		<div class="bb-item"><img src="/balloonsss/wp-content/uploads/2018/06/witte-ballonnenpilaren-1-e1529663827795.jpg" alt="image03" width=100% height=100% /></div>
+		<div class="bb-item"><img src="/balloonsss/wp-content/uploads/2018/06/witte-ballonnenboog-e1529663692889.jpg" alt="image04" width=100% height=100% /></div>
 	</div>
 		<nav>
 			<i class="fas fa-caret-square-left fa-lg prev6"></i><i class="fas fa-caret-square-right fa-lg next6"></i>

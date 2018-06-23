@@ -31,12 +31,12 @@
 		<div class="item-image" style="background-image: url(/balloonsss/wp-content/uploads/2018/06/Ballonnen-opening.jpg)"></div>
 		
 		<div class="tekst">
-			<h2>Opening</h2>
+			<h2><?php the_field('titel_thema1'); ?></h2>
 			<div class="tekst-p">
-				<p>Een opening van een nieuw pand is altijd een feestelijke gelegenheid. Balloonsss decoreert uw pand met ballonbogen en ballonpilaren en losse ballonnen.</p>	
+				<p><?php the_field('tekst_thema1'); ?></p>	
 			</div>
 			<div class="actie-sub">
-				<a href="">Lees meer<i class="fas fa-angle-right"></i></a>
+				<a href="/balloonsss/ballonnenopening/">Lees meer<i class="fas fa-angle-right"></i></a>
 			</div>
 		</div>
 	</div>
@@ -44,12 +44,12 @@
 	<div class="flexbox-item-producten">
 		<div class="item-image" style="background-image: url(/balloonsss/wp-content/uploads/2018/06/Ballonnen-beurs-1.jpg)"></div>
 		<div class="tekst">
-			<h2>Beurs</h2>
+			<h2><?php the_field('titel_thema2'); ?></h2>
 			<div class="tekst-p">
-				<p>Ballonnen geven jouw event extra attentiewaarden. Denk hierbij aan ballonnenboog, ballonnenslinger of ballonnenpilaren.</p>	
+				<p><?php the_field('tekst_thema2'); ?></p>	
 			</div>
 			<div class="actie-sub">
-				<a href="">Lees meer<i class="fas fa-angle-right"></i></a>
+				<a href="/balloonsss/beurs-ballonnen/">Lees meer<i class="fas fa-angle-right"></i></a>
 			</div>
 		</div>
 	</div>
@@ -60,12 +60,12 @@
 		<div class="item-image" style="background-image: url(/balloonsss/wp-content/uploads/2018/06/Thema-ballonnen.jpg)"></div>
 		
 		<div class="tekst">
-			<h2>Thema</h2>
+			<h2><?php the_field('titel_thema3'); ?></h2>
 			<div class="tekst-p">
-				<p>Van ballonnenbogen, tot losse ballonnen, Wij helpen je graag om jouw evenement met onze ballonnen extra feestelijk te maken.</p>	
+				<p><?php the_field('tekst_thema3'); ?></p>	
 			</div>
 			<div class="actie-sub">
-				<a href="">Lees meer<i class="fas fa-angle-right"></i></a>
+				<a href="/balloonsss/ballonnen-thema/">Lees meer<i class="fas fa-angle-right"></i></a>
 			</div>
 		</div>
 	</div>
@@ -73,12 +73,12 @@
 	<div class="flexbox-item-producten">
 		<div class="item-image" style="background-image: url(/balloonsss/wp-content/uploads/2018/06/Verjaardag-letter-ballonnen.jpg)"></div>
 		<div class="tekst">
-			<h2>Verjaardag</h2>
+			<h2><?php the_field('titel_thema4'); ?></h2>
 			<div class="tekst-p">
-				<p>Je werknemer in het zonnetje zetten? Of gaat een collega met pensioen? Wij decoreren graag jouw feestlocatie. Wij bezorgen ook trossen ballonnen! </p>	
+				<p><?php the_field('tekst_thema4'); ?></p>	
 			</div>
 			<div class="actie-sub">
-				<a href="">Lees meer<i class="fas fa-angle-right"></i></a>
+				<a href="/balloonsss/business-verjaardagballonnen/">Lees meer<i class="fas fa-angle-right"></i></a>
 			</div>
 		</div>
 	</div>

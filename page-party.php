@@ -33,9 +33,9 @@ Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot ee
 		<div class="item-image" style="background-image: url(/balloonsss/wp-content/uploads/2018/06/Bruiloft-ballonnen.jpg)"></div>
 		
 		<div class="tekst">
-			<h2>Bruiloft</h2>
+			<h2><?php the_field('titel_thema1'); ?></h2>
 			<div class="tekst-p">
-				<p>Balloonsss helpt je met de mooiste bruiloftballonnen en decoratie. Of je het nu groots of toch liever wat kleiner wilt aanpakken, alles is mogelijk en de mogelijkheden zijn groot.</p>	
+				<p><?php the_field('tekst_thema1'); ?></p>	
 			</div>
 			<div class="actie-sub">
 				<a href="">Lees meer<i class="fas fa-angle-right"></i></a>
@@ -46,9 +46,9 @@ Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot ee
 	<div class="flexbox-item-producten">
 		<div class="item-image" style="background-image: url(/balloonsss/wp-content/uploads/2018/06/babyopkomst.jpg)"></div>
 		<div class="tekst">
-			<h2>Baby</h2>
+			<h2><?php the_field('titel_thema2'); ?></h2>
 			<div class="tekst-p">
-				<p>Er is een baby opkomst en jullie zijn helemaal in de wolken. Reden genoeg om dit te vieren! De ballonnen van Balloonsss mogen natuurlijk niet ontbreken.</p>	
+				<p><?php the_field('tekst_thema2'); ?></p>	
 			</div>
 			<div class="actie-sub">
 				<a href="">Lees meer<i class="fas fa-angle-right"></i></a>
@@ -62,9 +62,9 @@ Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot ee
 		<div class="item-image" style="background-image: url(/balloonsss/wp-content/uploads/2018/06/Ballonnen-halloween.jpg)"></div>
 		
 		<div class="tekst">
-			<h2>Seizoensfeesten</h2>
+			<h2><?php the_field('titel_thema3'); ?></h2>
 			<div class="tekst-p">
-				<p>Van ballonnenbogen, ballonenpilaren tot losse ballonnen, Wij helpen je graag om jouw evenement met onze ballonnen extra feestelijk te maken.</p>	
+				<p><?php the_field('tekst_thema3'); ?></p>	
 			</div>
 			<div class="actie-sub">
 				<a href="">Lees meer<i class="fas fa-angle-right"></i></a>
@@ -75,12 +75,12 @@ Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot ee
 	<div class="flexbox-item-producten">
 		<div class="item-image" style="background-image: url(http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/Verjaardag1.jpg)"></div>
 		<div class="tekst">
-			<h2>Verjaardag</h2>
+			<h2><?php the_field('titel_thema4'); ?></h2>
 			<div class="tekst-p">
-				<p>Verjaardag, jubileum of trouwdag? Geslaagd of met pensioen? Reden genoeg voor een feestje. Wij decoreren graag jouw feestlocatie voor iedere gelegenheid. </p>	
+				<p><?php the_field('tekst_thema4'); ?></p>	
 			</div>
 			<div class="actie-sub">
-				<a href="http://localhost/balloonsss/ballonnen-verjaardag/">Lees meer<i class="fas fa-angle-right"></i></a>
+				<a href="/balloonsss/ballonnen-verjaardag/">Lees meer<i class="fas fa-angle-right"></i></a>
 			</div>
 		</div>
 	</div>
@@ -94,7 +94,7 @@ Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot ee
 
 <div class="cta">
 	<h3>Wil je meer weten over Balloonsss of een offerte aanvragen?</h3>
-<a class="buttoncta" href="http://localhost/balloonsss/contact/">Neem contact met mij op<i class="fas fa-angle-right"></i></a>
+<a class="buttoncta" href="/balloonsss/contact/">Neem contact met mij op<i class="fas fa-angle-right"></i></a>
 </div>
 
 
