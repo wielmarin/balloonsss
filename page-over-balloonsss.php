@@ -20,8 +20,6 @@
 		<p><?php the_content(); ?></p>
 	<?php
 	endwhile; else: ?>
-	<p>Ben jij op zoek naar feestelijke, stijlvolle, decoratie voor jouw event? Voor elke gelegenheid hebben wij de juiste ballonnen! Aan de hand van jullie wensen, adviseren we je graag over de mogelijkheden en laatste trends!
-Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot een prachtige stijlvolle feestlocatie. We komen niet alleen de ballonnen bezorgen, maar decoreren jouw locatie!</p>
 	<?php endif; ?> <!-- END LOOP -->
 	
 	</div>
@@ -29,10 +27,8 @@ Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot ee
 
 <div class="flexbox-home-overmij">
 	<div class="over-mij">
-		<div class="over-mij-tekst-subpage"><h2><i class="fas fa-quote-left"></i>Aangenaam, ik ben Martina Hidding...</h2>
-		...lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 	
-		Excepteur sint occaecat cupidatat non proident. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		<br>Ik nodig je graag uit voor een eerste vrijblijvende kennismaking."</div>
+		<div class="over-mij-tekst-subpage"><h2><i class="fas fa-quote-left"></i><?php the_field('titel_over_martina'); ?></h2>
+		<?php the_field('omschrijving_over_martina'); ?></div>
 	</div>
 	<div class="box-over-mij-image">
 		<div class="over-mij-image"><img src="/wp-content/uploads/2018/06/Martina-Hidding-e1529321947949.jpg" height="250px" width="true">

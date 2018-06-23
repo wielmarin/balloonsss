@@ -33,9 +33,9 @@
 	<div class="voorbeelden">
 		<h3><?php the_field('titel_afbeeldingen'); ?></h3>
 		<div class="voorbeeld-producten">
-			<img src="<?php the_field('afbeelding'); ?>" alt="ballon cijfer" height="125px" width="true">
-			<img src="/wp-content/uploads/2018/06/Tros-ballonnen-verjaardag-3.jpg" height="125px" width="true">
-			<img src="/wp-content/uploads/2018/06/folie-ballonnen-30.jpg" height="125px" width="true">
+			<img src="<?php the_field('afbeelding_1'); ?>" alt="ballon cijfer" height="125px" width="true">
+			<img src="<?php the_field('afbeelding_2'); ?>" height="125px" width="true">
+			<img src="<?php the_field('afbeelding_3'); ?>" height="125px" width="true">
 		</div>
 		<br>
 		<a href="/balloonsss/producten/">Bekijk alle producten <i class="fas fa-angle-right"></i></a>
@@ -58,8 +58,7 @@
 		</div>
 	
 		</div>	
-		
-		<p>luptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.<br><br><a href="">Bekijk portfolio <i class="fas fa-angle-right"></i></a></p>
+		<p><?php the_field('portfolio_sidebar'); ?><br><br><a href="">Bekijk portfolio <i class="fas fa-angle-right"></i></a></p>
 		</div>
 		<div class="sidebar">
 			<h4>Reviews</h4>

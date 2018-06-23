@@ -877,9 +877,8 @@ div.copyright {
 	margin: auto;
 }
 
-.copyright a:link,
-.copyright a:visited {
-	color: #FFF;
+.copyright a:hover {
+	color: #C36276;
 }
 
 @keyframes bobbing{0%{bottom:0px}100%{bottom:15px}}.logo{position:relative;animation-name:bobbing;animation-duration:3s;animation-timing-function:ease-in-out;animation-iteration-count:infinite;animation-direction:alternate}

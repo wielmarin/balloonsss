@@ -38,7 +38,7 @@ Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot ee
 				<p><?php the_field('tekst_thema1'); ?></p>	
 			</div>
 			<div class="actie-sub">
-				<a href="">Lees meer<i class="fas fa-angle-right"></i></a>
+				<a href="http://www.balloonsss.nl/ballonnen-bruiloft/">Lees meer<i class="fas fa-angle-right"></i></a>
 			</div>
 		</div>
 	</div>
@@ -51,7 +51,7 @@ Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot ee
 				<p><?php the_field('tekst_thema2'); ?></p>	
 			</div>
 			<div class="actie-sub">
-				<a href="">Lees meer<i class="fas fa-angle-right"></i></a>
+				<a href="http://www.balloonsss.nl/ballonnenbaby/">Lees meer<i class="fas fa-angle-right"></i></a>
 			</div>
 		</div>
 	</div>
@@ -67,7 +67,7 @@ Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot ee
 				<p><?php the_field('tekst_thema3'); ?></p>	
 			</div>
 			<div class="actie-sub">
-				<a href="">Lees meer<i class="fas fa-angle-right"></i></a>
+				<a href="http://www.balloonsss.nl/ballonnen-seizoensfeesten/">Lees meer<i class="fas fa-angle-right"></i></a>
 			</div>
 		</div>
 	</div>
@@ -80,7 +80,7 @@ Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot ee
 				<p><?php the_field('tekst_thema4'); ?></p>	
 			</div>
 			<div class="actie-sub">
-				<a href="/balloonsss/ballonnen-verjaardag/">Lees meer<i class="fas fa-angle-right"></i></a>
+				<a href="http://www.balloonsss.nl/verjaardag-ballonnen/">Lees meer<i class="fas fa-angle-right"></i></a>
 			</div>
 		</div>
 	</div>
