@@ -26,7 +26,7 @@
 <div class="homesearch">	
 
 <div class="homebutton">	
-	<a href="/balloonsss/"><i class="fas fa-home fa-2x"></i></a>
+	<a href="<?php echo get_home_url(); ?>"><i class="fas fa-home fa-2x"></i></a>
 </div>
 
 <!-- search -->
@@ -60,7 +60,7 @@
 				<?php wp_nav_menu( $args ); ?>	
 			</nav>
 			<a class="logo" href="<?php echo get_home_url(); ?>">
-				<img src="/balloonsss/wp-content/uploads/2018/05/Balloonsss_logo_solid_rgb-e1529401970764.png" width="140px" height="true" alt="Balloonsss">
+				<img src="/wp-content/uploads/2018/05/Balloonsss_logo_solid_rgb-e1529401970764.png" width="140px" height="true" alt="Balloonsss">
 			</a>
 			
 			<nav class="frontnav-right frontnav">

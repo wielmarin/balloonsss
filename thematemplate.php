@@ -33,9 +33,9 @@
 	<div class="voorbeelden">
 		<h3><?php the_field('titel_afbeeldingen'); ?></h3>
 		<div class="voorbeeld-producten">
-			<img src="/balloonsss/wp-content/uploads/2018/06/Ballon-cijfer-7.jpg" alt="ballon cijfer" height="125px" width="true">
-			<img src="/balloonsss/wp-content/uploads/2018/06/Tros-ballonnen-verjaardag-3.jpg" height="125px" width="true">
-			<img src="/balloonsss/wp-content/uploads/2018/06/folie-ballonnen-30.jpg" height="125px" width="true">
+			<img src="<?php the_field('afbeelding'); ?>" alt="ballon cijfer" height="125px" width="true">
+			<img src="/wp-content/uploads/2018/06/Tros-ballonnen-verjaardag-3.jpg" height="125px" width="true">
+			<img src="/wp-content/uploads/2018/06/folie-ballonnen-30.jpg" height="125px" width="true">
 		</div>
 		<br>
 		<a href="/balloonsss/producten/">Bekijk alle producten <i class="fas fa-angle-right"></i></a>

@@ -28,7 +28,7 @@
 
 <div class="flexbox-home">
 	<div class="flexbox-item-producten">
-		<div class="item-image" style="background-image: url(/balloonsss/wp-content/uploads/2018/06/Ballonnen-opening.jpg)"></div>
+		<div class="item-image" style="background-image: url(/wp-content/uploads/2018/06/Ballonnen-opening.jpg)"></div>
 		
 		<div class="tekst">
 			<h2><?php the_field('titel_thema1'); ?></h2>
@@ -42,7 +42,7 @@
 	</div>
 	
 	<div class="flexbox-item-producten">
-		<div class="item-image" style="background-image: url(/balloonsss/wp-content/uploads/2018/06/Ballonnen-beurs-1.jpg)"></div>
+		<div class="item-image" style="background-image: url(/wp-content/uploads/2018/06/Ballonnen-beurs-1.jpg)"></div>
 		<div class="tekst">
 			<h2><?php the_field('titel_thema2'); ?></h2>
 			<div class="tekst-p">
@@ -57,7 +57,7 @@
 
 <div class="flexbox-home">
 	<div class="flexbox-item-producten">
-		<div class="item-image" style="background-image: url(/balloonsss/wp-content/uploads/2018/06/Thema-ballonnen.jpg)"></div>
+		<div class="item-image" style="background-image: url(/wp-content/uploads/2018/06/Thema-ballonnen.jpg)"></div>
 		
 		<div class="tekst">
 			<h2><?php the_field('titel_thema3'); ?></h2>
@@ -71,7 +71,7 @@
 	</div>
 	
 	<div class="flexbox-item-producten">
-		<div class="item-image" style="background-image: url(/balloonsss/wp-content/uploads/2018/06/Verjaardag-letter-ballonnen.jpg)"></div>
+		<div class="item-image" style="background-image: url(/wp-content/uploads/2018/06/Verjaardag-letter-ballonnen.jpg)"></div>
 		<div class="tekst">
 			<h2><?php the_field('titel_thema4'); ?></h2>
 			<div class="tekst-p">

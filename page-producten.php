@@ -30,7 +30,7 @@
 <div class="container-producten">
 
 	<div class="product">
-		<div class="portfolio-image"><img src="/balloonsss/wp-content/uploads/2018/06/witte-ballonnenpilaren-1-e1529663827795.jpg" height="260px" width="true">
+		<div class="portfolio-image"><img src="/wp-content/uploads/2018/06/witte-ballonnenpilaren-1-e1529663827795.jpg" height="260px" width="true">
 			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
 		</div>
 		<div class="product-tekst">
@@ -40,7 +40,7 @@
 	</div>
 
 	<div class="product">
-		<div class="portfolio-image"><img src="/balloonsss/wp-content/uploads/2018/06/witte-ballonnenboog-e1529663692889.jpg" height="260px" width="true">
+		<div class="portfolio-image"><img src="/wp-content/uploads/2018/06/witte-ballonnenboog-e1529663692889.jpg" height="260px" width="true">
 			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
 		</div>
 		<div class="product-tekst">
@@ -50,7 +50,7 @@
 	</div>
 	
 	<div class="product">
-		<div class="portfolio-image"><img src="/balloonsss/wp-content/uploads/2018/06/helium-ballonnen-e1529664062697.jpg" height="260px" width="true">
+		<div class="portfolio-image"><img src="/wp-content/uploads/2018/06/helium-ballonnen-e1529664062697.jpg" height="260px" width="true">
 			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
 		</div>
 		<div class="product-tekst">
@@ -60,7 +60,7 @@
 	</div>
 	
 	<div class="product">
-		<div class="portfolio-image"><img src="/balloonsss/wp-content/uploads/2018/06/Ballonnen-love-1.jpg" height="260px" width="true">
+		<div class="portfolio-image"><img src="/wp-content/uploads/2018/06/Ballonnen-love-1.jpg" height="260px" width="true">
 			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
 		</div>
 		<div class="product-tekst">
@@ -81,7 +81,7 @@
 
 <div class="cta">
 	<h3>Wil je meer weten over Balloonsss of een offerte aanvragen?</h3>
-<a class="buttoncta" href="/balloonsss/contact/">Neem contact met mij op<i class="fas fa-angle-right"></i></a>
+<a class="buttoncta" href="/contact/">Neem contact met mij op<i class="fas fa-angle-right"></i></a>
 </div>
 
 

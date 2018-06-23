@@ -35,7 +35,7 @@ Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot ee
 		<br>Ik nodig je graag uit voor een eerste vrijblijvende kennismaking."</div>
 	</div>
 	<div class="box-over-mij-image">
-		<div class="over-mij-image"><img src="/balloonsss/wp-content/uploads/2018/06/Martina-Hidding-e1529321947949.jpg" height="250px" width="true">
+		<div class="over-mij-image"><img src="/wp-content/uploads/2018/06/Martina-Hidding-e1529321947949.jpg" height="250px" width="true">
 		<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
 		</div>
 	</div>
