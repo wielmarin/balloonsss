@@ -28,11 +28,8 @@ gulp.task('browser-sync', function() {
 	// Initialise BrowserSync
 	
 	browserSync.init(files, {
-		server: {
-			baseDir: "./"
-		},
 		injectChanges: true,
-		proxy: 'http://www.balloonsss.nl/'
+		proxy: 'localhost/balloonsss'
 	});
 });
 
