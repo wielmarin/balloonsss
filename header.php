@@ -51,6 +51,7 @@
 	
 	<!-- navigation -->
 			<nav class="frontnav-left frontnav">
+			<span id="close"><i class="fas fa-times"></i></span>
 			<a id="mobilehomelink" href="<?php echo get_home_url(); ?>">Home</a>
 				<?php
 					$args = array(

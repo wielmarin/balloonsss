@@ -208,6 +208,7 @@ div.container {
 	text-align: center;
 	font-size: 16.5px;
 	font-family: Lato;
+	line-height: 2.3em;
 }
 
 .frontnav ul {
@@ -230,6 +231,7 @@ div.container {
 	@media screen and (max-width: $mobilesize) {
 		display:block;
 		margin: 5px 0px;
+		line-height: 2.3em;
 	}
 }
 
@@ -241,6 +243,7 @@ div.container {
 		order: 0;
 		text-align:center;
 		padding-top: 10px;
+		margin-bottom: -4px;
 	}
 }
 
@@ -318,6 +321,7 @@ li.current-menu-item a:hover {
 		font-size: 22px;
 		display:inline;
 		color: white;
+		
 	}
 	i {
 		color: white;
@@ -332,6 +336,16 @@ li.current-menu-item a:hover {
 	}
 }
 
+#close {
+	display: none;
+	height: 0px;
+	float: right;
+	font-size: 130%;
+	margin-right: 10px;
+}
+
+
+
 /* Homepage */
 
 /* Banner Frontpage */
@@ -343,6 +357,9 @@ div.flex-banner {
 	width: 100%;
 	height: 53vh;
 	margin: auto;
+		@media screen and (max-width: $mobilesize) {
+			height: 37vh;
+		}
 }
 
 #scrolldown {
@@ -374,7 +391,7 @@ div.flex-banner {
 	text-align: center;
 	padding: 80px 0px 90px 0px;
 	@media screen and (max-width: $mobilesize) {
-		padding: 20px 0px;
+		padding: 20px 5px;
 	}
 }
 
@@ -396,25 +413,6 @@ div.flex-banner {
 
 /* Contact button on scroll */
 
-/* NOT IN USE
-.contact-onscroll-close {
-	display:none;
-	background-color: #EB4D66;
-	color: #fff;
-	font-family: 'Lato';
-	position: fixed;
-	-webkit-transform: rotate(-270deg);
-	-moz-transform: rotate(-270deg);
-	-ms-transform: rotate(-270deg);
-	-o-transform: rotate(-270deg);
-	right: -35px;
-	top: 400px;
-	padding: 7px 15px 7px 15px;
-	font-size: 120%;
-	border-radius: 0px 0px 5px 5px;
-}
-*/
-
 .contact-onscroll-open {
 	background-color: #EB4D66;
 	color: #fff;
@@ -426,7 +424,8 @@ div.flex-banner {
 	border-radius: 5px;
 	z-index: 9999;
 	@media screen and (max-width: $mobilesize) {
-		display:none;
+		top: 350px;
+		padding: 2px 0px 2px 0px;
 	}
 }
 
@@ -447,6 +446,9 @@ div.flex-banner {
 	bottom: 10px;
 	cursor: pointer;
 	font-size: 130%;
+	@media screen and (max-width: $mobilesize) {
+		bottom: 0px;
+	}
 }
 
 .contact-onscroll-open-tekst1 {
@@ -472,6 +474,10 @@ div.flex-banner {
 	margin-left: -5px;
 }
 
+.contactfbicon {
+margin-right: 20px;
+}
+
 /* Button */
 
 .button {
@@ -486,6 +492,9 @@ div.flex-banner {
 	margin: auto;
 	border-radius: 5px;
 	margin-top: 40px;
+	@media screen and (max-width: $mobilesize) {
+		margin-bottom: 10px;
+	}
 }
 
 
@@ -528,7 +537,7 @@ div.flex-banner {
 		height:auto;
 		margin-bottom: 10px;
 	}
-	@media #{$tabletcommand} {
+	@media screen and (min-width: 481px) and (max-width: 900px) {
 		width: 400px;
 		margin-bottom: 10px;
 		height: auto;
@@ -547,7 +556,7 @@ div.flex-banner {
 		width:calc(100% - 20px);
 		height:auto;
 	}
-	@media #{$tabletcommand} {
+	@media screen and (min-width: 481px) and (max-width: 900px) {
 		width: 400px;
 		height: auto;
 	}
@@ -567,7 +576,8 @@ div.flex-banner {
 	}
 	@media #{$tabletcommand} {
 		width: 100%;
-		height: 250px;
+		height: 200px;
+		border-radius: 5px 5px 0px 0px;
 	}
 }
 
@@ -604,11 +614,12 @@ div.flex-banner {
 .categorieen {
 	padding: 30px 0px 15px 0px;
 	text-align: left;
-	margin-left: 40px;
 	color: #fff;
+	margin: auto;
 	@media screen and (max-width: $mobilesize) {
 		margin: auto;
 		padding: 10px 0px;
+		width: 200px;
 	}
 }
 
@@ -635,6 +646,9 @@ i {
 	margin: auto;
 	border-radius: 5px;
 	margin-top: 20px;
+	@media screen and (max-width: $mobilesize) {
+	margin: 10px auto 5px auto;
+	}
 }
 
 
@@ -658,9 +672,9 @@ i {
 	width: 100%;
 	padding: 80px 0px 70px 0px;	
 	@media screen and (max-width: $mobilesize) {
-		padding: 0px;
+		padding: 10px 0px 5px 0px;
 	}
-	@media #{$tabletcommand} {
+	@media screen and (min-width: 481px) and (max-width: 900px) {
 		padding: 30px 0px;
 	}
 }
@@ -749,6 +763,12 @@ i {
 	color: #EB4D66;
 }
 
+.over-mij-image img {
+	@media screen and (max-width: $mobilesize) {
+	height: 200px;
+	}
+}
+
 /*frontpage drieblokken */
 
 .drieblokken {
@@ -773,12 +793,12 @@ i {
 	border-radius: 5px;
 	box-shadow: 0 5px 10px rgba(0,0,0,0.3);
 	@media screen and (max-width: $mobilesize) {
-		width:calc(100% - 20px);
+		min-width:calc(100% - 20px);
 		height: initial;
-		margin: 10px auto;
+		margin: 0px auto 10px auto;
 	}
-	@media #{$tabletcommand} {
-		width: 500px;
+	@media screen and (min-width: 481px) and (max-width: 900px) {
+		width: 400px;
 		margin: 10px auto;
 		height: inital;
 	}
@@ -796,7 +816,7 @@ i {
 	@media screen and (max-width: $mobilesize) {
 		width:100%;
 		padding: 20px 0px;
-		height: 40vh;
+		height: 200px;
 	}
 }
 
@@ -811,7 +831,7 @@ i {
 	@media screen and (max-width: $mobilesize) {
 		width:100%;
 		padding: 20px 0px;
-		height: 40vh;
+		height: 200px;
 	}
 }
 
@@ -826,14 +846,14 @@ i {
 	@media screen and (max-width: $mobilesize) {
 		width:100%;
 		padding: 20px 0px;
-		height: 40vh;
+		height: 200px;
 	}
 }
 
 .blok-tekst {
 	padding: 50px 30px 50px 30px;
 	@media screen and (max-width: $mobilesize) {
-		padding:10px;
+		padding:20px;
 	}
 }
 
@@ -858,6 +878,7 @@ i {
 	border-top: solid 1px #f6f5f5;
 	@media screen and (max-width: $mobilesize) {
 		width:calc(100% - 20px);
+		margin-bottom: 30px;
 	}
 }
 
@@ -881,6 +902,9 @@ i {
 .footer-nav ul {
 	padding: 0px;
 	width: 100%;
+	@media screen and (max-width: $mobilesize) {
+		line-height: 2.3em;
+	}
 } 
 
 .footer-nav ul li {
@@ -910,6 +934,10 @@ i {
 	color: #C36276;
 }
 
+.contactfooter {
+	margin-bottom: 5px;
+}
+
 div.copyright {
 	color: #626262;
 	text-align: center;
@@ -917,6 +945,10 @@ div.copyright {
 	border-top: solid 1px #f6f5f5;
 	Width: 60%;
 	margin: auto;
+	@media screen and (max-width: $mobilesize) {
+		width: 100%;
+		padding: 10px 0px 10px 0px;
+	}
 }
 
 .copyright a:hover {
@@ -968,6 +1000,7 @@ div.copyright {
 	@media screen and (max-width: $mobilesize) {
 		width: calc(100% - 20px);
 		height: auto;
+		margin-bottom: 10px;
 	}
 }
 
@@ -1001,7 +1034,7 @@ div.copyright {
 	justify-content: space-around;
 	margin-bottom: 50px;
 	@media screen and (max-width: $mobilesize) {
-		margin-bottom: 10px;
+		margin-bottom: 0px;
 	}
 }
 
@@ -1033,8 +1066,22 @@ div.copyright {
 	padding: 15px 15px 5px 15px;
 }
 
-.page-id-7 voordelen {
-	margin-top: 0px;
+@media screen and (max-width: $mobilesize) {
+	.page-id-17 .voordelen {
+	padding-top: 0px;
+	}
+
+	.page-id-15 .voordelen {
+	padding-top: 0px;
+	}
+
+	.page-id-9 .voordelen {
+	padding-top: 0px;
+	}
+	
+	.page-id-204 .voordelen {
+	padding-top: 0px;
+	}
 }
 
 /* banner subpage */
@@ -1047,6 +1094,9 @@ div.flex-banner-subpage {
 	height: 50vh;
 	margin: auto;
 	opacity: 0.9;
+	@media screen and (max-width: $mobilesize) {
+		height: 37vh;
+	}
 }
 
 .flex-banner-subpage-image {
@@ -1069,17 +1119,23 @@ div.flex-banner-subpage {
 	border-radius: 5px;
 	margin-bottom: 30px;
 	padding: 50px 0px;
+	@media screen and (max-width: $mobilesize) {
+	padding: 30px 0px;
+	}
 }
 
 .cta h3 {
 	color: #5e5e5e;
 	font-size: 150%;
 	text-align: center;
+	@media screen and (max-width: $mobilesize) {
+	padding: 0px 40px 0px 40px;
+	}
 }
 
 .buttoncta {
 	display: block;
-    padding: 10px 0px 10px 0px;
+    padding: 5px 0px 5px 0px;
 	background-color: #EB4D66;
 	color: #fff!important;
 	width: 250px;
@@ -1089,6 +1145,9 @@ div.flex-banner-subpage {
 	margin: auto;
 	border-radius: 5px;
 	margin-top: 40px;
+	@media screen and (max-width: $mobilesize) {
+	width: 210px;
+	}
 }
 
 
@@ -1137,7 +1196,6 @@ div.flex-banner-subpage {
 	flex-wrap: wrap;
 	margin: auto;
 	justify-content: space-around;
-	margin-bottom: 50px;
 }
 
 .contactform {
@@ -1162,6 +1220,9 @@ div.flex-banner-subpage {
 	font-family: 'Lato';
 	border: 1px solid #dddcdc;
 	font-size: 15px;
+	@media screen and (max-width: $mobilesize) {
+		width:95%;
+	}
 }
 
 .wpcf7 textarea {
@@ -1172,6 +1233,9 @@ div.flex-banner-subpage {
 	border: 1px solid #dddcdc;	
 	height: 100px;
 	font-size: 15px;
+	@media screen and (max-width: $mobilesize) {
+		width:95%;
+	}
 }
 
 .wpcf7 label {

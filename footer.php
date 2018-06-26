@@ -16,8 +16,8 @@
 	
 	<div class="footer">
 		<h3>Vragen en contact</h3>
-		<a href="callto:0683916328" target="_blank"><i class="fas fa-phone"></i>06 83 91 63 28</a><br>
-		<a href="martina@balloonsss.nl" target="_blank"><i class="far fa-envelope"></i>martina@balloonsss.nl</a><br>
+		<div class="contactfooter"><a href="callto:0683916328" target="_blank"><i class="fas fa-phone"></i>06 83 91 63 28</a><br></div>
+		<div class="contactfooter"><a href="mailto:martina@balloonsss.nl" target="_blank"><i class="far fa-envelope"></i>martina@balloonsss.nl</a><br></div>
 		<i class="fas fa-question"></i>FAQ
 	</div>
 

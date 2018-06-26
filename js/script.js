@@ -13,10 +13,21 @@ jQuery( document ).ready(function() {
 	
 	jQuery('#mobilemenuopen').click(function() {
 		jQuery('#mobilemenuopen').hide(),
-		jQuery('#mobilehomelink').fadeIn(1500),
-		jQuery('.search-boxmobile').fadeIn(1500),
+		jQuery('#mobilehomelink').show(),
+		jQuery('#close').show(),
+		jQuery('.search-boxmobile').show(),
 		jQuery('.frontnav-left').css('border-top','2px solid #EB4D66'),
-		jQuery('.frontnav ul').slideDown(900);
+		jQuery('.frontnav ul').show();
+	});
+	
+	jQuery('#close').click(function() {
+		jQuery('#mobilemenuopen').show(),
+		jQuery('#mobilehomelink').hide(),
+		jQuery('#close').hide(),
+		jQuery('.search-boxmobile').hide(),
+		jQuery('.frontnav-left').css('border-top','none'),
+		jQuery('.frontnav ul').hide();
+		
 	});
 	
 	// Contact button
@@ -84,7 +95,6 @@ jQuery( document ).ready(function() {
 		sr.reveal('.cta', { duration: 1800 });
 		sr.reveal('.flexbox-item-producten', { duration: 1800 });
 		sr.reveal('.drieblokken', { duration: 1800 });
-		sr.reveal('.bb-custom-grid', { duration: 1800 });
 		sr.reveal('.flexbox-contact', { duration: 1800 });
 		
 	

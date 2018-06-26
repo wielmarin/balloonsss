@@ -57,7 +57,7 @@
 
 <div class="flexbox-home">
 	<div class="flexbox-item-producten">
-		<div class="item-image" style="background-image: url(/wp-content/uploads/2018/06/Thema-ballonnen.jpg)"></div>
+		<div class="item-image" style="background-image: url(/wp-content/uploads/2018/06/Balloons-nieuwjaar-1-e1529668952150.jpg)"></div>
 		
 		<div class="tekst">
 			<h2><?php the_field('titel_thema3'); ?></h2>

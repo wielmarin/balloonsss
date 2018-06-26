@@ -77,7 +77,7 @@
 		</nav>
 		<h3>Themafeesten</h3>
 </li>
-<li>
+<li class="block5">
 	<div id="bb-bookblock5" class="bb-bookblock">
 		<div class="bb-item"><img src="/wp-content/uploads/2018/06/Balloons-nieuwjaar-e1529490706622.jpg" alt="image01" width=100% height=100% /></div>
 		<div class="bb-item"><img src="/wp-content/uploads/2018/06/birthday-e1529491451467.jpg" alt="image02" width=100% height=100% /></div>

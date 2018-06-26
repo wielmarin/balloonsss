@@ -30,16 +30,6 @@
 	<?php endif; ?> <!-- END LOOP -->
 		<a class="buttonthema" href="/balloonsss/contact/">Neem contact op
 		</a>
-	<div class="voorbeelden">
-		<h3><?php the_field('titel_afbeeldingen'); ?></h3>
-		<div class="voorbeeld-producten">
-			<img src="<?php the_field('afbeelding_1'); ?>" alt="ballon cijfer" height="125px" width="true">
-			<img src="<?php the_field('afbeelding_2'); ?>" height="125px" width="true">
-			<img src="<?php the_field('afbeelding_3'); ?>" height="125px" width="true">
-		</div>
-		<br>
-		<a href="/balloonsss/producten/">Bekijk alle producten <i class="fas fa-angle-right"></i></a>
-	</div>
 	</div>
 	
 

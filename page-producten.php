@@ -60,7 +60,7 @@
 	</div>
 	
 	<div class="product">
-		<div class="portfolio-image"><img src="/wp-content/uploads/2018/06/Ballonnen-love-1.jpg" height="260px" width="true">
+		<div class="portfolio-image"><img src="/wp-content/uploads/2018/06/Ballonnen-love-1-e1530029131272.jpg" height="260px" width="true">
 			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
 		</div>
 		<div class="product-tekst">
