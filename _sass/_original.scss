@@ -158,7 +158,7 @@ div.flex-banner {
 	color: #fff;
 	position: fixed;
 	right: -315px;
-	top: 400px;
+	top: 50vh;
 	width: 350px;
 	padding: 15px 0px 18px 0px;
 	border-radius: 5px;
@@ -459,7 +459,7 @@ i {
 
 .over-mij {
 	width: 50%;
-	@media screen and (max-width: $mobilesize) {
+	@media screen and (max-width: $tabletsize) {
 		width:100%;
 		margin: auto;
 	}
@@ -474,7 +474,7 @@ i {
 
 .over-mij-tekst {
 	padding: 80px 122px 0px 122px;
-	@media screen and (max-width: $mobilesize) {
+	@media screen and (max-width: $tabletsize) {
 		width:100%;
 		margin: auto;
 		padding: 10px;
@@ -491,7 +491,7 @@ i {
 	display: flex;
 	opacity: 0.8;
 	border-radius: 0px 5px 5px 0px;
-	@media screen and (max-width: $mobilesize) {
+	@media screen and (max-width: $tabletsize) {
 		width:100%;
 		margin: auto;
 		border-radius: 0px 0px 5px 5px;
@@ -500,8 +500,8 @@ i {
 
 .over-mij-image {
 	margin: auto;
-	@media screen and (max-width: $mobilesize) {
-		padding: 30px 0px;
+	@media screen and (max-width: $tabletsize) {
+		padding: 50px 0px;
 	}
 }
 
@@ -510,7 +510,7 @@ i {
 }
 
 .over-mij-image img {
-	@media screen and (max-width: $mobilesize) {
+	@media screen and (max-width: $tabletsize) {
 	height: 200px;
 	}
 }
@@ -789,6 +789,9 @@ div.copyright {
 	margin: auto;
 	justify-content: space-around;
 	margin-bottom: 50px;
+	@media screen and (min-width: $mobilesize + 1) and (max-width: $tabletsize) {
+		margin-bottom: 20px
+	}
 	@media screen and (max-width: $mobilesize) {
 		margin-bottom: 0px;
 	}
@@ -799,7 +802,7 @@ div.copyright {
 	background-color:#8aaea8;
 	padding: 5px 5px 15px 5px;
 	border-radius: 5px;
-	@media screen and (max-width: $mobilesize) {
+	@media screen and (max-width: $tabletsize) {
 		margin: 10px auto;
 	}
 }
@@ -960,9 +963,10 @@ div.flex-banner-subpage {
 
 .contactform {
 	width: 60%;
-	@media screen and (max-width: $mobilesize) {
+	@media screen and (max-width: $tabletsize) {
 		width:100%;
 		margin: auto;
+		order: 2;
 	}
 }
 
@@ -1046,14 +1050,22 @@ span.wpcf7-list-item {
 .contact-gegevens {
 	width: 25%;
 	float: right;
-	@media screen and (max-width: $mobilesize) {
+	@media screen and (max-width: $tabletsize) {
 		width:100%;
 		margin: auto;
+		order: 1;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: left;
+		align-items: flex-start;
 	}
 }
 
 .contact-gegevens-detail {
 	padding: 0px 0px 20px 0px;
+	@media screen and (max-width: $tabletsize) {
+		width:250px;
+	}
 }
 
 .contact-gegevens-detail img {
@@ -1089,6 +1101,9 @@ span.wpcf7-list-item {
 	width: 60%;
 	float: left;
 	margin-bottom: 20px;
+	@media screen and (max-width: $tabletsize) {
+		width: calc(100% - 20px);
+	}
 }
 
 .flex-thema-content h1, .flex-thema-content h2, .flex-thema-content h3 {
@@ -1104,6 +1119,9 @@ span.wpcf7-list-item {
 .flex-thema-sidebar {
 	width: 28%;
 	float: right;
+	@media screen and (max-width: $tabletsize) {
+		width: calc(100% - 20px);
+	}
 }
 
 .sidebar {
@@ -1112,7 +1130,10 @@ span.wpcf7-list-item {
 	border-radius: 5px;
 	padding: 20px;
 	color: #5e5e5e;
-	box-shadow: 0 5px 10px rgba(0,0,0,0.3)
+	box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+	@media screen and (max-width: $tabletsize) {
+		margin: 10px auto;
+	}
 }
 
 .sidebar-image-box {

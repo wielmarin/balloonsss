@@ -12,6 +12,9 @@ ul.bb-custom-grid {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	@media screen and (min-width: $mobilesize) and (max-width: $tabletsize) {
+		width: calc(100% - 50px);
+	}
 	@media screen and (max-width: $mobilesize) {
 		width:100%;
 	}
@@ -42,7 +45,7 @@ ul.bb-custom-grid li {
 	background: #fff;
 	position: relative;
 	box-sizing: content-box;
-	margin: auto auto 10px auto;
+	margin: auto auto 20px auto;
 	background: $blauw;
 	border-radius: 5px;
 }
