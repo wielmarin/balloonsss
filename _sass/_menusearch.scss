@@ -114,7 +114,7 @@ header.fixedmenu {
 }
 
 .logo {
-	width: 20%;
+	width: 15%;
 	text-align: center;
 	
 	@media screen and (max-width: $tabletwide) {
@@ -156,6 +156,12 @@ header.fixedmenu {
 	list-style: none;
 	font-size: 16.5px;
 	margin: 0px 30px 0px 30px;
+	@media screen and (max-width: 1300px){
+		margin: 0px 20px;
+	}
+	@media screen and (max-width: 1150px){
+		margin: 0px 15px;
+	}
 	@media screen and (max-width: $tabletwide) {
 		display:block;
 		margin: 5px 0px;
