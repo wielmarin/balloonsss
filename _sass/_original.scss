@@ -84,7 +84,19 @@ div.container {
 
 /* End General Layout */
 
-
+#backtotop {
+	display:none;
+	position: fixed;
+	top: 90vh;
+	left: 80vw;
+	font-size: 200%;
+	color: $roze;
+	z-index:9999;
+	@media screen and (max-width: $mobilesize) {
+		top: 80vh;
+		left: 80vw;
+	}
+}
 
 /* Homepage */
 
@@ -164,7 +176,6 @@ div.flex-banner {
 	border-radius: 5px;
 	z-index: 9999;
 	@media screen and (max-width: $mobilesize) {
-		top: 350px;
 		padding: 2px 0px 2px 0px;
 	}
 }
@@ -555,7 +566,6 @@ i {
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-position: center;
-	background-image: url("/wp-content/uploads/2018/06/f4cd0de06b1a6708a5025e7b0c4fe77c-1.jpg");
 	height: 45%;
 	width: 100%;
 	border-radius: 5px 5px 0px 0px;
@@ -622,9 +632,11 @@ i {
 	flex-wrap: wrap;
 	width: 100%;
 	border-top: solid 1px #f6f5f5;
+	@media screen and (max-width: $tabletsize) {
+		margin-bottom: 30px;
+	}
 	@media screen and (max-width: $mobilesize) {
 		width:calc(100% - 20px);
-		margin-bottom: 30px;
 	}
 }
 
@@ -750,10 +762,12 @@ div.copyright {
 	@media screen and (max-width: $tabletsize) {
 		height: 483px;
 		margin-bottom: 10px;
+		min-width: 270px;
 	}
 	@media screen and (max-width: $mobilesize) {
 		width: calc(100% - 20px);
 		margin-bottom: 10px;
+		height:auto;
 	}
 }
 
@@ -892,7 +906,6 @@ div.flex-banner-subpage {
 		margin:auto;
 	}
 	@media screen and (max-width: $mobilesize) {
-	padding: 0px 40px 0px 40px;
 	}
 }
 

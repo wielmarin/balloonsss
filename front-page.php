@@ -83,30 +83,30 @@
 
 <div class="drieblokken">
 	<div class="blok">
-		<div class="blok-image1">
+		<div class="blok-image1" style='background-image: url("<?php the_field('blok_1_beeld'); ?>")'>
 		</div>
 		<div class="blok-tekst">
-		<h2>Over Balloonsss</h2>
-		Welkom op de website van Balloonsss. Met ballonnen tover ik iedere locatie op sfeervolle wijze om tot een prachtig decor.
-		<div class="blok-actie"><a href="/over-mij/">Lees meer<i class="fas fa-angle-right"></i></a></div>
+		<h2><?php the_field('blok_1_titel'); ?></h2>
+		<?php the_field('blok_1_tekst'); ?>
+		<div class="blok-actie"><a href="<?php the_field('blok_1_lees_meer_link'); ?>"><?php the_field('blok_1_link_tekst'); ?><i class="fas fa-angle-right"></i></a></div>
 		</div>
 	</div>
 	<div class="blok">
-		<div class="blok-image2">
+		<div class="blok-image2" style='background-image: url("<?php the_field('blok_2_beeld'); ?>")'>
 		</div>
 		<div class="blok-tekst">
-		<h2>Bogen en pilaren</h2>
-		Ik verzorg losse ballonnen, ballonbogen en pilaren voor diverse gelegenheden. Deze zijn verkrijgbaar vanaf xx euro (exclusief btw). 
-		<div class="blok-actie"><a href="/over-mij/">Bekijk de producten<i class="fas fa-angle-right"></i></a></div>
+		<h2><?php the_field('blok_2_titel'); ?></h2>
+		<?php the_field('blok_2_tekst'); ?>
+		<div class="blok-actie"><a href="<?php the_field('blok_2_lees_meer_link'); ?>"><?php the_field('blok_2_link_tekst'); ?><i class="fas fa-angle-right"></i></a></div>
 		</div>
 	</div>
 	<div class="blok">
-		<div class="blok-image3">
+		<div class="blok-image3" style='background-image: url("<?php the_field('blok_3_beeld'); ?>")'>
 		</div>
 		<div class="blok-tekst">
-		<h2>Zomeractie</h2>
-		Omdat Balloonsss net begonnen is, geef ik 10 gratis ballonnen weg. Je hoeft alleen een berichtje te sturen met jouw beste ballon idee.
-		<div class="blok-actie"><a href="/over-mij/">Neem contact op <i class="fas fa-angle-right"></i></a></div>
+		<h2><?php the_field('blok_3_titel'); ?></h2>
+		<?php the_field('blok_3_tekst'); ?>
+		<div class="blok-actie"><a href="<?php the_field('blok_3_lees_meer_link'); ?>"><?php the_field('blok_3_link_tekst'); ?><i class="fas fa-angle-right"></i></a></div>
 		</div>
 	</div>
 </div>

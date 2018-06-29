@@ -41,7 +41,9 @@
 
 </div>
 
+<!----------- Fixed Elements ------------->
 <?php get_template_part("contactbutton");?>
+<i id="backtotop" class="fas fa-chevron-circle-up"></i>
 	
 	<!-- site-header -->
 	<header class="site-header">
