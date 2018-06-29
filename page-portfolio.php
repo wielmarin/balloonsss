@@ -28,7 +28,7 @@
 </div>
 
 <ul id="bb-custom-grid" class="bb-custom-grid">
-<li>
+<li class="block1">
 	<div id="bb-bookblock1" class="bb-bookblock">
 		<div class="bb-item"><img src="/wp-content/uploads/2018/06/gender-reveal-e1528722220429.jpg" alt="image01" width=100% height=100% /></div>
 		<div class="bb-item"><img src="/wp-content/uploads/2018/06/babyshower-ballonnen-e1528996876245.jpg" alt="image02" width=100% height=100% /></div>
@@ -40,7 +40,7 @@
 		</nav>
 		<h3>Baby</h3>
 </li>
-<li>
+<li class="block2">
 
 	<div id="bb-bookblock2" class="bb-bookblock">
 		<div class="bb-item"><img src="/wp-content/uploads/2018/06/Tros-ballonnen-verjaardag-3.jpg" alt="image01" width=100% height=100% /></div>
@@ -53,7 +53,7 @@
 		</nav>
 		<h3>Verjaardag</h3>
 </li>
-<li>
+<li class="block3">
 	<div id="bb-bookblock3" class="bb-bookblock">
 		<div class="bb-item"><img src="/wp-content/uploads/2018/05/6cb460b8506d121d128d372aecc88f6b-e1529073256317.jpg" alt="image01" width=100% height=100% /></div>
 		<div class="bb-item"><img src="/wp-content/uploads/2018/06/Bruiloft-ballonnen.jpg" alt="image02" width=100% height=100% /></div>
@@ -65,7 +65,7 @@
 		</nav>
 		<h3>Bruiloft</h3>
 </li>
-<li>
+<li class="block4">
 	<div id="bb-bookblock4" class="bb-bookblock">
 		<div class="bb-item"><img src="/wp-content/uploads/2018/06/Thema-e1529073418662.jpg" alt="image01" width=100% height=100% /></div>
 		<div class="bb-item"><img src="/wp-content/uploads/2018/06/Thema-ballonnen-e1529492569907.jpg" alt="image02" width=100% height=100% /></div>
@@ -90,7 +90,7 @@
 		<h3>Business</h3>
 </li>
 
-<li>
+<li class="block6">
 	<div id="bb-bookblock6" class="bb-bookblock">
 		<div class="bb-item"><img src="/wp-content/uploads/2018/06/Ballonboog-e1529491904623.jpg" alt="image01" width=100% height=100% /></div>
 		<div class="bb-item"><img src="/wp-content/uploads/2018/06/Ballonboog-kleur-e1529492086754.jpg" alt="image02" width=100% height=100% /></div>

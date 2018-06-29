@@ -67,6 +67,10 @@ y.addListener(fixMenuMobile) // Attach listener function on state changes
 		}
 	}
 
+	
+	
+	
+	
 
 // Back To Top button
 
@@ -74,6 +78,11 @@ y.addListener(fixMenuMobile) // Attach listener function on state changes
 		jQuery('html, body').animate({scrollTop:0});
 			return false;
 		});
+	
+	
+	
+	
+	
 	
 // Mobile menu
 	
@@ -96,6 +105,10 @@ y.addListener(fixMenuMobile) // Attach listener function on state changes
 		
 	});
 	
+	
+	
+	
+	
 	// Contact button
 	
 	jQuery('.contact-onscroll-open-tekst1').click(function() {
@@ -105,6 +118,10 @@ y.addListener(fixMenuMobile) // Attach listener function on state changes
 	jQuery('#closecontact').click(function() {
 		jQuery('.contact-onscroll-open').animate({right: '-315px'}, 800);
 	});
+	
+	
+	
+	
 	
 	
 	// Product Views
@@ -151,6 +168,9 @@ y.addListener(fixMenuMobile) // Attach listener function on state changes
 	
 	
 	
+	
+	
+	
 	// ScrollReveal
 	
 	window.sr = ScrollReveal();
@@ -160,8 +180,11 @@ y.addListener(fixMenuMobile) // Attach listener function on state changes
 		sr.reveal('.flexbox-home-overmij', { duration: 1800 });
 		sr.reveal('.cta', { duration: 1800 });
 		sr.reveal('.flexbox-item-producten', { duration: 1800 });
-		sr.reveal('.drieblokken', { duration: 1800 });
+		sr.reveal('.blok', { duration: 1800});
 		sr.reveal('.flexbox-contact', { duration: 1800 });
+		
+		
+		
 		
 	
 	// Portfolio
