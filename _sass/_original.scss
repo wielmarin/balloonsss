@@ -142,6 +142,9 @@ div.flex-banner {
 	margin: auto;
 	text-align: center;
 	padding: 80px 0px 90px 0px;
+	@media screen and (min-width: 481px) and (max-width: 900px) {
+		padding: 60px 0px 70px 0px;
+	}
 	@media screen and (max-width: $mobilesize) {
 		padding: 20px 5px;
 	}
@@ -294,9 +297,9 @@ margin-right: 20px;
 		margin-bottom: 20px;
 	}
 	@media screen and (min-width: 481px) and (max-width: 750px) {
-		width: 400px;
+		width: 90%;
 		margin-bottom: 10px;
-		height: auto;
+		height: 100%;
 	}
 }
 
@@ -317,7 +320,7 @@ margin-right: 20px;
 		height: 350px;
 	}
 	@media screen and (min-width: 481px) and (max-width: 750px) {
-		width: 400px;
+		width: 90%;
 		height: auto;
 	}
 }
@@ -335,10 +338,11 @@ margin-right: 20px;
 		width:100%;
 		height:200px;
 	}
-	@media screen and (max-width: 750px) {
+	@media screen and (min-width: $mobilesize + 1) and (max-width: 750px) {
 		width: 100%;
-		height: 200px;
+		height: 220px;
 		border-radius: 5px 5px 0px 0px;
+		background-position: 0px 25%;
 	}
 }
 
@@ -388,13 +392,16 @@ margin-right: 20px;
 	@media screen and (min-width: 901px)and (max-width: 1100px) {
 		margin-left: 100px;
 	}
-	@media screen and (min-width: 481px)and (max-width: 900px) {
+	@media screen and (min-width: 751px)and (max-width: 900px) {
 		margin-left: 50px;
+	}
+	@media screen and (min-width: 481px)and (max-width: 750px) {
+		margin-left: 33%;
 	}
 	@media screen and (max-width: $mobilesize) {
 		margin: auto;
 		padding: 10px 0px;
-		width: 200px;
+		width: 220px;
 	}
 }
 
@@ -450,7 +457,7 @@ i {
 		padding: 20px 0px 5px 0px;
 	}
 	@media screen and (min-width: 481px) and (max-width: 900px) {
-		padding: 30px 0px;
+		padding: 70px 0px;
 	}
 }
 
@@ -531,8 +538,11 @@ i {
 
 .over-mij-image {
 	margin: auto;
-	@media screen and (max-width: $tabletsize) {
-		padding: 50px 0px;
+	@media screen and (min-width: $mobilesize)and (max-width: $tabletsize) {
+		padding: 60px 0px;
+	}
+	@media screen and (max-width: $mobilesize) {
+		padding: 40px 0px;
 	}
 }
 
@@ -574,15 +584,15 @@ i {
 		height: initial;
 		margin: 0px auto 10px auto;
 	}
-	@media screen and (min-width: 751px) and (max-width: $tabletwide) {
+	@media screen and (min-width: 901px) and (max-width: $tabletwide) {
 		width: 20%;
 		min-width: 230px;
-		height: 620px;
+		height: 580px;
 	}
-	@media screen and (min-width: 481px) and (max-width: 750px) {
-		width: 400px;
+	@media screen and (min-width: 481px) and (max-width: 900px) {
+		width: 90%;
 		margin: 10px auto;
-		height: inital;
+		height: 470px;
 	}
 }
 
@@ -594,6 +604,9 @@ i {
 	height: 45%;
 	width: 100%;
 	border-radius: 5px 5px 0px 0px;
+	@media screen and (min-width: 901px) and (max-width: $tabletwide) {
+		height: 250px;
+	}
 	@media screen and (max-width: $mobilesize) {
 		width:100%;
 		padding: 20px 0px;
@@ -609,6 +622,10 @@ i {
 	background-image: url("/wp-content/uploads/2018/06/500_F_4358153_GxISQfkOwRg92hv1Y4UHZrDqz5J1wDh3-1.jpg");
 	height: 45%;
 	width: 100%;
+	border-radius: 5px 5px 0px 0px;
+	@media screen and (min-width: 901px) and (max-width: $tabletwide) {
+		height: 250px;
+	}
 	@media screen and (max-width: $mobilesize) {
 		width:100%;
 		padding: 20px 0px;
@@ -624,6 +641,10 @@ i {
 	background-image: url("/wp-content/uploads/2018/06/Zomeractie.jpg");
 	height: 45%;
 	width: 100%;
+	border-radius: 5px 5px 0px 0px;
+	@media screen and (min-width: 901px) and (max-width: $tabletwide) {
+		height: 250px;
+	}
 	@media screen and (max-width: $mobilesize) {
 		width:100%;
 		padding: 20px 0px;
@@ -633,7 +654,7 @@ i {
 
 .blok-tekst {
 	padding: 50px 30px 50px 30px;
-	@media screen and (min-width: 751px) and (max-width: $tabletwide) {
+	@media screen and (min-width: 901px) and (max-width: $tabletwide) {
 		padding: 30px 30px 30px 30px;
 	}
 	@media screen and (max-width: $mobilesize) {
@@ -674,6 +695,10 @@ i {
 	min-width: 230px;
 	@media screen and (max-width: $mobilesize) {
 		width: 60%;
+	}
+	@media screen and (min-width: $mobilesize) and (max-width: $tabletwide) {
+		margin-left: 50px;
+		min-width: 170px;
 	}
 }
 
@@ -764,7 +789,10 @@ div.copyright {
 	text-align: center;
 	padding: 80px 0px 80px 0px;
 	@media screen and (max-width: $mobilesize) {
-		padding: 20px 0px;
+		padding: 20px 5px;
+	}
+	@media screen and (min-width: 481px) and (max-width: 900px) {
+		padding: 60px 0px 70px 0px;
 	}
 }
 
@@ -779,39 +807,58 @@ div.copyright {
 	background-color: #8aaea8;
 	display: flex;
 	flex-wrap: wrap;
-	height: 350px;
+	height: 365px;
 	margin: auto;
 	border-radius: 5px;
 	margin-bottom: 40px;
-	@media screen and (max-width: $tabletwide) {
-		height: 360px;
+	@media screen and (min-width: 751px) and (max-width: 1100px) {
+		height: 100%;
 		margin-bottom: 10px;
+		width: 90%;
 	}
-	@media screen and (max-width: $tabletsize) {
-		height: 483px;
-		margin-bottom: 10px;
-		min-width: 270px;
-	}
-	@media screen and (max-width: $mobilesize) {
+	@media screen and (max-width: 750px) {
 		width: calc(100% - 20px);
 		margin-bottom: 10px;
 		height:auto;
 	}
 }
 
+.item-image-producten {
+	width: 50%;
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: url("/wp-content/uploads/2018/05/banenr-5.jpg");
+	border-radius: 5px 0px 0px 5px;
+	opacity: 0.8;
+	height: 100%;
+	@media screen and (max-width: 750px) {
+		width:100%;
+		height:220px;
+		background-position: 0px 25%;
+	}
+	@media screen and (min-width: 751px) and (max-width: 1100px) {
+		height: auto;
+	}
+}
+
+
 .tekst-p {
 	margin: auto;
 	padding: 20px;
 	color: #fff;
 	text-align: left;
-	@media screen and (min-width: 901px) and (max-width: $tabletwide) {
-		padding: 20px 10px;
+	@media screen and (max-width: 1100px) {
+		padding: 20px 30px 10px 30px;
 	}
 }
 
 .actie-sub {
 	text-align: left;
 	margin-left: 20px;
+	@media screen and (max-width: 1100px) {
+	margin-left: 30px;
+	}
 }
 
 .actie-sub a {
@@ -837,6 +884,12 @@ div.copyright {
 	@media screen and (max-width: $mobilesize) {
 		margin-bottom: 0px;
 	}
+	@media screen and (min-width: $tabletwide) and (max-width: 1350px) {
+		width: 65%;
+	}
+	@media screen and (min-width: $tabletsize) and (max-width: $tabletwide) {
+		width: 80%;
+	}
 }
 
 .product {
@@ -846,6 +899,9 @@ div.copyright {
 	border-radius: 5px;
 	@media screen and (max-width: $tabletsize) {
 		margin: 10px auto;
+	}
+	@media screen and (max-width: 1350px) {
+		margin-bottom: 20px;
 	}
 }
 
@@ -975,8 +1031,14 @@ div.flex-banner-subpage {
 
 .over-mij-tekst-subpage {
 	padding: 80px 100px 80px 100px;
+	@media screen and (min-width: $tabletsize) and (max-width: $tabletwide) {
+		padding: 80px 70px 80px 70px;
+	}
+	@media screen and (min-width: $mobilesize) and (max-width: $tabletsize) {
+		padding: 40px 70px 50px 70px;
+	}
 	@media screen and (max-width: $mobilesize) {
-		padding: 20px;
+		padding: 30px 25px 40px 25px;
 	}
 }
 
