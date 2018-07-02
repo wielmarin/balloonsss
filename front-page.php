@@ -44,7 +44,7 @@
 			<div class="categorieen">
 					<p><i class="fas fa-long-arrow-alt-right"></i>Bruiloft</p>
 					<p><i class="fas fa-long-arrow-alt-right"></i>Babyfeest</p>
-					<p><i class="fas fa-long-arrow-alt-right"></i>Jubileum/verjaardagen</p>
+					<p><i class="fas fa-long-arrow-alt-right"></i>Jubileum en verjaardagen</p>
 					<p><i class="fas fa-long-arrow-alt-right"></i>Themafeesten</p>
 					<p><i class="fas fa-long-arrow-alt-right"></i>Pilaren en bogen</p>
 			</div>

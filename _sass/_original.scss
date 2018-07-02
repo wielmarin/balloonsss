@@ -288,7 +288,12 @@ margin-right: 20px;
 		height:auto;
 		margin-bottom: 10px;
 	}
-	@media screen and (min-width: 481px) and (max-width: 900px) {
+	@media screen and (min-width: 751px) and (max-width: 1100px) {
+		width: 90%;
+		height: 350px;
+		margin-bottom: 20px;
+	}
+	@media screen and (min-width: 481px) and (max-width: 750px) {
 		width: 400px;
 		margin-bottom: 10px;
 		height: auto;
@@ -307,7 +312,11 @@ margin-right: 20px;
 		width:calc(100% - 20px);
 		height:auto;
 	}
-	@media screen and (min-width: 481px) and (max-width: 900px) {
+	@media screen and (min-width: 751px) and (max-width: 1100px) {
+		width: 90%;
+		height: 350px;
+	}
+	@media screen and (min-width: 481px) and (max-width: 750px) {
 		width: 400px;
 		height: auto;
 	}
@@ -321,11 +330,12 @@ margin-right: 20px;
 	background-image: url("/wp-content/uploads/2018/05/banenr-5.jpg");
 	border-radius: 5px 0px 0px 5px;
 	opacity: 0.8;
+	height: 100%;
 	@media screen and (max-width: $mobilesize) {
 		width:100%;
 		height:200px;
 	}
-	@media #{$tabletcommand} {
+	@media screen and (max-width: 750px) {
 		width: 100%;
 		height: 200px;
 		border-radius: 5px 5px 0px 0px;
@@ -337,7 +347,7 @@ margin-right: 20px;
 	text-align: center;
 	color: #fff;
 	padding: 60px 0px 0px 0px;
-	@media screen and (min-width: 901px) and (max-width: $tabletwide) {
+	@media screen and (min-width: 751px) and (max-width: $tabletwide) {
 		width: calc(50% - 20px);
 		padding: 20px 10px;
 	}
@@ -345,7 +355,7 @@ margin-right: 20px;
 		width:100%;
 		padding: 30px;
 	}
-	@media screen and (min-width: 481px) and (max-width: $tabletsize) {
+	@media screen and (min-width: 481px) and (max-width: 750px) {
 		width: 100%;
 		padding: 20px;
 	}
@@ -371,6 +381,16 @@ margin-right: 20px;
 	text-align: left;
 	color: #fff;
 	margin: auto;
+	margin-left: 30px;
+	@media screen and (min-width: 1101px)and (max-width: 1250px) {
+		margin-left: 10px;
+	}
+	@media screen and (min-width: 901px)and (max-width: 1100px) {
+		margin-left: 100px;
+	}
+	@media screen and (min-width: 481px)and (max-width: 900px) {
+		margin-left: 50px;
+	}
 	@media screen and (max-width: $mobilesize) {
 		margin: auto;
 		padding: 10px 0px;
@@ -554,7 +574,12 @@ i {
 		height: initial;
 		margin: 0px auto 10px auto;
 	}
-	@media screen and (min-width: 481px) and (max-width: 900px) {
+	@media screen and (min-width: 751px) and (max-width: $tabletwide) {
+		width: 20%;
+		min-width: 230px;
+		height: 620px;
+	}
+	@media screen and (min-width: 481px) and (max-width: 750px) {
 		width: 400px;
 		margin: 10px auto;
 		height: inital;
@@ -608,6 +633,9 @@ i {
 
 .blok-tekst {
 	padding: 50px 30px 50px 30px;
+	@media screen and (min-width: 751px) and (max-width: $tabletwide) {
+		padding: 30px 30px 30px 30px;
+	}
 	@media screen and (max-width: $mobilesize) {
 		padding:20px;
 	}
