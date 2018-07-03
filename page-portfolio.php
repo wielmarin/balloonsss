@@ -41,7 +41,6 @@
 		<h3>Baby</h3>
 </li>
 <li class="block2">
-
 	<div id="bb-bookblock2" class="bb-bookblock">
 		<div class="bb-item"><img src="/wp-content/uploads/2018/06/Tros-ballonnen-verjaardag-3.jpg" alt="image01" width=100% height=100% /></div>
 		<div class="bb-item"><img src="/wp-content/uploads/2018/06/Folie-ballonnen-letters-e1529489473356.jpg" alt="image02" width=100% height=100% /></div>

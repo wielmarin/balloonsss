@@ -33,7 +33,7 @@ Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot ee
 		<div class="item-image-producten" style="background-image: url(/wp-content/uploads/2018/06/Bruiloft-ballonnen.jpg)"></div>
 		
 		<div class="tekst">
-			<h2><?php the_field('titel_thema1'); ?></h2>
+			<a href="http://www.balloonsss.nl/ballonnen-bruiloft/"><h2><?php the_field('titel_thema1'); ?></h2></a>
 			<div class="tekst-p">
 				<p><?php the_field('tekst_thema1'); ?></p>	
 			</div>
@@ -46,12 +46,12 @@ Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot ee
 	<div class="flexbox-item-producten">
 		<div class="item-image-producten" style="background-image: url(/wp-content/uploads/2018/06/Babyshower-ballonnen-1-e1528997235716.jpg)"></div>
 		<div class="tekst">
-			<h2><?php the_field('titel_thema2'); ?></h2>
+			<a href="http://www.balloonsss.nl/ballonnenbaby/"><h2><?php the_field('titel_thema2'); ?></h2></a>
 			<div class="tekst-p">
 				<p><?php the_field('tekst_thema2'); ?></p>	
 			</div>
 			<div class="actie-sub">
-				<a href="/wp-content/uploads/2018/06/Babyshower-ballonnen-1-e1528997235716.jpg/">Lees meer<i class="fas fa-angle-right"></i></a>
+				<a href="http://www.balloonsss.nl/ballonnenbaby/">Lees meer<i class="fas fa-angle-right"></i></a>
 			</div>
 		</div>
 	</div>
@@ -62,7 +62,7 @@ Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot ee
 		<div class="item-image-producten" style="background-image: url(/wp-content/uploads/2018/06/Ballonnen-halloween.jpg)"></div>
 		
 		<div class="tekst">
-			<h2><?php the_field('titel_thema3'); ?></h2>
+			<a href="http://www.balloonsss.nl/ballonnen-seizoensfeesten/"><h2><?php the_field('titel_thema3'); ?></h2></a>
 			<div class="tekst-p">
 				<p><?php the_field('tekst_thema3'); ?></p>	
 			</div>
@@ -75,7 +75,7 @@ Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot ee
 	<div class="flexbox-item-producten">
 		<div class="item-image-producten" style="background-image: url(http://www.quiropracticopromover.es/wp-content/themes/Promover/beelden2/Verjaardag1.jpg)"></div>
 		<div class="tekst">
-			<h2><?php the_field('titel_thema4'); ?></h2>
+			<a href="http://www.balloonsss.nl/verjaardag-ballonnen/"><h2><?php the_field('titel_thema4'); ?></h2></a>
 			<div class="tekst-p">
 				<p><?php the_field('tekst_thema4'); ?></p>	
 			</div>

@@ -23,6 +23,7 @@ x.addListener(myFunction) // Attach listener function on state changes
 			  if (jQuery(this).scrollTop() > 125) {
 				  jQuery('.flex-banner').css('margin-top','168px');
 				  jQuery('.flex-banner-subpage').css('margin-top','168px');
+				  jQuery('.container-thema').css('margin-top','168px');
 				 jQuery('.site-header').css({'position': 'fixed', 'width': '85%', 'background': 'white', 'z-index':'9999'});
 				 jQuery('.logo').hide();
 				 jQuery('#backtotop').show();
@@ -32,6 +33,7 @@ x.addListener(myFunction) // Attach listener function on state changes
 				 jQuery('.logo').show();
 				 jQuery('.flex-banner').css('margin-top','0px');
 				 jQuery('.flex-banner-subpage').css('margin-top','0px');
+				 jQuery('.container-thema').css('margin-top','0px');
 				 jQuery('#backtotop').hide();
 			  }
 		   });
@@ -51,6 +53,7 @@ y.addListener(fixMenuMobile) // Attach listener function on state changes
 			  if (jQuery(this).scrollTop() > 125) {
 				  jQuery('.flex-banner').css('margin-top','168px');
 				  jQuery('.flex-banner-subpage').css('margin-top','168px');
+				  jQuery('.container-thema').css('margin-top','168px');
 				 jQuery('.site-header').css({'position': 'fixed','background': 'white', 'width':'100vw', 'z-index':'9999'});
 				 jQuery('.logo').hide();
 				 jQuery('#backtotop').show();
@@ -60,6 +63,7 @@ y.addListener(fixMenuMobile) // Attach listener function on state changes
 				 jQuery('.logo').show();
 				 jQuery('.flex-banner').css('margin-top','0px');
 				 jQuery('.flex-banner-subpage').css('margin-top','0px');
+				 jQuery('.container-thema').css('margin-top','0px');
 				 jQuery('#backtotop').hide();
 			  }
 		   });

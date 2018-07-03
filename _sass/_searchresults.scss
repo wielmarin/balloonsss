@@ -1,8 +1,16 @@
 #searchresults {
 	margin: 15px 0px;
-	border-top: 2px solid $roze;
+	border-top: solid 1px #f6f5f5;
 	padding: 5px 0px;
 	a {
 		display: block;
 	}
+}
+
+#searchresults p {
+	margin-bottom: 5px;
+}
+
+.search .button {
+	margin: 20px auto 5px auto;
 }

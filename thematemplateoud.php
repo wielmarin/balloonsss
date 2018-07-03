@@ -50,20 +50,34 @@
 			<nav>
 				<i class="fas fa-caret-square-left fa-lg prev2"></i><i class="fas fa-caret-square-right fa-lg next2"></i>
 			</nav>
+			<h3>Portfolio</h3>
 		</li>
 	</ul>
-	<p><?php the_field('portfolio_sidebar'); ?><a href="http://www.balloonsss.nl/portfolio/">Bekijk mijn portfolio <i class="fas fa-angle-right"></i></a></p>
+	<p><?php the_field('portfolio_sidebar'); ?><br><br><a href="">Bekijk portfolio <i class="fas fa-angle-right"></i></a></p>
 	</div>
 	<div class="sidebar">
-			<div class="sidebar-titel"><h4>Volg Balloonsss op Facebook</h4></div>
-			<?php echo do_shortcode("[custom-facebook-feed]"); ?>
-	</div>
-	<div class="sidebar">
-		<div class="sidebar-titel"><h4>Waarom Balloonsss?</h4></div>
+		<h4>Portfolio</h4>
+		
+		<div class="sidebar-image-box">
+		<?php  $post_thumbnail_id = get_post_thumbnail_id();
+					$post_thumbnail_url = wp_get_attachment_url( $post_thumbnail_id ); ?>
+					
+		<div class="sidebar-image"style="background-image:url(<?php echo $post_thumbnail_url; ?>)">  			
+		</div>
+	
+		</div>	
+		<p><?php the_field('portfolio_sidebar'); ?><br><br><a href="">Bekijk portfolio <i class="fas fa-angle-right"></i></a></p>
+		</div>
+		<div class="sidebar">
+			<h4>Reviews</h4>
+			<p>Hier kunnen we reviews plaatsen als we deze hebben. De reviews van Facebook worden automatisch ingeladen via Wordpress. Zolang we deze niet hebben, kunnen we ook facebookfeed hier neerzetten.</p>
+		</div>
+		<div class="sidebar">
+		<h4>Waarom Balloonsss?</h4>
 			<i class="fas fa-check"></i> Kwalitatief en duurzaam<br>
 			<i class="fas fa-check"></i> Professioneel<br>
 			<i class="fas fa-check"></i> Passend bij elk themafeest
-	</div>
+		</div>
 
 
 	</div>

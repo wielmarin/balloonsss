@@ -20,6 +20,10 @@ ul.bb-custom-grid {
 	}
 }
 
+.page-template-thematemplate ul.bb-custom-grid {
+	width: 100%;
+}
+
 ul.bb-custom-grid img {
 	height: 260px;
 }
@@ -49,6 +53,11 @@ ul.bb-custom-grid li {
 	background: $blauw;
 	border-radius: 5px;
 }
+
+.page-template-thematemplate ul.bb-custom-grid li {
+	background: #f6f5f5;
+	padding: 10px 20px 5px 20px;
+	}
 
 
 ul.bb-custom-grid li:before,

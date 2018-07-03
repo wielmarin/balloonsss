@@ -30,7 +30,7 @@
 <div class="container-producten">
 
 	<div class="product">
-		<div class="portfolio-image"><img src="/wp-content/uploads/2018/06/witte-ballonnenpilaren-1-e1529663827795.jpg" height="260px" width="true">
+		<div class="portfolio-image"><img src="<?php the_field('product_1'); ?>" height="260px" width="true">
 			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
 		</div>
 		<div class="product-tekst">
@@ -40,7 +40,7 @@
 	</div>
 
 	<div class="product">
-		<div class="portfolio-image"><img src="/wp-content/uploads/2018/06/witte-ballonnenboog-e1529663692889.jpg" height="260px" width="true">
+		<div class="portfolio-image"><img src="<?php the_field('product_2'); ?>" height="260px" width="true">
 			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
 		</div>
 		<div class="product-tekst">
@@ -50,7 +50,7 @@
 	</div>
 	
 	<div class="product">
-		<div class="portfolio-image"><img src="/wp-content/uploads/2018/06/helium-ballonnen-e1529664062697.jpg" height="260px" width="true">
+		<div class="portfolio-image"><img src="<?php the_field('product_3'); ?>" height="260px" width="true">
 			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
 		</div>
 		<div class="product-tekst">
@@ -60,7 +60,7 @@
 	</div>
 	
 	<div class="product">
-		<div class="portfolio-image"><img src="/wp-content/uploads/2018/06/Ballonnen-love-1-e1530029131272.jpg" height="260px" width="true">
+		<div class="portfolio-image"><img src="<?php the_field('product_4'); ?>" height="260px" width="true">
 			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
 		</div>
 		<div class="product-tekst">
