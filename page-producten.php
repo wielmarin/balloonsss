@@ -30,8 +30,7 @@
 <div class="container-producten">
 
 	<div class="product">
-		<div class="portfolio-image"><img src="<?php the_field('product_1'); ?>" height="260px" width="true">
-			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
+		<a href="http://www.balloonsss.nl/contact/"><div class="portfolio-image"><img src="<?php the_field('product_1'); ?>" height="260px" width="true"></a>
 		</div>
 		<div class="product-tekst">
 			<h3>Ballonpilaar</h3>
@@ -40,8 +39,7 @@
 	</div>
 
 	<div class="product">
-		<div class="portfolio-image"><img src="<?php the_field('product_2'); ?>" height="260px" width="true">
-			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
+		<a href="http://www.balloonsss.nl/contact/"><div class="portfolio-image"><img src="<?php the_field('product_2'); ?>" height="260px" width="true"></a>
 		</div>
 		<div class="product-tekst">
 			<h3>Ballonboog</h3>
@@ -50,8 +48,7 @@
 	</div>
 	
 	<div class="product">
-		<div class="portfolio-image"><img src="<?php the_field('product_3'); ?>" height="260px" width="true">
-			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
+		<a href="http://www.balloonsss.nl/contact/"><div class="portfolio-image"><img src="<?php the_field('product_3'); ?>" height="260px" width="true"></a>
 		</div>
 		<div class="product-tekst">
 			<h3>Heliumballonnen</h3>
@@ -60,8 +57,7 @@
 	</div>
 	
 	<div class="product">
-		<div class="portfolio-image"><img src="<?php the_field('product_4'); ?>" height="260px" width="true">
-			<!-- IMAGE SRC VERVANGEN DOOR: <-VERWIJDEREN-?php the_field('over_mij_foto'); ?> -->
+		<a href="http://www.balloonsss.nl/contact/"><div class="portfolio-image"><img src="<?php the_field('product_4'); ?>" height="260px" width="true"></a>
 		</div>
 		<div class="product-tekst">
 			<h3>Folieballonnen</h3>

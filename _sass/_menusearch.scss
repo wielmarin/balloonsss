@@ -4,7 +4,6 @@
 	min-width: 250px;
 	display: flex;
 	flex-wrap: wrap;
-	float: right;
 	margin-bottom: -25px;
 	@media screen and (max-width: $tabletwide) {
 		display:none;
@@ -54,8 +53,17 @@
 
 /* Homebutton */
 
-.homebutton {
+.homesearch {
+	display: flex;
+	flex-wrap: wrap;
 	float: right;
+	margin-right: 35px;
+	@media screen and (max-width: $tabletwide) {
+		display:none;
+	}
+}
+
+.homebutton {
 	margin-bottom: -30px;
 	margin-top: 13px;
 	@media screen and (max-width: $tabletwide) {
@@ -65,13 +73,6 @@
 	}
 	@media #{$tabletcommand} {
 		display: none;
-	}
-}
-
-.homesearch {
-	margin-right: 50px;
-	@media screen and (max-width: $tabletwide) {
-		display:none;
 	}
 }
 

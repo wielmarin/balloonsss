@@ -83,8 +83,8 @@
 
 <div class="drieblokken">
 	<div class="blok">
-		<div class="blok-image1" style='background-image: url("<?php the_field('blok_1_beeld'); ?>")'>
-		</div>
+		<a href="<?php the_field('blok_1_lees_meer_link'); ?>"><div class="blok-image1" style='background-image: url("<?php the_field('blok_1_beeld'); ?>")'>
+		</div></a>
 		<div class="blok-tekst">
 		<h2><?php the_field('blok_1_titel'); ?></h2>
 		<?php the_field('blok_1_tekst'); ?>
@@ -92,8 +92,8 @@
 		</div>
 	</div>
 	<div class="blok">
-		<div class="blok-image2" style='background-image: url("<?php the_field('blok_2_beeld'); ?>")'>
-		</div>
+		<a href="<?php the_field('blok_2_lees_meer_link'); ?>"><div class="blok-image2" style='background-image: url("<?php the_field('blok_2_beeld'); ?>")'>
+		</div></a>
 		<div class="blok-tekst">
 		<h2><?php the_field('blok_2_titel'); ?></h2>
 		<?php the_field('blok_2_tekst'); ?>
@@ -101,8 +101,8 @@
 		</div>
 	</div>
 	<div class="blok">
-		<div class="blok-image3" style='background-image: url("<?php the_field('blok_3_beeld'); ?>")'>
-		</div>
+		<a href="<?php the_field('blok_3_lees_meer_link'); ?>"><div class="blok-image3" style='background-image: url("<?php the_field('blok_3_beeld'); ?>")'>
+		</div></a>
 		<div class="blok-tekst">
 		<h2><?php the_field('blok_3_titel'); ?></h2>
 		<?php the_field('blok_3_tekst'); ?>
@@ -111,7 +111,11 @@
 	</div>
 </div>
 
- 
+<div class="cta">
+	<h3>Wil je meer weten over Balloonsss of een offerte aanvragen?</h3>
+	<a class="buttoncta" href="/contact/">Neem contact met mij op<i class="fas fa-angle-right"></i></a>
+</div>
+
 
 
 <?php 

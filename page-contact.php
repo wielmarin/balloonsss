@@ -21,7 +21,6 @@
 		<p><?php the_content(); ?></p>
 	<?php
 	endwhile; else: ?>
-	<p>In mijn portfolio geef ik een impressie van wat er allemaal mogelijk is voor jouw gelegenheid.</p>
 	<?php endif; ?> <!-- END LOOP -->
 	
 	</div>
@@ -46,7 +45,6 @@
 			<h2>Adresgegevens</h2>
 				Koenestraat 26<br>
 				3907 LJ Veenendaal<br><br>
-			<p>Ik woon in Veenendaal, maar ik bezorg ballonnen in heel Nederland. Geen afstand is mij te ver.</p>
 		</div>
 	</div>
 	

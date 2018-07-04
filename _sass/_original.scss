@@ -454,7 +454,7 @@ i {
 	width: 100%;
 	padding: 80px 0px 70px 0px;	
 	@media screen and (max-width: $mobilesize) {
-		padding: 20px 0px 5px 0px;
+		display: none;
 	}
 	@media screen and (min-width: 481px) and (max-width: 900px) {
 		padding: 70px 0px;
@@ -492,6 +492,9 @@ i {
 	background-color: #f6f5f5;
 	border-radius: 5px;
 	margin-bottom: 20px;
+	@media screen and (max-width: $mobilesize) {
+		margin-bottom: 30px;
+	}
 }
 
 
@@ -566,7 +569,7 @@ i {
 	padding: 0px 0px 30px 0px;
 	@media screen and (max-width: $mobilesize) {
 		width:100%;
-		padding: 0px;
+		padding: 30px 0px 0px 0px;
 	}
 }
 
@@ -978,8 +981,10 @@ div.flex-banner-subpage {
 	padding: 50px 0px;
 	@media screen and (max-width: $mobilesize) {
 	padding: 30px 0px;
+	margin-top: 20px;
 	}
 }
+
 
 .cta h3 {
 	color: #5e5e5e;
@@ -988,8 +993,6 @@ div.flex-banner-subpage {
 	@media screen and (max-width: $tabletsize) {
 		width: calc(100% - 20px);
 		margin:auto;
-	}
-	@media screen and (max-width: $mobilesize) {
 	}
 }
 
@@ -1208,13 +1211,23 @@ span.wpcf7-list-item {
 		width: calc(100% - 20px);
 	}
 	@media screen and (max-width: $mobilesize) {
-		padding: 0px 32px 0px 32px;
+		padding: 0px 38px 0px 38px;
 	}
 	img {
 		max-width: 100%;
 		height: auto;
 		padding: 10px 0px 0px 0px;
 	}
+}
+
+.flex-thema-content li {
+	color: #5e5e5e;
+	display: list-item;
+	list-style: disc;
+}
+
+.flex-thema-content ul {
+	color: #5e5e5e;
 }
 
 .flex-thema-content h1, .flex-thema-content h2, .flex-thema-content h3 {

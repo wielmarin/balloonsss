@@ -30,7 +30,14 @@ register_nav_menus(array(
 'footer' => __( 'Footer'),
 ));
 
+// Add Categories to pages
 
+function pagetype_settings() {  
+    register_taxonomy_for_object_type('post_tag', 'page'); 
+    register_taxonomy_for_object_type('category', 'page');  
+}
+
+add_action( 'init', 'pagetype_settings' );
 
 // custom header
 
@@ -50,6 +57,12 @@ function custom_excerpt_length() {
 
 add_filter('excerpt_length', 'custom_excerpt_length');
 
+// Change end Except
+function new_excerpt_more( $more ) {
+	return '...';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
+
 //Theme Setup
 function lerenwordpress_setup() {
 	
@@ -65,82 +78,3 @@ function lerenwordpress_setup() {
 
 add_action('after_setup_theme', 'lerenwordpress_setup');
 
-// Add homepage to admin appearance customize screen
-
-function rulu_home_body($wp_customize) {
-	$wp_customize->add_section('rulu-home-body-section', array(
-	'title' => 'Home Body'
-	));
-	
-	$wp_customize->add_setting('rulu-home-body-headline', array(
-		'default' => 'Example Headline Text!'
-	));
-	
-	$wp_customize->add_control( new WP_Customize_Control($wp_customize, 
-		'rulu-home-body-headline-control', array(
-			'label' => 'Headline',
-			'section' => 'rulu-home-body-section',
-			'settings' => 'rulu-home-body-headline'
-	)));
-		
-	$wp_customize->add_setting('rulu-home-body-text', array(
-		'default' => 'Example Paragraph Text!'
-	));
-	
-	$wp_customize->add_control( new WP_Customize_Control($wp_customize, 
-		'rulu-home-body-text-control', array(
-			'label' => 'Text',
-			'section' => 'rulu-home-body-section',
-			'settings' => 'rulu-home-body-text',
-			'type' => 'textarea'
-	)));
-	
-	$wp_customize->add_setting('rulu-home-body-button', array(
-		'default' => 'Example Button Text!'
-	));
-	
-	$wp_customize->add_control( new WP_Customize_Control($wp_customize, 
-		'rulu-home-body-button-control', array(
-			'label' => 'Button',
-			'section' => 'rulu-home-body-section',
-			'settings' => 'rulu-home-body-button'
-	)));
-	
-	$wp_customize->add_setting('rulu-home-body-link');
-	
-	$wp_customize->add_control( new WP_Customize_Control($wp_customize, 
-		'rulu-home-body-link-control', array(
-			'label' => 'Link',
-			'section' => 'rulu-home-body-section',
-			'settings' => 'rulu-home-body-link',
-			'type' => 'dropdown-pages'
-	)));
-	
-	$wp_customize->add_setting('rulu-home-body-image1');
-	
-	$wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 
-		'rulu-home-body-image1-control', array(
-			'label' => 'Image1',
-			'section' => 'rulu-home-body-section',
-			'settings' => 'rulu-home-body-image1',
-			'width' => 310,
-			'height' => 235
-	)));
-	
-	$wp_customize->add_setting('rulu-home-body-image2');
-	
-	$wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 
-		'rulu-home-body-image2-control', array(
-			'label' => 'Image2',
-			'section' => 'rulu-home-body-section',
-			'settings' => 'rulu-home-body-image2',
-			'width' => 310,
-			'height' => 235
-	)));
-	
-	
-	
-	
-}
-
-add_action('customize_register', 'rulu_home_body');

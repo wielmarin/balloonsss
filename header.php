@@ -23,21 +23,21 @@
 
  <!-- /.primary -->
  
-<div class="homesearch">	
+<div class="homesearch">
 
-<div class="homebutton">	
-	<a href="<?php echo get_home_url(); ?>"><i class="fas fa-home fa-2x"></i></a>
-</div>
+	<!-- search -->
+	 
+	<div class="search-box">
+			<div class="hd-search">
+				<?php get_search_form(); ?>
+			</div>
+			<div class="search-icon">
+			</div>
+	</div>	
 
-<!-- search -->
- 
-<div class="search-box">
-		<div class="hd-search">
-			<?php get_search_form(); ?>
-		</div>
-		<div class="search-icon">
-		</div>
-</div>
+	<div class="homebutton">	
+		<a href="<?php echo get_home_url(); ?>"><i class="fas fa-home fa-2x"></i></a>
+	</div>
 
 </div>
 

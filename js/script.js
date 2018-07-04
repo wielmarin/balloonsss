@@ -59,7 +59,7 @@ y.addListener(fixMenuMobile) // Attach listener function on state changes
 				 jQuery('#backtotop').show();
 			  }
 			  if (jQuery(this).scrollTop() < 125) {
-				 jQuery('.site-header').css({'position':'static','background':'none'});
+				 jQuery('.site-header').css({'position':'static','background':'none', 'width':'100%'});
 				 jQuery('.logo').show();
 				 jQuery('.flex-banner').css('margin-top','0px');
 				 jQuery('.flex-banner-subpage').css('margin-top','0px');

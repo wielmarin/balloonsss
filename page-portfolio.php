@@ -30,76 +30,76 @@
 <ul id="bb-custom-grid" class="bb-custom-grid">
 <li class="block1">
 	<div id="bb-bookblock1" class="bb-bookblock">
-		<div class="bb-item"><img src="/wp-content/uploads/2018/06/gender-reveal-e1528722220429.jpg" alt="image01" width=100% height=100% /></div>
-		<div class="bb-item"><img src="/wp-content/uploads/2018/06/babyshower-ballonnen-e1528996876245.jpg" alt="image02" width=100% height=100% /></div>
-		<div class="bb-item"><img src="/wp-content/uploads/2018/06/Ballonnen-baby.jpg" alt="image03" width=100% height=100% /></div>
-		<div class="bb-item"><img src="/wp-content/uploads/2018/06/Babyshower-ballonnen-1-e1528997235716.jpg" alt="image04" width=100% height=100% /></div>
+		<div class="bb-item"><img src="<?php the_field('box_1_beeld_1'); ?>" alt="image01" width=100% height=100% /></div>
+		<div class="bb-item"><img src="<?php the_field('box_1_beeld_2'); ?>" alt="image02" width=100% height=100% /></div>
+		<div class="bb-item"><img src="<?php the_field('box_1_beeld_3'); ?>" alt="image03" width=100% height=100% /></div>
+		<div class="bb-item"><img src="<?php the_field('box_1_beeld_4'); ?>" alt="image04" width=100% height=100% /></div>
 	</div>
 		<nav>
 			<i class="fas fa-caret-square-left fa-lg prev1"></i><i class="fas fa-caret-square-right fa-lg next1"></i>
 		</nav>
-		<h3>Baby</h3>
+		<h3><?php the_field('portfolio_box_1_titel'); ?></h3>
 </li>
 <li class="block2">
 	<div id="bb-bookblock2" class="bb-bookblock">
-		<div class="bb-item"><img src="/wp-content/uploads/2018/06/Tros-ballonnen-verjaardag-3.jpg" alt="image01" width=100% height=100% /></div>
-		<div class="bb-item"><img src="/wp-content/uploads/2018/06/Folie-ballonnen-letters-e1529489473356.jpg" alt="image02" width=100% height=100% /></div>
-		<div class="bb-item"><img src="/wp-content/uploads/2018/06/Verjaardag1-e1529073145205.jpg" alt="image03" width=100% height=100% /></div>
-		<div class="bb-item"><img src="/wp-content/uploads/2018/06/Tros-ballonnen-verjaardag-1-e1529489535768.jpg" alt="image04" width=100% height=100% /></div>
+		<div class="bb-item"><img src="<?php the_field('box_2_beeld_1'); ?>" alt="image01" width=100% height=100% /></div>
+		<div class="bb-item"><img src="<?php the_field('box_2_beeld_2'); ?>" alt="image02" width=100% height=100% /></div>
+		<div class="bb-item"><img src="<?php the_field('box_2_beeld_3'); ?>" alt="image03" width=100% height=100% /></div>
+		<div class="bb-item"><img src="<?php the_field('box_2_beeld_4'); ?>" alt="image04" width=100% height=100% /></div>
 	</div>
 		<nav>
 			<i class="fas fa-caret-square-left fa-lg prev2"></i><i class="fas fa-caret-square-right fa-lg next2"></i>
 		</nav>
-		<h3>Verjaardag</h3>
+		<h3><?php the_field('portfolio_box_2_titel'); ?></h3>
 </li>
 <li class="block3">
 	<div id="bb-bookblock3" class="bb-bookblock">
-		<div class="bb-item"><img src="/wp-content/uploads/2018/05/6cb460b8506d121d128d372aecc88f6b-e1529073256317.jpg" alt="image01" width=100% height=100% /></div>
-		<div class="bb-item"><img src="/wp-content/uploads/2018/06/Bruiloft-ballonnen.jpg" alt="image02" width=100% height=100% /></div>
-		<div class="bb-item"><img src="/wp-content/uploads/2018/06/Ballonnen-love.jpg" alt="image03" width=100% height=100% /></div>
-		<div class="bb-item"><img src="/wp-content/uploads/2018/06/Ballonnen-wedding-e1529490879221.jpg" alt="image04" width=100% height=100% /></div>
+		<div class="bb-item"><img src="<?php the_field('box_3_beeld_1'); ?>" alt="image01" width=100% height=100% /></div>
+		<div class="bb-item"><img src="<?php the_field('box_3_beeld_2'); ?>" alt="image02" width=100% height=100% /></div>
+		<div class="bb-item"><img src="<?php the_field('box_3_beeld_3'); ?>" alt="image03" width=100% height=100% /></div>
+		<div class="bb-item"><img src="<?php the_field('box_3_beeld_4'); ?>" alt="image04" width=100% height=100% /></div>
 	</div>
 		<nav>
 			<i class="fas fa-caret-square-left fa-lg prev3"></i><i class="fas fa-caret-square-right fa-lg next3"></i>
 		</nav>
-		<h3>Bruiloft</h3>
+		<h3><?php the_field('portfolio_box_3_titel'); ?></h3>
 </li>
 <li class="block4">
 	<div id="bb-bookblock4" class="bb-bookblock">
-		<div class="bb-item"><img src="/wp-content/uploads/2018/06/Thema-e1529073418662.jpg" alt="image01" width=100% height=100% /></div>
-		<div class="bb-item"><img src="/wp-content/uploads/2018/06/Thema-ballonnen-e1529492569907.jpg" alt="image02" width=100% height=100% /></div>
-		<div class="bb-item"><img src="/wp-content/uploads/2018/06/Ballonnen-halloween-1-e1529490993835.jpg" alt="image03" width=100% height=100% /></div>
-		<div class="bb-item"><img src="/wp-content/uploads/2018/06/Ballon-hart-1-e1529492730822.jpg" alt="image04" width=100% height=100% /></div>
+		<div class="bb-item"><img src="<?php the_field('box_4_beeld_1'); ?>" alt="image01" width=100% height=100% /></div>
+		<div class="bb-item"><img src="<?php the_field('box_4_beeld_2'); ?>" alt="image02" width=100% height=100% /></div>
+		<div class="bb-item"><img src="<?php the_field('box_4_beeld_3'); ?>" alt="image03" width=100% height=100% /></div>
+		<div class="bb-item"><img src="<?php the_field('box_4_beeld_4'); ?>" alt="image04" width=100% height=100% /></div>
 	</div>
 		<nav>
 			<i class="fas fa-caret-square-left fa-lg prev4"></i><i class="fas fa-caret-square-right fa-lg next4"></i>
 		</nav>
-		<h3>Themafeesten</h3>
+		<h3><?php the_field('portfolio_box_4_titel'); ?></h3>
 </li>
 <li class="block5">
 	<div id="bb-bookblock5" class="bb-bookblock">
-		<div class="bb-item"><img src="/wp-content/uploads/2018/06/Balloons-nieuwjaar-e1529490706622.jpg" alt="image01" width=100% height=100% /></div>
-		<div class="bb-item"><img src="/wp-content/uploads/2018/06/birthday-e1529491451467.jpg" alt="image02" width=100% height=100% /></div>
-		<div class="bb-item"><img src="/wp-content/uploads/2018/06/Opening-ballonnen.jpg" alt="image03" width=100% height=100% /></div>
-		<div class="bb-item"><img src="/wp-content/uploads/2018/06/Business-ballonnen.jpg" alt="image04" width=100% height=100% /></div>
+		<div class="bb-item"><img src="<?php the_field('box_5_beeld_1'); ?>" alt="image01" width=100% height=100% /></div>
+		<div class="bb-item"><img src="<?php the_field('box_5_beeld_2'); ?>" alt="image02" width=100% height=100% /></div>
+		<div class="bb-item"><img src="<?php the_field('box_5_beeld_3'); ?>" alt="image03" width=100% height=100% /></div>
+		<div class="bb-item"><img src="<?php the_field('box_5_beeld_4'); ?>" alt="image04" width=100% height=100% /></div>
 	</div>
 		<nav>
 			<i class="fas fa-caret-square-left fa-lg prev5"></i><i class="fas fa-caret-square-right fa-lg next5"></i>
 		</nav>
-		<h3>Business</h3>
+		<h3><?php the_field('portfolio_box_5_titel'); ?></h3>
 </li>
 
 <li class="block6">
 	<div id="bb-bookblock6" class="bb-bookblock">
-		<div class="bb-item"><img src="/wp-content/uploads/2018/06/Ballonboog-e1529491904623.jpg" alt="image01" width=100% height=100% /></div>
-		<div class="bb-item"><img src="/wp-content/uploads/2018/06/Ballonboog-kleur-e1529492086754.jpg" alt="image02" width=100% height=100% /></div>
-		<div class="bb-item"><img src="/wp-content/uploads/2018/06/witte-ballonnenpilaren-1-e1529663827795.jpg" alt="image03" width=100% height=100% /></div>
-		<div class="bb-item"><img src="/wp-content/uploads/2018/06/witte-ballonnenboog-e1529663692889.jpg" alt="image04" width=100% height=100% /></div>
+		<div class="bb-item"><img src="<?php the_field('box_6_beeld_1'); ?>" alt="image01" width=100% height=100% /></div>
+		<div class="bb-item"><img src="<?php the_field('box_6_beeld_2'); ?>" alt="image02" width=100% height=100% /></div>
+		<div class="bb-item"><img src="<?php the_field('box_6_beeld_3'); ?>" alt="image03" width=100% height=100% /></div>
+		<div class="bb-item"><img src="<?php the_field('box_6_beeld_4'); ?>" alt="image04" width=100% height=100% /></div>
 	</div>
 		<nav>
 			<i class="fas fa-caret-square-left fa-lg prev6"></i><i class="fas fa-caret-square-right fa-lg next6"></i>
 		</nav>
-		<h3>Pilaren en bogen</h3>
+		<h3><?php the_field('portfolio_box_6_titel'); ?></h3>
 </li>
 
 </ul>
