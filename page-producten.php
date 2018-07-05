@@ -24,6 +24,10 @@
 	<p></p>
 	<?php endif; ?> <!-- END LOOP -->
 	
+		
+		<a class="button" href="/balloonsss/contact/">Offerte aanvragen
+		</a>
+	
 	</div>
 </div>
 
@@ -75,13 +79,18 @@
 			<div class="sp"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/Beelden/Beelden/waaromballoonsss.jpg" height="70" width="70"><p>Kwalitatief en duurzaam</p></div>
 </div>
 
-<div class="cta">
-	<h3>Wil je meer weten over Balloonsss of een offerte aanvragen?</h3>
-<a class="buttoncta" href="/contact/">Neem contact met mij op<i class="fas fa-angle-right"></i></a>
+<div class="cta-producten">
+	<h2>Advies en prijsindicatie ontvangen?</h2>
+	<div class="cta-producten-p"><p>Vul je gegevens in en ik neem zo snel mogelijk contact met jou op.</p></div>
+	<?php echo do_shortcode('[contact-form-7 id="163" title="Contact form 1"]'); ?>
 </div>
 
-
-
+<div class="voordelen-mobile">
+	<h3>Waarom Balloonsss?</h3>
+		<i class="fas fa-check"></i> Kwalitatief en duurzaam<br>
+		<i class="fas fa-check"></i> Professioneel<br>
+		<i class="fas fa-check"></i> Passend bij elk themafeest
+</div>
 
  
 

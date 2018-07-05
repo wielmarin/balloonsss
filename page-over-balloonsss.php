@@ -25,9 +25,9 @@
 	</div>
 </div>
 
-<div class="flexbox-home-overmij">
+<div class="flexbox-overmij">
 	<div class="over-mij">
-		<div class="over-mij-tekst-subpage"><h2><i class="fas fa-quote-left"></i><?php the_field('titel_over_martina'); ?></h2>
+		<div class="over-mij-tekst"><h2><i class="fas fa-quote-left"></i><?php the_field('titel_over_martina'); ?></h2>
 		<?php the_field('omschrijving_over_martina'); ?></div>
 	</div>
 	<div class="box-over-mij-image">
@@ -41,6 +41,13 @@
 			<div class="sp"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/Beelden/Beelden/waaromballoonsss.jpg" height="70" width="70"><p>Professioneel</p></div>
 			<div class="sp"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/Beelden/Beelden/waaromballoonsss.jpg" height="70" width="70"><p>Passend bij elk themafeest</p></div>
 			<div class="sp"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/Beelden/Beelden/waaromballoonsss.jpg" height="70" width="70"><p>Kwalitatief en duurzaam</p></div>
+</div>
+
+<div class="voordelen-mobile">
+	<h3>Waarom Balloonsss?</h3>
+		<i class="fas fa-check"></i> Kwalitatief en duurzaam<br>
+		<i class="fas fa-check"></i> Professioneel<br>
+		<i class="fas fa-check"></i> Passend bij elk themafeest
 </div>
 
 <div class="cta">

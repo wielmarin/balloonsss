@@ -1,4 +1,4 @@
-<?php /* Template Name: thema template
+<?php /* Template Name: nieuws template
 * Template Post Type: post, page
 */ ?>
 
@@ -9,6 +9,8 @@
 
 	get_header();?>
 		
+
+	<?php get_template_part("banner");?>
 	
 <!-- Contactbutton -->
 	<?php  $post_thumbnail_id = get_post_thumbnail_id();
@@ -20,7 +22,9 @@
 <div class="container-thema">
 
 	<div class="flex-thema-content">
+		
 		<h1><?php the_title(); ?></h1>
+		<div class="nieuws-date"><p><?php the_time('j F Y'); ?></p></div>
 		<!-- THE LOOP --><?php if ( have_posts() ) : while ( have_posts() ) : the_post();
 		?>
 		<p><?php the_content(); ?></p>
@@ -29,11 +33,11 @@
 		<p></p>
 		<?php endif; ?> <!-- END LOOP -->
 		
-		<div class="cta-thema">
-			<h2>Advies en prijsindicatie ontvangen?</h2>
-			<p>Vul je gegevens in en ik neem zo snel mogelijk contact met jou op.</p><br>
-			<?php echo do_shortcode('[contact-form-7 id="163" title="Contact form 1"]'); ?>
+		<div class="social">
+			<h3>Deel deze content</h3>
+			<?php echo do_shortcode('[TheChamp-Sharing]'); ?>
 		</div>
+		
 	</div>
 	
 
@@ -41,6 +45,12 @@
 <!-- Sidebar -->
 
 	<div class="flex-thema-sidebar">
+	<div class="sidebar-contact">
+		<div class="sidebar-titel"><h4>Contact</h4></div>
+			Wil je meer informatie over Balloonsss of advies?
+			<a class="buttonthema" href="/balloonsss/contact/">Neem contact op
+			</a>
+	</div>
 	<div class="sidebar">
 		<h4>Portfolio</h4>
 			<ul id="bb-custom-grid" class="bb-custom-grid">

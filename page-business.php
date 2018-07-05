@@ -91,6 +91,13 @@
 			<div class="sp"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/Beelden/Beelden/waaromballoonsss.jpg" height="70" width="70"><p>Kwalitatief en duurzaam</p></div>
 </div>
 
+<div class="voordelen-mobile">
+	<h3>Waarom Balloonsss?</h3>
+		<i class="fas fa-check"></i> Kwalitatief en duurzaam<br>
+		<i class="fas fa-check"></i> Professioneel<br>
+		<i class="fas fa-check"></i> Passend bij elk themafeest
+</div>
+
 <div class="cta">
 	<h3>Wil je meer weten over Balloonsss of een offerte aanvragen?</h3>
 <a class="buttoncta" href="/balloonsss/contact/">Neem contact met mij op<i class="fas fa-angle-right"></i></a>

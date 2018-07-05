@@ -39,7 +39,7 @@
 			<a href="callto:0683916328" target="_blank"><i class="fas fa-phone"></i>06 83 91 63 28</a><br>
 			<i class="fab fa-whatsapp fa-lg"></i>06 83 91 63 28<br>
 			<a href="mailto:martina@balloonsss.nl"><i class="far fa-envelope"></i>martina@balloonsss.nl</a><br>
-			<i class="fas fa-question"></i>FAQ
+			<i class="fas fa-question"></i><a href="http://www.balloonsss.nl/faq/">FAQ</a>
 		</div>
 		<div class="contact-gegevens-detail">
 			<h2>Adresgegevens</h2>

@@ -100,7 +100,7 @@ div.container {
 
 /* Homepage */
 
-/* Banner Frontpage */
+/* Frontpage banner */
 
 div.flex-banner {
 	display: flex;
@@ -114,14 +114,6 @@ div.flex-banner {
 		}
 }
 
-#scrolldown {
-	color: #7c7b7b;
-	z-index: 100;
-	font-size: 35px;
-	width: 100%;
-	text-align: center;
-}
-
 .flex-banner-image {
 	background-repeat:no-repeat;
 	background-size: cover;
@@ -131,7 +123,7 @@ div.flex-banner {
 	opacity: 0.8;
 }
 
-/* Over Balloonsss Frontpage */
+/* Frontpage over Balloonsss */
 
 .container-about {
 	width: 100%;
@@ -161,9 +153,40 @@ div.flex-banner {
 	font-size: 35px;
 }
 
-.container-about img {
-	position: relative;
-	left: 20px;
+/* Frontpage button introductie */
+
+.button {
+	display: block;
+    padding: 10px 25px 10px 25px;
+	background-color: #EB4D66;
+	color: #fff!important;
+	width: 140px;
+	text-align: center;
+	text-decoration: none!important;
+	transition: all 0.3s ease 0s;
+	margin: auto;
+	border-radius: 5px;
+	margin-top: 40px;
+	@media screen and (max-width: $mobilesize) {
+		margin-bottom: 10px;
+	}
+}
+
+
+.button:hover,
+.button:focus {
+    text-decoration: none;
+	opacity: 0.8;
+}
+.button:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(#aba7a5), to(#aba7a5));
+    background: -moz-linear-gradient(top, #aba7a5, #aba7a5);
+    background: linear-(to bottom, #aba7a5, #aba7a5);
+}
+
+.button a:link, 
+.button a:visited {
+	color: #FFF;
 }
 
 /* Contact button on scroll */
@@ -232,44 +255,7 @@ div.flex-banner {
 margin-right: 20px;
 }
 
-/* Button */
-
-.button {
-	display: block;
-    padding: 10px 25px 10px 25px;
-	background-color: #EB4D66;
-	color: #fff!important;
-	width: 140px;
-	text-align: center;
-	text-decoration: none!important;
-	transition: all 0.3s ease 0s;
-	margin: auto;
-	border-radius: 5px;
-	margin-top: 40px;
-	@media screen and (max-width: $mobilesize) {
-		margin-bottom: 10px;
-	}
-}
-
-
-.button:hover,
-.button:focus {
-    text-decoration: none;
-	opacity: 0.8;
-}
-.button:active {
-    background: -webkit-gradient(linear, left top, left bottom, from(#aba7a5), to(#aba7a5));
-    background: -moz-linear-gradient(top, #aba7a5, #aba7a5);
-    background: linear-(to bottom, #aba7a5, #aba7a5);
-}
-
-.button a:link, 
-.button a:visited {
-	color: #FFF;
-}
-
-
-/* Flexbox diensten Frontpage */
+/* Frontpage party en business */
 
 .flexbox-home {
 	display: flex;
@@ -413,7 +399,7 @@ i {
 	color:#C36276!important;
 }
 
-/* Button flexbox */
+/* Frontpage buttons party en business */
 
 .buttonflex {
 	display: block;
@@ -445,8 +431,9 @@ i {
 	color: #fff;
 }
 
+/* Algemeen */
 
-/* Flexbox KPI's Balloonsss Frontpage */
+/* Waarom Balloonsss */
 
 .voordelen {
 	display: flex;
@@ -459,6 +446,24 @@ i {
 	@media screen and (min-width: 481px) and (max-width: 900px) {
 		padding: 70px 0px;
 	}
+}
+
+.voordelen-mobile {
+@media screen and (min-width: $mobilesize) {
+	display: none;
+	}
+@media screen and (max-width: $mobilesize) {
+	display:block;
+	margin: 20px 0px 20px 30px;
+	}
+}
+
+.voordelen-mobile i {
+	color: $roze;
+}
+
+.voordelen-mobile h3 {
+font-size: 150%;
 }
 
 .sp {
@@ -482,84 +487,7 @@ i {
 	}
 }
 
-/* Over mij frontpage */
-
-.flexbox-home-overmij {
-	display: flex;
-	flex-wrap: wrap;
-	width: 95%;
-	margin: auto;
-	background-color: #f6f5f5;
-	border-radius: 5px;
-	margin-bottom: 20px;
-	@media screen and (max-width: $mobilesize) {
-		margin-bottom: 30px;
-	}
-}
-
-
-.over-mij {
-	width: 50%;
-	@media screen and (max-width: $tabletsize) {
-		width:100%;
-		margin: auto;
-	}
-}
-
-.over-mij-tekst h2 {
-	padding-bottom: 30px;
-	text-align: left;
-	font-family: 'Lato';
-	font-size: 30px;
-}
-
-.over-mij-tekst {
-	padding: 80px 122px 0px 122px;
-	@media screen and (max-width: $tabletsize) {
-		width:100%;
-		margin: auto;
-		padding: 10px;
-	}
-}
-
-.actie-overmij {
-	padding: 20px 122px 80px 122px;
-}
-
-.box-over-mij-image {
-	width: 50%;
-	background-color: #8aaea8;
-	display: flex;
-	opacity: 0.8;
-	border-radius: 0px 5px 5px 0px;
-	@media screen and (max-width: $tabletsize) {
-		width:100%;
-		margin: auto;
-		border-radius: 0px 0px 5px 5px;
-	}
-}
-
-.over-mij-image {
-	margin: auto;
-	@media screen and (min-width: $mobilesize)and (max-width: $tabletsize) {
-		padding: 60px 0px;
-	}
-	@media screen and (max-width: $mobilesize) {
-		padding: 40px 0px;
-	}
-}
-
-.over-mij-tekst i {
-	color: #EB4D66;
-}
-
-.over-mij-image img {
-	@media screen and (max-width: $tabletsize) {
-	height: 200px;
-	}
-}
-
-/*frontpage drieblokken */
+/*Frontpage drieblokken */
 
 .drieblokken {
 	display: flex;
@@ -595,7 +523,7 @@ i {
 	@media screen and (min-width: 481px) and (max-width: 900px) {
 		width: 90%;
 		margin: 10px auto;
-		height: 470px;
+		height: 520px;
 	}
 }
 
@@ -609,6 +537,9 @@ i {
 	border-radius: 5px 5px 0px 0px;
 	@media screen and (min-width: 901px) and (max-width: $tabletwide) {
 		height: 250px;
+	}
+	@media screen and (min-width: $mobilesize + 1) and (max-width: 900px) {
+		height: 270px;
 	}
 	@media screen and (max-width: $mobilesize) {
 		width:100%;
@@ -629,6 +560,9 @@ i {
 	@media screen and (min-width: 901px) and (max-width: $tabletwide) {
 		height: 250px;
 	}
+	@media screen and (min-width: $mobilesize + 1) and (max-width: 900px) {
+		height: 270px;
+	}
 	@media screen and (max-width: $mobilesize) {
 		width:100%;
 		padding: 20px 0px;
@@ -647,6 +581,9 @@ i {
 	border-radius: 5px 5px 0px 0px;
 	@media screen and (min-width: 901px) and (max-width: $tabletwide) {
 		height: 250px;
+	}
+	@media screen and (min-width: $mobilesize + 1) and (max-width: 900px) {
+		height: 270px;
 	}
 	@media screen and (max-width: $mobilesize) {
 		width:100%;
@@ -805,6 +742,88 @@ div.copyright {
 	margin-bottom: 30px;
 }
 
+/* Subpage over mij  */
+
+.flexbox-overmij {
+	display: flex;
+	flex-wrap: wrap;
+	width: 95%;
+	margin: auto;
+	background-color: #f6f5f5;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	@media screen and (max-width: $mobilesize) {
+		margin-bottom: 30px;
+	}
+}
+
+.over-mij {
+	width: 50%;
+	@media screen and (max-width: $tabletsize) {
+		width:100%;
+		margin: auto;
+	}
+}
+
+.over-mij-tekst {
+	padding: 80px 100px 80px 100px;
+	@media screen and (min-width: $tabletsize) and (max-width: $tabletwide) {
+		padding: 80px 70px 80px 70px;
+	}
+	@media screen and (min-width: $mobilesize) and (max-width: $tabletsize) {
+		padding: 40px 70px 50px 70px;
+	}
+	@media screen and (max-width: $mobilesize) {
+		padding: 30px 25px 40px 25px;
+	}
+}
+
+.over-mij-tekst i {
+	color: #EB4D66;
+}
+
+.over-mij-tekst h2 {
+	padding-bottom: 30px;
+	text-align: left;
+	font-family: 'Lato';
+	font-size: 30px;
+}
+
+.actie-overmij {
+	padding: 20px 122px 80px 122px;
+}
+
+.box-over-mij-image {
+	width: 50%;
+	background-color: #8aaea8;
+	display: flex;
+	opacity: 0.8;
+	border-radius: 0px 5px 5px 0px;
+	@media screen and (max-width: $tabletsize) {
+		width:100%;
+		margin: auto;
+		border-radius: 0px 0px 5px 5px;
+	}
+}
+
+.over-mij-image {
+	margin: auto;
+	@media screen and (min-width: $mobilesize)and (max-width: $tabletsize) {
+		padding: 60px 0px;
+	}
+	@media screen and (max-width: $mobilesize) {
+		padding: 40px 0px;
+	}
+}
+
+.over-mij-image img {
+	@media screen and (max-width: $tabletsize) {
+	height: 200px;
+	}
+}
+
+/* Business en party subpage */
+
 .flexbox-item-producten {
 	width: 45%;
 	background-color: #8aaea8;
@@ -872,7 +891,7 @@ div.copyright {
 	text-decoration: underline;
 }
 
-/* Producten */
+/* Producten subpage */
 
 .container-producten {
 	width: 90%;
@@ -880,7 +899,7 @@ div.copyright {
 	flex-wrap: wrap;
 	margin: auto;
 	justify-content: space-around;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 	@media screen and (min-width: $mobilesize + 1) and (max-width: $tabletsize) {
 		margin-bottom: 20px
 	}
@@ -889,9 +908,11 @@ div.copyright {
 	}
 	@media screen and (min-width: $tabletwide) and (max-width: 1350px) {
 		width: 65%;
+		margin-bottom: 0px;
 	}
 	@media screen and (min-width: $tabletsize) and (max-width: $tabletwide) {
 		width: 80%;
+		margin-bottom: 0px;
 	}
 }
 
@@ -926,6 +947,23 @@ div.copyright {
 	padding: 15px 15px 5px 15px;
 }
 
+.page-id-204 .voordelen {
+	@media screen and (max-width: $tabletsize) {
+		display: none;
+	}
+}
+
+.page-id-204 .voordelen-mobile {
+@media screen and (min-width: $tabletsize +1) {
+	display: none;
+	}
+@media screen and (max-width: $tabletsize) {
+	display:block;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	}
+}
+
 @media screen and (max-width: $mobilesize) {
 	.page-id-17 .voordelen {
 	padding-top: 0px;
@@ -938,13 +976,9 @@ div.copyright {
 	.page-id-9 .voordelen {
 	padding-top: 0px;
 	}
-	
-	.page-id-204 .voordelen {
-	padding-top: 0px;
-	}
 }
 
-/* banner subpage */
+/* Banner subpage */
 
 div.flex-banner-subpage {
 	display: flex;
@@ -1030,32 +1064,39 @@ div.flex-banner-subpage {
 	color: #FFF;
 }
 
-/* Over mij */
-
-.over-mij-tekst-subpage {
-	padding: 80px 100px 80px 100px;
-	@media screen and (min-width: $tabletsize) and (max-width: $tabletwide) {
-		padding: 80px 70px 80px 70px;
-	}
-	@media screen and (min-width: $mobilesize) and (max-width: $tabletsize) {
-		padding: 40px 70px 50px 70px;
-	}
+.cta-producten {
+	width: 95%;
+	margin: auto;
+	background-color:#f6f5f5;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	padding: 50px 0px;
 	@media screen and (max-width: $mobilesize) {
-		padding: 30px 25px 40px 25px;
+	padding: 30px 0px;
+	margin-top: 20px;
+	margin-bottom: 0px;
 	}
 }
 
-.over-mij-tekst-subpage i {
+.cta-producten-p {
+	padding: 0px 40px 0px 40px;
+}
+
+.cta-producten h2 {
 	color: #EB4D66;
+	font-size: 150%;
+	text-align: center;
+	margin-bottom: 20px;
+	@media screen and (max-width: $tabletsize) {
+		width: calc(100% - 20px);
+		margin:auto;
+		margin-bottom: 20px;
+	}
 }
 
-.over-mij-tekst-subpage h2 {
-	padding-bottom: 30px;
-	text-align: left;
-	font-family: 'Lato';
-	font-size: 30px;
+.cta-producten p {
+	text-align: center;
 }
-
 
 /* contactformulier */
 
@@ -1095,6 +1136,13 @@ div.flex-banner-subpage {
 	}
 }
 
+
+.page-id-204 .wpcf7 input {
+	@media screen and (max-width: $mobilesize) {
+		width:80%;
+	}
+}
+
 .wpcf7 textarea {
     width: 70%;
 	border: none;
@@ -1105,6 +1153,12 @@ div.flex-banner-subpage {
 	font-size: 15px;
 	@media screen and (max-width: $mobilesize) {
 		width:95%;
+	}
+}
+
+.page-id-204 .wpcf7 textarea {
+	@media screen and (max-width: $mobilesize) {
+		width:80%;
 	}
 }
 
@@ -1125,6 +1179,14 @@ input.wpcf7-submit {
 	cursor: pointer;
 	margin-top: 20px;
 }
+
+.page-id-204 input.wpcf7-submit  {
+	display: initial;
+}
+
+.page-id-204 .wpcf7 {
+	margin-top: 20px;
+	}
 
 input.wpcf7-submit:hover,
 input.wpcf7-submit:focus {
@@ -1191,7 +1253,7 @@ span.wpcf7-list-item {
 	margin: 10px;
 }
 
-/* Thema template */
+/* Thema en nieuws template */
 
 .container-thema {
 	width: 100%;
@@ -1236,9 +1298,20 @@ span.wpcf7-list-item {
 	font-family: 'Lato';
 }
 
+.post-template-nieuws .flex-thema-content h1 {
+	color: $roze;
+	margin-bottom: 0px;
+	font-family: 'Lato';
+}
+
 .flex-thema-content h2, .flex-thema-content h3 {
 	margin-top: 20px;
 	}
+	
+.nieuws-date {
+font-size: 80%;
+margin-bottom: 20px;
+}
 
 .flex-thema-sidebar {
 	width: 300px;
@@ -1250,6 +1323,18 @@ span.wpcf7-list-item {
 }
 
 .sidebar {
+	margin: 5px 0px 20px 20px;
+	background-color: #f6f5f5;
+	border-radius: 5px;
+	padding: 10px;
+	color: #5e5e5e;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+	@media screen and (max-width: $tabletsize) {
+		margin: 10px auto;
+	}
+}
+
+.sidebar-contact {
 	margin: 5px 0px 20px 20px;
 	background-color: #f6f5f5;
 	border-radius: 5px;
@@ -1301,6 +1386,15 @@ span.wpcf7-list-item {
 	}
 }
 
+.sidebar-contact h4 {
+	font-size: 130%;
+	margin-bottom: 0px;
+	color: $roze;
+	@media screen and (max-width: $mobilesize) {
+		padding: 7px;
+	}
+}
+
 .sidebar-titel h4 {
 	font-size: 130%;
 	margin-bottom: 15px;
@@ -1327,7 +1421,7 @@ span.wpcf7-list-item {
 	text-decoration: none!important;
 	transition: all 0.3s ease 0s;
 	border-radius: 5px;
-	margin: 30px 0px 30px 0px;
+	margin: 25px auto 15px auto;
 }
 
 
@@ -1373,13 +1467,26 @@ tr:hover {
 
 .container-algemeen {
 	padding: 60px 100px 60px 100px;
+	width: 70%;
+	margin: auto;
 	}
 	
 .container-algemeen h2 {
 	padding-top: 20px;
+	color: $roze;
+	margin-bottom: 20px;
+	font-family: 'Lato';
+}
+
+.container-algemeen h3 {
+	padding-top: 20px;
+	color: $roze;
+	margin-bottom: 20px;
+	font-family: 'Lato';
 }
 
 .container-algemeen img {
 float: right;
 margin: 10px;
 }
+

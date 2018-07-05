@@ -79,8 +79,6 @@
 			<div class="sp"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/Beelden/Beelden/waaromballoonsss.jpg" height="70" width="70"><p>Kwalitatief en duurzaam</p></div>
 </div>
 
-
-
 <div class="drieblokken">
 	<div class="blok">
 		<a href="<?php the_field('blok_1_lees_meer_link'); ?>"><div class="blok-image1" style='background-image: url("<?php the_field('blok_1_beeld'); ?>")'>
@@ -109,6 +107,13 @@
 		<div class="blok-actie"><a href="<?php the_field('blok_3_lees_meer_link'); ?>"><?php the_field('blok_3_link_tekst'); ?><i class="fas fa-angle-right"></i></a></div>
 		</div>
 	</div>
+</div>
+
+<div class="voordelen-mobile">
+	<h3>Waarom Balloonsss?</h3>
+		<i class="fas fa-check"></i> Kwalitatief en duurzaam<br>
+		<i class="fas fa-check"></i> Professioneel<br>
+		<i class="fas fa-check"></i> Passend bij elk themafeest
 </div>
 
 <div class="cta">
