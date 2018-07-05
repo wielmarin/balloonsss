@@ -10,6 +10,7 @@ jQuery( document ).ready(function() {
 	});
 	
 	// Fix Menu on Scroll
+/*
 	
 var x = window.matchMedia("(min-width: 481px) and (max-width: 1100px)")
 myFunction(x) // Call listener function at run time
@@ -19,7 +20,7 @@ x.addListener(myFunction) // Attach listener function on state changes
     if (x.matches) { // If media query matches
       
 	  jQuery(function() {
-		   jQuery(window).scroll(function () {
+	   jQuery(window).scroll(function () {
 			  if (jQuery(this).scrollTop() > 125) {
 				  jQuery('.flex-banner').css('margin-top','168px');
 				  jQuery('.flex-banner-subpage').css('margin-top','168px');
@@ -71,8 +72,7 @@ y.addListener(fixMenuMobile) // Attach listener function on state changes
 		}
 	}
 
-	
-	
+*/
 	
 	
 
@@ -92,25 +92,75 @@ y.addListener(fixMenuMobile) // Attach listener function on state changes
 	
 	jQuery('#mobilemenuopen').click(function() {
 		jQuery('#mobilemenuopen').hide(),
-		jQuery('#mobilehomelink').show(),
-		jQuery('#close').show(),
-		jQuery('.search-boxmobile').show(),
-	jQuery('.frontnav-left').css({'border-top':'2px solid #EB4D66', 'padding-top':'10px'}),
-		jQuery('.frontnav ul').show();
+		jQuery('#mobilemenuclose').css({'display':'flex'}),
+		jQuery('#mobilehomelink').css({'display':'block'}),
+		jQuery('.frontnav-left').css({'border-top':'2px solid #EB4D66', 'padding-top':'10px'}),
+		jQuery('.site-header').css({'box-shadow': '0 5px 10px rgba(0,0,0,0.3)'}),
+		jQuery('.frontnav').show();
 	});
 	
-	jQuery('#close').click(function() {
+	jQuery('#mobilemenuclose').click(function() {
+		jQuery('#mobilemenuclose').hide(),
 		jQuery('#mobilemenuopen').show(),
 		jQuery('#mobilehomelink').hide(),
-		jQuery('#close').hide(),
-		jQuery('.search-boxmobile').hide(),
 		jQuery('.frontnav-left').css({'border-top':'none', 'padding-top':'0px'}),
-		jQuery('.frontnav ul').hide();
+		jQuery('.site-header').css({'box-shadow': 'none'}),
+		jQuery('.frontnav').hide();
 		
 	});
+
+//////////// Menu Only Tablet
+
+var x = window.matchMedia("(min-width: 481px) and (max-width: 1100px)")
+myFunction(x) // Call listener function at run time
+x.addListener(myFunction) // Attach listener function on state changes 
+
+	function myFunction(x) {
+    if (x.matches) { // If media query matches
+		jQuery(function() {
+		jQuery('#mobilemenuopen').click(function() {
+			jQuery('.frontnav-right').css({'border-bottom':'2px solid #EB4D66'});	
+		}); // Close jQuery function
+		jQuery('#mobilemenuclose').click(function() {
+			jQuery('.frontnav-right').css({'border-bottom':'none'});	
+		}); // Close jQuery function
+		}); // Close jQuery function
+	
+		}
+	};
+	
+	
+	////////////// Menu only mobile
+	
+	var y = window.matchMedia("(max-width: 480px)")
+fixMenuMobile(y) // Call listener function at run time
+y.addListener(fixMenuMobile) // Attach listener function on state changes 
+	
+	function fixMenuMobile(y) {
+    if (y.matches) { // If media query matches
+		jQuery('#mobilemenuopen').click(function() {
+			jQuery('.search-boxmobile').css({'border-bottom':'2px solid #EB4D66'});	
+		}); // Close jQuery function
+		jQuery('#mobilemenuclose').click(function() {
+			jQuery('.search-boxmobile').css({'border-bottom':'none'});	
+		}); // Close jQuery function
+	  } //Close If
+	}; //Close Main function
 	
 	
 	
+	
+	
+	
+//Shadow header on scroll	
+jQuery(window).scroll(function () {
+			  if (jQuery(this).scrollTop() > 15) {
+				 jQuery('.site-header').css({'box-shadow': '0 5px 10px rgba(0,0,0,0.3)'});
+			  }
+			  if (jQuery(this).scrollTop() < 15) {
+				 jQuery('.site-header').css({'box-shadow':'none'});
+			  }
+		   });	
 	
 	
 	// Contact button

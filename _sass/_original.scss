@@ -81,6 +81,15 @@ div.container {
 	}*/
 }
 
+#containermargin {
+	@media screen and (max-width: $tabletsize) {
+		margin-top: 75px;
+	}
+	@media screen and (max-width: $mobilesize) {
+		margin-top: 119px;
+	}
+}
+
 
 /* End General Layout */
 

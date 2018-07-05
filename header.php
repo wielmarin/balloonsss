@@ -48,12 +48,31 @@
 	<!-- site-header -->
 	<header class="site-header">
 	
-	
+	<a class="logo" href="<?php echo get_home_url(); ?>">
+				<img src="/wp-content/uploads/2018/05/Balloonsss_logo_solid_rgb-e1529401970764.png" width="140px" height="true" alt="Balloonsss">
+			</a>
+			
+			<!--Search Box Mobile -->
+				<div class="search-boxmobile">
+					<div class="hd-search">
+						<?php get_search_form(); ?>
+					</div>
+					<div class="search-icon">
+					</div>
+				</div>
+				<!--- Button Open Mobile Menu --->
+				<div id="mobilemenuopen">
+					<i class="fas fa-bars"></i>
+					<p>Menu</p>
+				</div>
+				<div id="mobilemenuclose">
+					<i class="fas fa-times"></i>
+					<p>Close</p>
+				</div>
 	
 	
 	<!-- navigation -->
 			<nav class="frontnav-left frontnav">
-			<span id="close"><i class="fas fa-times"></i></span>
 			<a id="mobilehomelink" href="<?php echo get_home_url(); ?>">Home</a>
 				<?php
 					$args = array(
@@ -62,9 +81,7 @@
 				?>
 				<?php wp_nav_menu( $args ); ?>	
 			</nav>
-			<a class="logo" href="<?php echo get_home_url(); ?>">
-				<img src="/wp-content/uploads/2018/05/Balloonsss_logo_solid_rgb-e1529401970764.png" width="140px" height="true" alt="Balloonsss">
-			</a>
+			
 			
 			<nav class="frontnav-right frontnav">
 				<?php
@@ -74,20 +91,13 @@
 				?>
 				<?php wp_nav_menu( $args ); ?>	
 			
-				<div class="search-boxmobile">
-						<div class="hd-search">
-							<?php get_search_form(); ?>
-						</div>
-						<div class="search-icon">
-						</div>
-				</div>
+				
 			</nav>
-	<div id="mobilemenuopen">
-		<p>Menu</p><i class="fas fa-bars"></i>
-	</div>
+
 		
 	<!-- /navigation -->
 
 	</header>
 	<!-- /site-header -->
-	
+
+	<div id='containermargin'>
