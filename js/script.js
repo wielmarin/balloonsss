@@ -96,7 +96,9 @@ y.addListener(fixMenuMobile) // Attach listener function on state changes
 		jQuery('#mobilehomelink').css({'display':'block'}),
 		jQuery('.frontnav-left').css({'border-top':'2px solid #EB4D66', 'padding-top':'10px'}),
 		jQuery('.site-header').css({'box-shadow': '0 5px 10px rgba(0,0,0,0.3)'}),
+		jQuery('.search-boxmobile').hide(),
 		jQuery('.frontnav').show();
+		
 	});
 	
 	jQuery('#mobilemenuclose').click(function() {
@@ -105,10 +107,12 @@ y.addListener(fixMenuMobile) // Attach listener function on state changes
 		jQuery('#mobilehomelink').hide(),
 		jQuery('.frontnav-left').css({'border-top':'none', 'padding-top':'0px'}),
 		jQuery('.site-header').css({'box-shadow': 'none'}),
+		jQuery('.search-boxmobile').show(),
 		jQuery('.frontnav').hide();
 		
 	});
 
+	/* Wanneer Search Balk in Menu Staat 
 //////////// Menu Only Tablet
 
 var x = window.matchMedia("(min-width: 481px) and (max-width: 1100px)")
@@ -146,6 +150,7 @@ y.addListener(fixMenuMobile) // Attach listener function on state changes
 		}); // Close jQuery function
 	  } //Close If
 	}; //Close Main function
+	*/
 	
 	
 	
