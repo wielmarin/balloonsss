@@ -158,14 +158,26 @@ y.addListener(fixMenuMobile) // Attach listener function on state changes
 	
 	
 //Shadow header on scroll	
+var z = window.matchMedia("(max-width: 1100px)")
+myFunction(z) // Call listener function at run time
+z.addListener(myFunction) // Attach listener function on state changes 
+
+	function myFunction(z) {
+    if (z.matches) { // If media query matches
+		jQuery(function() {
+			
 jQuery(window).scroll(function () {
 			  if (jQuery(this).scrollTop() > 15) {
-				 jQuery('.site-header').css({'box-shadow': '0 5px 10px rgba(0,0,0,0.3)'});
+				 jQuery('.site-header').css({'box-shadow': '0 5px 10px rgba(0,0,0,0.1)'});
 			  }
 			  if (jQuery(this).scrollTop() < 15) {
 				 jQuery('.site-header').css({'box-shadow':'none'});
 			  }
 		   });	
+		   
+		}); // Close jQuery function
+	  } //Close If
+	}; //Close Main function	
 	
 	
 	// Contact button
@@ -177,8 +189,7 @@ jQuery(window).scroll(function () {
 	jQuery('#closecontact').click(function() {
 		jQuery('.contact-onscroll-open').animate({right: '-315px'}, 800);
 	});
-	
-	
+
 	
 	
 	
