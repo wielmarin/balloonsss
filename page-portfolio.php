@@ -40,18 +40,6 @@
 		</nav>
 		<h3><?php the_field('portfolio_box_1_titel'); ?></h3>
 </li>
-<li class="block2">
-	<div id="bb-bookblock2" class="bb-bookblock">
-		<div class="bb-item"><img src="<?php the_field('box_2_beeld_1'); ?>" alt="image01" width=100% height=100% /></div>
-		<div class="bb-item"><img src="<?php the_field('box_2_beeld_2'); ?>" alt="image02" width=100% height=100% /></div>
-		<div class="bb-item"><img src="<?php the_field('box_2_beeld_3'); ?>" alt="image03" width=100% height=100% /></div>
-		<div class="bb-item"><img src="<?php the_field('box_2_beeld_4'); ?>" alt="image04" width=100% height=100% /></div>
-	</div>
-		<nav>
-			<i class="fas fa-caret-square-left fa-lg prev2"></i><i class="fas fa-caret-square-right fa-lg next2"></i>
-		</nav>
-		<h3><?php the_field('portfolio_box_2_titel'); ?></h3>
-</li>
 <li class="block3">
 	<div id="bb-bookblock3" class="bb-bookblock">
 		<div class="bb-item"><img src="<?php the_field('box_3_beeld_1'); ?>" alt="image01" width=100% height=100% /></div>
@@ -63,18 +51,6 @@
 			<i class="fas fa-caret-square-left fa-lg prev3"></i><i class="fas fa-caret-square-right fa-lg next3"></i>
 		</nav>
 		<h3><?php the_field('portfolio_box_3_titel'); ?></h3>
-</li>
-<li class="block4">
-	<div id="bb-bookblock4" class="bb-bookblock">
-		<div class="bb-item"><img src="<?php the_field('box_4_beeld_1'); ?>" alt="image01" width=100% height=100% /></div>
-		<div class="bb-item"><img src="<?php the_field('box_4_beeld_2'); ?>" alt="image02" width=100% height=100% /></div>
-		<div class="bb-item"><img src="<?php the_field('box_4_beeld_3'); ?>" alt="image03" width=100% height=100% /></div>
-		<div class="bb-item"><img src="<?php the_field('box_4_beeld_4'); ?>" alt="image04" width=100% height=100% /></div>
-	</div>
-		<nav>
-			<i class="fas fa-caret-square-left fa-lg prev4"></i><i class="fas fa-caret-square-right fa-lg next4"></i>
-		</nav>
-		<h3><?php the_field('portfolio_box_4_titel'); ?></h3>
 </li>
 <li class="block5">
 	<div id="bb-bookblock5" class="bb-bookblock">
@@ -88,7 +64,6 @@
 		</nav>
 		<h3><?php the_field('portfolio_box_5_titel'); ?></h3>
 </li>
-
 <li class="block6">
 	<div id="bb-bookblock6" class="bb-bookblock">
 		<div class="bb-item"><img src="<?php the_field('box_6_beeld_1'); ?>" alt="image01" width=100% height=100% /></div>
@@ -100,6 +75,30 @@
 			<i class="fas fa-caret-square-left fa-lg prev6"></i><i class="fas fa-caret-square-right fa-lg next6"></i>
 		</nav>
 		<h3><?php the_field('portfolio_box_6_titel'); ?></h3>
+</li>
+<li class="block4">
+	<div id="bb-bookblock4" class="bb-bookblock">
+		<div class="bb-item"><img src="<?php the_field('box_4_beeld_1'); ?>" alt="image01" width=100% height=100% /></div>
+		<div class="bb-item"><img src="<?php the_field('box_4_beeld_2'); ?>" alt="image02" width=100% height=100% /></div>
+		<div class="bb-item"><img src="<?php the_field('box_4_beeld_3'); ?>" alt="image03" width=100% height=100% /></div>
+		<div class="bb-item"><img src="<?php the_field('box_4_beeld_4'); ?>" alt="image04" width=100% height=100% /></div>
+	</div>
+		<nav>
+			<i class="fas fa-caret-square-left fa-lg prev4"></i><i class="fas fa-caret-square-right fa-lg next4"></i>
+		</nav>
+		<h3><?php the_field('portfolio_box_4_titel'); ?></h3>
+</li>
+<li class="block2">
+	<div id="bb-bookblock2" class="bb-bookblock">
+		<div class="bb-item"><img src="<?php the_field('box_2_beeld_1'); ?>" alt="image01" width=100% height=100% /></div>
+		<div class="bb-item"><img src="<?php the_field('box_2_beeld_2'); ?>" alt="image02" width=100% height=100% /></div>
+		<div class="bb-item"><img src="<?php the_field('box_2_beeld_3'); ?>" alt="image03" width=100% height=100% /></div>
+		<div class="bb-item"><img src="<?php the_field('box_2_beeld_4'); ?>" alt="image04" width=100% height=100% /></div>
+	</div>
+		<nav>
+			<i class="fas fa-caret-square-left fa-lg prev2"></i><i class="fas fa-caret-square-right fa-lg next2"></i>
+		</nav>
+		<h3><?php the_field('portfolio_box_2_titel'); ?></h3>
 </li>
 
 </ul>

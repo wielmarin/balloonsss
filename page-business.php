@@ -27,6 +27,19 @@
 </div>
 
 <div class="flexbox-home">
+
+	<div class="flexbox-item-producten">
+		<div class="item-image-producten" style="background-image: url(/wp-content/uploads/2018/06/Ballonnen-beurs-1.jpg)"></div>
+		<div class="tekst">
+			<a href="/balloonsss/beurs-ballonnen/"><h2><?php the_field('titel_thema2'); ?></h2></a>
+			<div class="tekst-p">
+				<p><?php the_field('tekst_thema2'); ?></p>	
+			</div>
+			<div class="actie-sub">
+				<a href="/balloonsss/beurs-ballonnen/">Lees meer<i class="fas fa-angle-right"></i></a>
+			</div>
+		</div>
+	</div>
 	<div class="flexbox-item-producten">
 		<div class="item-image-producten" style="background-image: url(/wp-content/uploads/2018/06/Ballonnen-opening.jpg)"></div>
 		
@@ -41,18 +54,6 @@
 		</div>
 	</div>
 	
-	<div class="flexbox-item-producten">
-		<div class="item-image-producten" style="background-image: url(/wp-content/uploads/2018/06/Ballonnen-beurs-1.jpg)"></div>
-		<div class="tekst">
-			<a href="/balloonsss/beurs-ballonnen/"><h2><?php the_field('titel_thema2'); ?></h2></a>
-			<div class="tekst-p">
-				<p><?php the_field('tekst_thema2'); ?></p>	
-			</div>
-			<div class="actie-sub">
-				<a href="/balloonsss/beurs-ballonnen/">Lees meer<i class="fas fa-angle-right"></i></a>
-			</div>
-		</div>
-	</div>
 </div>
 
 <div class="flexbox-home">

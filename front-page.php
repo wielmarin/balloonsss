@@ -46,7 +46,6 @@
 					<p><i class="fas fa-long-arrow-alt-right"></i>Babyfeest</p>
 					<p><i class="fas fa-long-arrow-alt-right"></i>Jubileum en verjaardagen</p>
 					<p><i class="fas fa-long-arrow-alt-right"></i>Themafeesten</p>
-					<p><i class="fas fa-long-arrow-alt-right"></i>Pilaren en bogen</p>
 			</div>
 			<div class="Actie">
 				<span class="buttonflex">Bekijk meer<i class="fas fa-angle-right"></i></span>
@@ -64,7 +63,6 @@
 					<p><i class="fas fa-long-arrow-alt-right"></i>Beurzen</p>
 					<p><i class="fas fa-long-arrow-alt-right"></i>Thema’s</p>
 					<p><i class="fas fa-long-arrow-alt-right"></i>Verjaardagen</p>
-					<p><i class="fas fa-long-arrow-alt-right"></i>Pilaren en bogen</p>
 			</div>
 			<div class="Actie">
 				<span class="buttonflex">Bekijk meer<i class="fas fa-angle-right"></i></span>

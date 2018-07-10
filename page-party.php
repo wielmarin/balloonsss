@@ -29,6 +29,20 @@ Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot ee
 </div>
 
 <div class="flexbox-home">
+
+	<div class="flexbox-item-producten">
+		<div class="item-image-producten" style="background-image: url(/wp-content/uploads/2018/06/Babyshower-ballonnen-1-e1528997235716.jpg)"></div>
+		<div class="tekst">
+			<a href="http://www.balloonsss.nl/ballonnenbaby/"><h2><?php the_field('titel_thema2'); ?></h2></a>
+			<div class="tekst-p">
+				<p><?php the_field('tekst_thema2'); ?></p>	
+			</div>
+			<div class="actie-sub">
+				<a href="http://www.balloonsss.nl/ballonnenbaby/">Lees meer<i class="fas fa-angle-right"></i></a>
+			</div>
+		</div>
+	</div>
+	
 	<div class="flexbox-item-producten">
 		<div class="item-image-producten" style="background-image: url(/wp-content/uploads/2018/06/Bruiloft-ballonnen.jpg)"></div>
 		
@@ -43,18 +57,6 @@ Voor zowel grote als kleine evenementen kunnen wij jouw locatie omtoveren tot ee
 		</div>
 	</div>
 	
-	<div class="flexbox-item-producten">
-		<div class="item-image-producten" style="background-image: url(/wp-content/uploads/2018/06/Babyshower-ballonnen-1-e1528997235716.jpg)"></div>
-		<div class="tekst">
-			<a href="http://www.balloonsss.nl/ballonnenbaby/"><h2><?php the_field('titel_thema2'); ?></h2></a>
-			<div class="tekst-p">
-				<p><?php the_field('tekst_thema2'); ?></p>	
-			</div>
-			<div class="actie-sub">
-				<a href="http://www.balloonsss.nl/ballonnenbaby/">Lees meer<i class="fas fa-angle-right"></i></a>
-			</div>
-		</div>
-	</div>
 </div>
 
 <div class="flexbox-home">

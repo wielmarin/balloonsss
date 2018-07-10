@@ -278,7 +278,7 @@ margin-right: 20px;
 	background-color: #8aaea8;
 	display: flex;
 	flex-wrap: wrap;
-	height: 430px;
+	height: 400px;
 	margin: auto;
 	border-radius: 5px;
 	@media screen and (max-width: $mobilesize) {
@@ -286,9 +286,9 @@ margin-right: 20px;
 		height:auto;
 		margin-bottom: 10px;
 	}
-	@media screen and (min-width: 751px) and (max-width: 1100px) {
+	@media screen and (min-width: 751px) and (max-width: $tabletwide) {
 		width: 90%;
-		height: 350px;
+		height: 330px;
 		margin-bottom: 20px;
 	}
 	@media screen and (min-width: 481px) and (max-width: 750px) {
@@ -303,16 +303,16 @@ margin-right: 20px;
 	background-color: #8aaea8;
 	display: flex;
 	flex-wrap: wrap;
-	height: 430px; 
+	height: 400px; 
 	margin: auto;
 	border-radius: 5px;
 	@media screen and (max-width: $mobilesize) {
 		width:calc(100% - 20px);
 		height:auto;
 	}
-	@media screen and (min-width: 751px) and (max-width: 1100px) {
+	@media screen and (min-width: 751px) and (max-width: $tabletwide) {
 		width: 90%;
-		height: 350px;
+		height: 330px;
 	}
 	@media screen and (min-width: 481px) and (max-width: 750px) {
 		width: 90%;
@@ -348,7 +348,7 @@ margin-right: 20px;
 	padding: 60px 0px 0px 0px;
 	@media screen and (min-width: 751px) and (max-width: $tabletwide) {
 		width: calc(50% - 20px);
-		padding: 20px 10px;
+		padding: 25px 10px;
 	}
 	@media screen and (max-width: $mobilesize) {
 		width:100%;
@@ -1498,5 +1498,11 @@ tr:hover {
 .container-algemeen img {
 float: right;
 margin: 10px;
+}
+
+.container-algemeen li {
+	color: #5e5e5e;
+	display: list-item;
+	list-style: disc;
 }
 
