@@ -773,7 +773,7 @@ div.copyright {
 }
 
 .over-mij-tekst {
-	padding: 80px 100px 80px 100px;
+	padding: 80px 70px 80px 70px;
 	@media screen and (min-width: $tabletsize) and (max-width: $tabletwide) {
 		padding: 80px 70px 80px 70px;
 	}
@@ -824,8 +824,16 @@ div.copyright {
 }
 
 .over-mij-image img {
-	@media screen and (max-width: $tabletsize) {
-	height: 200px;
+	@media screen and (min-width: $tabletsize) and (max-width: 1100px) {
+		height: 280px;
+	}
+	
+	@media screen and (min-width: $mobilesize) and (max-width: $tabletsize) {
+		height: 250px;
+	}
+	
+	@media screen and (max-width: $mobilesize) {
+		height: 200px;
 	}
 }
 
