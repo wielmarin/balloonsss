@@ -30,7 +30,7 @@
 </div>
 
 <div class="copyright">
-	&copy; <?php echo date('Y');?> <?php bloginfo('name'); ?>  |  <a href="/wp-content/uploads/2018/06/Algemene-Voorwaarden-Balloonsss.pdf" target="_blank">Algemene voorwaarden</a> 
+	&copy; <?php echo date('Y');?> <?php bloginfo('name'); ?>  |  <a href="/wp-content/uploads/2018/06/Algemene-Voorwaarden-Balloonsss.pdf" target="_blank">Algemene voorwaarden</a>  |  <a href="http://www.balloonsss.nl/privacyverklaring-balloonsss/">Privacyverklaring</a> 
 </div>
 
 </div><!-- container -->
