@@ -42,7 +42,7 @@
 
 	<div class="flex-thema-sidebar">
 	<div class="sidebar">
-		<h4>Portfolio</h4>
+		<h4>Foto's</h4>
 			<ul id="bb-custom-grid" class="bb-custom-grid">
 	<!-- Verschillend portfolio per page -->
 				<?php if ( is_page('verjaardag-ballonnen') ) { ?>
@@ -126,7 +126,7 @@
 				?>
 
 			</ul>
-		<p><?php the_field('portfolio_sidebar'); ?><a href="http://www.balloonsss.nl/portfolio/">Bekijk mijn portfolio <i class="fas fa-angle-right"></i></a></p>
+		<p><?php the_field('portfolio_sidebar'); ?><a href="http://www.balloonsss.nl/fotogalerij">Bekijk foto's <i class="fas fa-angle-right"></i></a></p>
 		
 	</div>
 	<div class="sidebar">

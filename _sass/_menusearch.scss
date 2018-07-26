@@ -179,8 +179,8 @@
 
 .frontnav-left {
 	width: 40%;
-	margin: auto;
 	order: 0;
+	margin-top: 43px;
 	@media screen and (max-width: $tabletwide) {
 		width: 100%;
 		order: 0;
@@ -191,7 +191,7 @@
 
 .frontnav-right {
 	width: 40%;
-	margin: auto;
+	margin-top: 43px;
 	order: 2;
 	@media screen and (max-width: $tabletwide) {
 		width: 100%;

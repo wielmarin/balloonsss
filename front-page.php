@@ -27,48 +27,49 @@
 	<p>Ben jij op zoek naar feestelijke, stijlvolle, decoratie voor jouw event? Voor elke gelegenheid hebben wij de juiste ballonnen! Aan de hand van jullie wensen, adviseren we je graag over de mogelijkheden en laatste trends!
 	<?php endif; ?> <!-- END LOOP -->
 	
-		<a class="button" href="/balloonsss/portfolio/">Bekijk portfolio
+		<a class="button" href="/balloonsss/fotogalerij/">Bekijk foto's
 		</a>
 	</div>
 </div>
 
 <div class="flexbox-home">
 	
-	<a class="flexbox-item1" href="/balloonsss/party/">
+	<div class="flexbox-item1">
 	
 		<div class="item-image" style="background-image: url(/wp-content/uploads/2018/06/Ballonnen-party.jpg)"></div>
 
 		<div class="tekst">
-			<h2>Party ballonnen</h2>
+			<h2>Particulier</h2>
 			
 			<div class="categorieen">
-					<p><i class="fas fa-long-arrow-alt-right"></i>Bruiloft</p>
-					<p><i class="fas fa-long-arrow-alt-right"></i>Babyfeest</p>
-					<p><i class="fas fa-long-arrow-alt-right"></i>Jubileum en verjaardagen</p>
-					<p><i class="fas fa-long-arrow-alt-right"></i>Themafeesten</p>
+					<a href="http://www.balloonsss.nl/ballonnenbaby/"><p><i class="fas fa-long-arrow-alt-right"></i>Baby</p></a>
+					<a href="http://www.balloonsss.nl/ballonnen-bruiloft/"><p><i class="fas fa-long-arrow-alt-right"></i>Bruiloft</p></a>
+					<a href="http://www.balloonsss.nl/verjaardag-ballonnen/"><p><i class="fas fa-long-arrow-alt-right"></i>Jubileum en verjaardagen</p></a>
+					<a href="http://www.balloonsss.nl/ballonnen-seizoensfeesten/"><p><i class="fas fa-long-arrow-alt-right"></i>Themafeesten</p></a>
 			</div>
 			<div class="Actie">
-				<span class="buttonflex">Bekijk meer<i class="fas fa-angle-right"></i></span>
+				<a href="http://www.balloonsss.nl/particulier"><span class="buttonflex">Bekijk meer<i class="fas fa-angle-right"></i></span></a>
 			</div>
 		</div>
-	</a>
+		</div>
+	
 
 	
-	<a class="flexbox-item2"  href="/balloonsss/business/">
+	<div class="flexbox-item2">
 		<div class="item-image" style="background-image: url(/wp-content/uploads/2018/06/Business-ballonnen.jpg)"></div>
 		<div class="tekst">
-			<h2>Business ballonnnen</h2>
+			<h2>Zakelijk</h2>
 			<div class="categorieen">
-					<p><i class="fas fa-long-arrow-alt-right"></i>Openingsfeest</p>
-					<p><i class="fas fa-long-arrow-alt-right"></i>Beurzen</p>
-					<p><i class="fas fa-long-arrow-alt-right"></i>Thema’s</p>
-					<p><i class="fas fa-long-arrow-alt-right"></i>Verjaardagen</p>
+					<a href="http://www.balloonsss.nl/ballonnenopening/"><p><i class="fas fa-long-arrow-alt-right"></i>Openingsfeest</p></a>
+					<a href="http://www.balloonsss.nl/beurs-ballonnen/"><p><i class="fas fa-long-arrow-alt-right"></i>Beurzen</p></a>
+					<a href="http://www.balloonsss.nl/ballonnen-thema/"><p><i class="fas fa-long-arrow-alt-right"></i>Thema’s</p></a>
+					<a href="http://www.balloonsss.nl/business-verjaardagballonnen/"><p><i class="fas fa-long-arrow-alt-right"></i>Verjaardagen</p></a>
 			</div>
 			<div class="Actie">
-				<span class="buttonflex">Bekijk meer<i class="fas fa-angle-right"></i></span>
+				<a href="http://www.balloonsss.nl/zakelijk"><span class="buttonflex">Bekijk meer<i class="fas fa-angle-right"></i></span></a>
 			</div>
 		</div>
-	</a>
+	</div>
 </div>
 
 <div class="voordelen">		
