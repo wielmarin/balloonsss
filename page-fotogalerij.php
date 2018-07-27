@@ -34,6 +34,7 @@
 		<div class="bb-item"><img src="<?php the_field('box_1_beeld_2'); ?>" alt="image02" width=100% height=100% /></div>
 		<div class="bb-item"><img src="<?php the_field('box_1_beeld_3'); ?>" alt="image03" width=100% height=100% /></div>
 		<div class="bb-item"><img src="<?php the_field('box_1_beeld_4'); ?>" alt="image04" width=100% height=100% /></div>
+
 	</div>
 		<nav>
 			<i class="fas fa-caret-square-left fa-lg prev1"></i><i class="fas fa-caret-square-right fa-lg next1"></i>
