@@ -30,10 +30,35 @@
 <ul id="bb-custom-grid" class="bb-custom-grid">
 <li class="block1">
 	<div id="bb-bookblock1" class="bb-bookblock">
-		<div class="bb-item"><img src="<?php the_field('box_1_beeld_1'); ?>" alt="image01" width=100% height=100% /></div>
-		<div class="bb-item"><img src="<?php the_field('box_1_beeld_2'); ?>" alt="image02" width=100% height=100% /></div>
-		<div class="bb-item"><img src="<?php the_field('box_1_beeld_3'); ?>" alt="image03" width=100% height=100% /></div>
-		<div class="bb-item"><img src="<?php the_field('box_1_beeld_4'); ?>" alt="image04" width=100% height=100% /></div>
+			<div class="bb-item"><img src="<?php the_field('box_1_beeld_1'); ?>" alt="image01" width=100% height=100% /></div>
+		<?php if( get_field('show/hide_2') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_1_beeld_2'); ?>" alt="image02" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('show/hide_3') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_1_beeld_3'); ?>" alt="image03" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('show/hide_4') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_1_beeld_4'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('show/hide_5') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_1_beeld_5'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('show/hide_6') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_1_beeld_6'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('show/hide_7') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_1_beeld_7'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('show/hide_8') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_1_beeld_8'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('show/hide_9') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_1_beeld_9'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('show/hide_10') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_1_beeld_10'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+
 
 	</div>
 		<nav>
@@ -44,9 +69,33 @@
 <li class="block3">
 	<div id="bb-bookblock3" class="bb-bookblock">
 		<div class="bb-item"><img src="<?php the_field('box_3_beeld_1'); ?>" alt="image01" width=100% height=100% /></div>
-		<div class="bb-item"><img src="<?php the_field('box_3_beeld_2'); ?>" alt="image02" width=100% height=100% /></div>
-		<div class="bb-item"><img src="<?php the_field('box_3_beeld_3'); ?>" alt="image03" width=100% height=100% /></div>
-		<div class="bb-item"><img src="<?php the_field('box_3_beeld_4'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php if( get_field('box_3_show/hide_2') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_3_beeld_2'); ?>" alt="image02" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_3_show/hide_3') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_3_beeld_3'); ?>" alt="image03" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_3_show/hide_4') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_3_beeld_4'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_3_show/hide_5') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_3_beeld_5'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_3_show/hide_6') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_3_beeld_6'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_3_show/hide_7') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_3_beeld_7'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_3_show/hide_8') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_3_beeld_8'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_3_show/hide_9') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_3_beeld_9'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_3_show/hide_10') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_3_beeld_10'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
 	</div>
 		<nav>
 			<i class="fas fa-caret-square-left fa-lg prev3"></i><i class="fas fa-caret-square-right fa-lg next3"></i>
@@ -56,9 +105,33 @@
 <li class="block5">
 	<div id="bb-bookblock5" class="bb-bookblock">
 		<div class="bb-item"><img src="<?php the_field('box_5_beeld_1'); ?>" alt="image01" width=100% height=100% /></div>
-		<div class="bb-item"><img src="<?php the_field('box_5_beeld_2'); ?>" alt="image02" width=100% height=100% /></div>
-		<div class="bb-item"><img src="<?php the_field('box_5_beeld_3'); ?>" alt="image03" width=100% height=100% /></div>
-		<div class="bb-item"><img src="<?php the_field('box_5_beeld_4'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php if( get_field('box_5_show/hide_2') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_5_beeld_2'); ?>" alt="image02" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_5_show/hide_3') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_5_beeld_3'); ?>" alt="image03" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_5_show/hide_4') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_5_beeld_4'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_5_show/hide_5') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_5_beeld_5'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_5_show/hide_6') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_5_beeld_6'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_5_show/hide_7') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_5_beeld_7'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_5_show/hide_8') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_5_beeld_8'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_5_show/hide_9') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_5_beeld_9'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_5_show/hide_10') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_5_beeld_10'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
 	</div>
 		<nav>
 			<i class="fas fa-caret-square-left fa-lg prev5"></i><i class="fas fa-caret-square-right fa-lg next5"></i>
@@ -68,9 +141,33 @@
 <li class="block6">
 	<div id="bb-bookblock6" class="bb-bookblock">
 		<div class="bb-item"><img src="<?php the_field('box_6_beeld_1'); ?>" alt="image01" width=100% height=100% /></div>
-		<div class="bb-item"><img src="<?php the_field('box_6_beeld_2'); ?>" alt="image02" width=100% height=100% /></div>
-		<div class="bb-item"><img src="<?php the_field('box_6_beeld_3'); ?>" alt="image03" width=100% height=100% /></div>
-		<div class="bb-item"><img src="<?php the_field('box_6_beeld_4'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php if( get_field('box_6_show/hide_2') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_6_beeld_2'); ?>" alt="image02" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_6_show/hide_3') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_6_beeld_3'); ?>" alt="image03" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_6_show/hide_4') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_6_beeld_4'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_6_show/hide_5') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_6_beeld_5'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_6_show/hide_6') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_6_beeld_6'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_6_show/hide_7') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_6_beeld_7'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_6_show/hide_8') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_6_beeld_8'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_6_show/hide_9') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_6_beeld_9'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_6_show/hide_10') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_6_beeld_10'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
 	</div>
 		<nav>
 			<i class="fas fa-caret-square-left fa-lg prev6"></i><i class="fas fa-caret-square-right fa-lg next6"></i>
@@ -80,9 +177,33 @@
 <li class="block4">
 	<div id="bb-bookblock4" class="bb-bookblock">
 		<div class="bb-item"><img src="<?php the_field('box_4_beeld_1'); ?>" alt="image01" width=100% height=100% /></div>
-		<div class="bb-item"><img src="<?php the_field('box_4_beeld_2'); ?>" alt="image02" width=100% height=100% /></div>
-		<div class="bb-item"><img src="<?php the_field('box_4_beeld_3'); ?>" alt="image03" width=100% height=100% /></div>
-		<div class="bb-item"><img src="<?php the_field('box_4_beeld_4'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php if( get_field('box_4_show/hide_2') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_4_beeld_2'); ?>" alt="image02" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_4_show/hide_3') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_4_beeld_3'); ?>" alt="image03" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_4_show/hide_4') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_4_beeld_4'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_4_show/hide_5') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_4_beeld_5'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_4_show/hide_6') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_4_beeld_6'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_4_show/hide_7') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_4_beeld_7'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_4_show/hide_8') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_4_beeld_8'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_4_show/hide_9') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_4_beeld_9'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_4_show/hide_10') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_4_beeld_10'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
 	</div>
 		<nav>
 			<i class="fas fa-caret-square-left fa-lg prev4"></i><i class="fas fa-caret-square-right fa-lg next4"></i>
@@ -92,9 +213,34 @@
 <li class="block2">
 	<div id="bb-bookblock2" class="bb-bookblock">
 		<div class="bb-item"><img src="<?php the_field('box_2_beeld_1'); ?>" alt="image01" width=100% height=100% /></div>
-		<div class="bb-item"><img src="<?php the_field('box_2_beeld_2'); ?>" alt="image02" width=100% height=100% /></div>
-		<div class="bb-item"><img src="<?php the_field('box_2_beeld_3'); ?>" alt="image03" width=100% height=100% /></div>
-		<div class="bb-item"><img src="<?php the_field('box_2_beeld_4'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php if( get_field('box_2_show/hide_2') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_2_beeld_2'); ?>" alt="image02" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_2_show/hide_3') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_2_beeld_3'); ?>" alt="image03" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_2_show/hide_4') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_2_beeld_4'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_2_show/hide_5') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_2_beeld_5'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_2_show/hide_6') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_2_beeld_6'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_2_show/hide_7') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_2_beeld_7'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_2_show/hide_8') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_2_beeld_8'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_2_show/hide_9') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_2_beeld_9'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		<?php if( get_field('box_2_show/hide_10') ): ?>
+			<div class="bb-item"><img src="<?php the_field('box_2_beeld_10'); ?>" alt="image04" width=100% height=100% /></div>
+		<?php endif; ?>
+		
 	</div>
 		<nav>
 			<i class="fas fa-caret-square-left fa-lg prev2"></i><i class="fas fa-caret-square-right fa-lg next2"></i>
