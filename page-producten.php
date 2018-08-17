@@ -34,7 +34,7 @@
 <div class="container-producten">
 
 	<div class="product">
-		<a href="http://www.balloonsss.nl/contact/"><div class="portfolio-image"><img src="<?php the_field('product_1'); ?>" height="260px" width="true"></a>
+		<a href="<?php the_field('link_achter_foto1'); ?>"><div class="portfolio-image"><img src="<?php the_field('product_1'); ?>" height="260px" width="true"></a>
 		</div>
 		<div class="product-tekst">
 			<h3><?php the_field('product_1_titel'); ?></h3>
@@ -43,7 +43,7 @@
 	</div>
 
 	<div class="product">
-		<a href="http://www.balloonsss.nl/contact/"><div class="portfolio-image"><img src="<?php the_field('product_2'); ?>" height="260px" width="true"></a>
+		<a href="<?php the_field('link_achter_foto2'); ?>"><div class="portfolio-image"><img src="<?php the_field('product_2'); ?>" height="260px" width="true"></a>
 		</div>
 		<div class="product-tekst">
 			<h3><?php the_field('product_2_titel'); ?></h3>
@@ -52,7 +52,7 @@
 	</div>
 	
 	<div class="product">
-		<a href="http://www.balloonsss.nl/contact/"><div class="portfolio-image"><img src="<?php the_field('product_3'); ?>" height="260px" width="true"></a>
+		<a href="<?php the_field('link_achter_foto3'); ?>"><div class="portfolio-image"><img src="<?php the_field('product_3'); ?>" height="260px" width="true"></a>
 		</div>
 		<div class="product-tekst">
 			<h3><?php the_field('product_3_titel'); ?></h3>
@@ -61,7 +61,7 @@
 	</div>
 	
 	<div class="product">
-		<a href="http://www.balloonsss.nl/contact/"><div class="portfolio-image"><img src="<?php the_field('product_4'); ?>" height="260px" width="true"></a>
+		<a href="<?php the_field('link_achter_foto4'); ?>"><div class="portfolio-image"><img src="<?php the_field('product_4'); ?>" height="260px" width="true"></a>
 		</div>
 		<div class="product-tekst">
 			<h3><?php the_field('product_4_titel'); ?></h3>

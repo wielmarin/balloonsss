@@ -8,7 +8,7 @@ function balloonsss_resources() {
 	wp_enqueue_style('style', get_stylesheet_uri());
 	
 	wp_dequeue_script('jquery');
-	wp_enqueue_script('onlinejquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js');
+	wp_enqueue_script('onlinejquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js');
 	wp_enqueue_script('modernizr', get_template_directory_uri() . '/js/modernizr.custom.js');
 	wp_enqueue_script('script', get_template_directory_uri() . '/js/script.js');
 	wp_enqueue_script('scrollReveal', 'https://unpkg.com/scrollreveal/dist/scrollreveal.min.js');

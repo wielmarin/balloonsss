@@ -22,7 +22,7 @@
 				
 		<?php
 		endwhile; else: ?>
-		<p>Sorry, no posts matched your criteria.</p>
+		<p>Er zijn geen resultaten voor jouw zoekopdracht</p>
 		<?php endif; ?>
 	
 	</div>

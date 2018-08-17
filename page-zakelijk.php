@@ -79,7 +79,7 @@
 				<p><?php the_field('tekst_thema4'); ?></p>	
 			</div>
 			<div class="actie-sub">
-				<a href="/balloonsss/business-verjaardagballonnen/">Lees meer<i class="fas fa-angle-right"></i></a>
+				<a href="http://www.balloonsss.nl/ballonnen-jubileum/">Lees meer<i class="fas fa-angle-right"></i></a>
 			</div>
 		</div>
 	</div>

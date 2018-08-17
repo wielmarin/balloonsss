@@ -10,7 +10,7 @@ jQuery( document ).ready(function() {
 	});
 	
 	// Fix Menu on Scroll
-/*
+
 	
 var x = window.matchMedia("(min-width: 481px) and (max-width: 1100px)")
 myFunction(x) // Call listener function at run time
@@ -22,19 +22,21 @@ x.addListener(myFunction) // Attach listener function on state changes
 	  jQuery(function() {
 	   jQuery(window).scroll(function () {
 			  if (jQuery(this).scrollTop() > 125) {
+				  /*
 				  jQuery('.flex-banner').css('margin-top','168px');
 				  jQuery('.flex-banner-subpage').css('margin-top','168px');
 				  jQuery('.container-thema').css('margin-top','168px');
 				 jQuery('.site-header').css({'position': 'fixed', 'width': '85%', 'background': 'white', 'z-index':'9999'});
 				 jQuery('.logo').hide();
+				 */
 				 jQuery('#backtotop').show();
 			  }
 			  if (jQuery(this).scrollTop() < 125) {
-				 jQuery('.site-header').css({'position':'static', 'width':'100%', 'background':'none'});
+				/* jQuery('.site-header').css({'position':'static', 'width':'100%', 'background':'none'});
 				 jQuery('.logo').show();
 				 jQuery('.flex-banner').css('margin-top','0px');
 				 jQuery('.flex-banner-subpage').css('margin-top','0px');
-				 jQuery('.container-thema').css('margin-top','0px');
+				 jQuery('.container-thema').css('margin-top','0px');*/
 				 jQuery('#backtotop').hide();
 			  }
 		   });
@@ -52,19 +54,21 @@ y.addListener(fixMenuMobile) // Attach listener function on state changes
 	  jQuery(function() {
 		   jQuery(window).scroll(function () {
 			  if (jQuery(this).scrollTop() > 125) {
-				  jQuery('.flex-banner').css('margin-top','168px');
+				/*  jQuery('.flex-banner').css('margin-top','168px');
 				  jQuery('.flex-banner-subpage').css('margin-top','168px');
 				  jQuery('.container-thema').css('margin-top','168px');
 				 jQuery('.site-header').css({'position': 'fixed','background': 'white', 'width':'100vw', 'z-index':'9999'});
 				 jQuery('.logo').hide();
+				 */
 				 jQuery('#backtotop').show();
 			  }
 			  if (jQuery(this).scrollTop() < 125) {
-				 jQuery('.site-header').css({'position':'static','background':'none', 'width':'100%'});
+				/* jQuery('.site-header').css({'position':'static','background':'none', 'width':'100%'});
 				 jQuery('.logo').show();
 				 jQuery('.flex-banner').css('margin-top','0px');
 				 jQuery('.flex-banner-subpage').css('margin-top','0px');
 				 jQuery('.container-thema').css('margin-top','0px');
+				 */
 				 jQuery('#backtotop').hide();
 			  }
 		   });
@@ -72,7 +76,7 @@ y.addListener(fixMenuMobile) // Attach listener function on state changes
 		}
 	}
 
-*/
+
 	
 	
 

@@ -63,7 +63,7 @@
 					<a href="http://www.balloonsss.nl/ballonnenopening/"><p><i class="fas fa-long-arrow-alt-right"></i>Openingsfeest</p></a>
 					<a href="http://www.balloonsss.nl/beurs-ballonnen/"><p><i class="fas fa-long-arrow-alt-right"></i>Beurzen</p></a>
 					<a href="http://www.balloonsss.nl/ballonnen-thema/"><p><i class="fas fa-long-arrow-alt-right"></i>Thema’s</p></a>
-					<a href="http://www.balloonsss.nl/business-verjaardagballonnen/"><p><i class="fas fa-long-arrow-alt-right"></i>Verjaardagen</p></a>
+					<a href="http://www.balloonsss.nl/ballonnen-jubileum/"><p><i class="fas fa-long-arrow-alt-right"></i>Jubileum en verjaardagen</p></a>
 			</div>
 			<div class="Actie">
 				<a href="http://www.balloonsss.nl/zakelijk"><span class="buttonflex">Bekijk meer<i class="fas fa-angle-right"></i></span></a>
@@ -73,9 +73,9 @@
 </div>
 
 <div class="voordelen">		
-			<div class="sp"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/Beelden/Beelden/waaromballoonsss.jpg" height="70" width="70"><p>Professioneel</p></div>
-			<div class="sp"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/Beelden/Beelden/waaromballoonsss.jpg" height="70" width="70"><p>Passend bij elk themafeest</p></div>
-			<div class="sp"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/Beelden/Beelden/waaromballoonsss.jpg" height="70" width="70"><p>Kwalitatief en duurzaam</p></div>
+			<div class="sp"><img src="/wp-content/uploads/2018/08/Balloonsss_fav.jpg" height="70" width="70"><p>Professioneel</p></div>
+			<div class="sp"><img src="/wp-content/uploads/2018/08/Balloonsss_fav.jpg" height="70" width="70"><p>Passend bij elk themafeest</p></div>
+			<div class="sp"><img src="/wp-content/uploads/2018/08/Balloonsss_fav.jpg" height="70" width="70"><p>Kwalitatief en duurzaam</p></div>
 </div>
 
 <div class="drieblokken">
