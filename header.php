@@ -4,8 +4,7 @@
 		<meta charset="<?php bloginfo('charset'); ?>">
 			
 			<meta name="viewport" content="width=device-width">
-			<meta name="description" content=""/>
-			<title>Balloonsss</title>
+			<title>Prachtige, feestelijke ballondecoratie I Balloonsss - Veenendaal</title>
 			<?php wp_head(); ?>
 			
 			<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet"> 

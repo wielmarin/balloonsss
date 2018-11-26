@@ -38,9 +38,9 @@
 </div>
 
 <div class="voordelen">		
-			<div class="sp"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/Beelden/Beelden/waaromballoonsss.jpg" height="70" width="70"><p>Professioneel</p></div>
-			<div class="sp"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/Beelden/Beelden/waaromballoonsss.jpg" height="70" width="70"><p>Passend bij elk themafeest</p></div>
-			<div class="sp"><img src="http://www.quiropracticopromover.es/wp-content/themes/Promover/Beelden/Beelden/waaromballoonsss.jpg" height="70" width="70"><p>Kwalitatief en duurzaam</p></div>
+			<div class="sp"><img src="/wp-content/uploads/2018/08/Balloonsss_fav.jpg" height="70" width="70"><p>Professioneel</p></div>
+			<div class="sp"><img src="/wp-content/uploads/2018/08/Balloonsss_fav.jpg" height="70" width="70"><p>Passend bij elk themafeest</p></div>
+			<div class="sp"><img src="/wp-content/uploads/2018/08/Balloonsss_fav.jpg" height="70" width="70"><p>Kwalitatief en duurzaam</p></div>
 </div>
 
 <div class="voordelen-mobile">

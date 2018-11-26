@@ -27,7 +27,7 @@
 	<p>Ben jij op zoek naar feestelijke, stijlvolle, decoratie voor jouw event? Voor elke gelegenheid hebben wij de juiste ballonnen! Aan de hand van jullie wensen, adviseren we je graag over de mogelijkheden en laatste trends!
 	<?php endif; ?> <!-- END LOOP -->
 	
-		<a class="button" href="/balloonsss/fotogalerij/">Bekijk foto's
+		<a class="button" href="/balloonsss/producten/">Bekijk producten
 		</a>
 	</div>
 </div>

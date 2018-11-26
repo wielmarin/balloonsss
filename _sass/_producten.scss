@@ -1,1 +1,29 @@
 // Producten
+
+.productenblok {
+	padding-bottom: 80px!important;
+	p, a {
+		width: 100%;
+		text-align: center;
+		color: white;
+	}
+	a {
+	text-decoration: underline;
+	}
+}
+
+.cf-toggle-switch .btn-success {
+    background-color: #EB4D66!important;
+    border-color: #EB4D66!important;
+}
+
+.field_required {
+color: #EB4D66!important;
+}
+
+.caldera-grid .form-control:focus {
+    border-color: #8aaea8!important;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0,.075),0 0 8px rgba(138, 174, 168,.6)!important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(138, 174, 168,.6)!important;
+}

@@ -124,9 +124,8 @@
 						</li>
 				<?php }
 				?>
-
 			</ul>
-		<p><?php the_field('portfolio_sidebar'); ?><a href="http://www.balloonsss.nl/fotogalerij">Bekijk foto's <i class="fas fa-angle-right"></i></a></p>
+		<a href="http://www.balloonsss.nl/fotogalerij">Bekijk meer foto's <i class="fas fa-angle-right"></i></a></p>
 		
 	</div>
 	<div class="sidebar">

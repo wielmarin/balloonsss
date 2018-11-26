@@ -1,6 +1,5 @@
 jQuery( document ).ready(function() {
 	
-	//jQuery.backstretch({"url":"/balloonsss/wp-content/uploads/2018/06/achtergrond-Balloonsss2.jpg", "width": 400, "scale":"fill"});
 
 	// Scroll down homepage arrow	
 	jQuery('#scrolldown').click(function() {
@@ -86,12 +85,8 @@ y.addListener(fixMenuMobile) // Attach listener function on state changes
 		jQuery('html, body').animate({scrollTop:0});
 			return false;
 		});
-	
-	
-	
-	
-	
-	
+
+		
 // Mobile menu
 	
 	jQuery('#mobilemenuopen').click(function() {
@@ -116,50 +111,6 @@ y.addListener(fixMenuMobile) // Attach listener function on state changes
 		
 	});
 
-	/* Wanneer Search Balk in Menu Staat 
-//////////// Menu Only Tablet
-
-var x = window.matchMedia("(min-width: 481px) and (max-width: 1100px)")
-myFunction(x) // Call listener function at run time
-x.addListener(myFunction) // Attach listener function on state changes 
-
-	function myFunction(x) {
-    if (x.matches) { // If media query matches
-		jQuery(function() {
-		jQuery('#mobilemenuopen').click(function() {
-			jQuery('.frontnav-right').css({'border-bottom':'2px solid #EB4D66'});	
-		}); // Close jQuery function
-		jQuery('#mobilemenuclose').click(function() {
-			jQuery('.frontnav-right').css({'border-bottom':'none'});	
-		}); // Close jQuery function
-		}); // Close jQuery function
-	
-		}
-	};
-	
-	
-	////////////// Menu only mobile
-	
-	var y = window.matchMedia("(max-width: 480px)")
-fixMenuMobile(y) // Call listener function at run time
-y.addListener(fixMenuMobile) // Attach listener function on state changes 
-	
-	function fixMenuMobile(y) {
-    if (y.matches) { // If media query matches
-		jQuery('#mobilemenuopen').click(function() {
-			jQuery('.search-boxmobile').css({'border-bottom':'2px solid #EB4D66'});	
-		}); // Close jQuery function
-		jQuery('#mobilemenuclose').click(function() {
-			jQuery('.search-boxmobile').css({'border-bottom':'none'});	
-		}); // Close jQuery function
-	  } //Close If
-	}; //Close Main function
-	*/
-	
-	
-	
-	
-	
 	
 //Shadow header on scroll	
 var z = window.matchMedia("(max-width: 1100px)")
@@ -382,6 +333,106 @@ var Page = (function() {
 								},
 		
 							} );							
+						
+			// Block7		
+			$('.next7').on( {
+				'click' : function( event ) {
+					$('#bb-bookblock7').bookblock( 'next' );
+					return false;
+				},
+			} );
+					
+			$('.prev7').on( {
+						'click' : function( event ) {
+							$('#bb-bookblock7').bookblock( 'prev' );
+							return false;
+						},
+
+			} );							
+						
+						
+				// Block8		
+				$('.next8').on( {
+						'click' : function( event ) {
+							$('#bb-bookblock8').bookblock( 'next' );
+							return false;
+						},
+					} );
+							
+				$('.prev8').on( {
+							'click' : function( event ) {
+								$('#bb-bookblock8').bookblock( 'prev' );
+								return false;
+							},
+	
+				} );							
+						
+						
+						// Block9		
+						$('.next9').on( {
+								'click' : function( event ) {
+									$('#bb-bookblock9').bookblock( 'next' );
+									return false;
+								},
+							} );
+									
+							$('.prev9').on( {
+										'click' : function( event ) {
+											$('#bb-bookblock9').bookblock( 'prev' );
+											return false;
+										},
+				
+						} );							
+						
+						
+				// Block10		
+				$('.next10').on( {
+						'click' : function( event ) {
+							$('#bb-bookblock10').bookblock( 'next' );
+							return false;
+						},
+					} );
+							
+				$('.prev10').on( {
+							'click' : function( event ) {
+								$('#bb-bookblock10').bookblock( 'prev' );
+								return false;
+							},
+	
+				} );							
+						
+						
+					// Block11		
+					$('.next11').on( {
+						'click' : function( event ) {
+							$('#bb-bookblock11').bookblock( 'next' );
+							return false;
+						},
+					} );
+							
+					$('.prev11').on( {
+								'click' : function( event ) {
+									$('#bb-bookblock11').bookblock( 'prev' );
+									return false;
+								},
+		
+					} );							
+						
+						
+						// Block12		
+						$('.next12').on( {
+							'click' : function( event ) {
+								$('#bb-bookblock12').bookblock( 'next' );
+								return false;
+							},
+						} );
+								
+						$('.prev12').on( {
+									'click' : function( event ) {
+										$('#bb-bookblock12').bookblock( 'prev' );
+										return false;
+									},		
+						} );													
 						
 						
 							// add swipe events

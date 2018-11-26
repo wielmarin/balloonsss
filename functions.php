@@ -70,6 +70,7 @@ function lerenwordpress_setup() {
 // Add featured image support
 	add_theme_support('post-thumbnails');
 	add_image_size('small-thumbnail', 180, 120, true);
+	add_image_size('product-image', 210, 260, true);
 	add_image_size('banner-image', 1920, 800, true);
 	
 	// Add post format support
